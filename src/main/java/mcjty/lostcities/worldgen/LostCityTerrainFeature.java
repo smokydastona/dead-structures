@@ -1890,8 +1890,9 @@ public class LostCityTerrainFeature {
         Condition cnd = AssetRegistries.CONDITIONS.getOrThrow(world, condition);
         int level = (pos.getY() - diminfo.getProfile().GROUNDLEVEL) / FLOORHEIGHT;
         int floor = (pos.getY() - info.getCityGroundLevel()) / FLOORHEIGHT;
+        String belowFloor = "<none>";
         ConditionContext conditionContext = new ConditionContext(level, floor, info.cellars, info.getNumFloors(),
-                todo.getPart(), todo.getBuilding(), info.coord) {
+                todo.getPart(), belowFloor, todo.getBuilding(), info.coord) {
             @Override
             public boolean isSphere() {
                 return CitySphere.isInSphere(info.coord, pos, diminfo);
@@ -1932,7 +1933,7 @@ public class LostCityTerrainFeature {
                 int level = (pos.getY() - diminfo.getProfile().GROUNDLEVEL) / FLOORHEIGHT;
                 int floor = (pos.getY() - info.getCityGroundLevel()) / FLOORHEIGHT;
                 ConditionContext conditionContext = new ConditionContext(level, floor, info.cellars, info.getNumFloors(),
-                        todo.getPart(), todo.getBuilding(), info.coord) {
+                        todo.getPart(), "<none>", todo.getBuilding(), info.coord) {
                     @Override
                     public boolean isSphere() {
                         return CitySphere.isInSphere(info.coord, pos, diminfo);
