@@ -1242,7 +1242,11 @@ public class LostCityTerrainFeature {
                         driver.block(elevation).incZ();
                     }
                 }
-                if (info.profile.PARK_ELEVATION) {
+                boolean parkElevation = info.profile.PARK_ELEVATION;
+                if (info.getCityStyle().getParkElevation() != null) {
+                    parkElevation = info.getCityStyle().getParkElevation();
+                }
+                if (parkElevation) {
                     height++;
                 }
             }
@@ -1546,6 +1550,10 @@ public class LostCityTerrainFeature {
         BlockState grassBlock = Blocks.GRASS_BLOCK.defaultBlockState();
         Supplier<BlockState> grass = (grassChar == null) ? () -> grassBlock : () -> compiledPalette.get(grassChar);
 
+        boolean parkBorder = info.profile.PARK_BORDER;
+        if (info.getCityStyle().getParkBorder() != null) {
+            parkBorder = info.getCityStyle().getParkBorder();
+        }
         for (int x = 0; x < 16; ++x) {
             for (int z = 0; z < 16; ++z) {
                 if (x == 0 || x == 15 || z == 0 || z == 15) {
@@ -1585,10 +1593,10 @@ public class LostCityTerrainFeature {
                             }
                         }
                         if (b == null) {
-                            b = info.profile.PARK_BORDER ? compiledPalette.get(street) : grass.get();
+                            b = parkBorder ? compiledPalette.get(street) : grass.get();
                         }
                     } else {
-                        b = info.profile.PARK_BORDER ? compiledPalette.get(street) : grass.get();
+                        b = parkBorder ? compiledPalette.get(street) : grass.get();
                     }
                 } else {
                     b = grass.get();
@@ -1880,8 +1888,13 @@ public class LostCityTerrainFeature {
 
     private BlockState handleTodo(BuildingInfo info, int oy, WorldGenLevel world, int rx, int rz, int y, BlockState b) {
         Block block = b.getBlock();
+        CityStyle cs = info.getCityStyle();
+        boolean avoidFoliage = info.profile.AVOID_FOLIAGE;
+        if (cs.getAvoidFoliage() != null) {
+            avoidFoliage = cs.getAvoidFoliage();
+        }
         if (block instanceof SaplingBlock || block instanceof FlowerBlock) {
-            if (info.profile.AVOID_FOLIAGE) {
+            if (avoidFoliage) {
                 b = air;
             } else {
                 BlockPos pos = info.getRelativePos(rx, oy + y, rz);
