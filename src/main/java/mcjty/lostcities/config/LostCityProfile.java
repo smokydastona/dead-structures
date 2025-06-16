@@ -129,8 +129,12 @@ public class LostCityProfile implements ILostCityProfile {
     public int CITY_LEVEL1_HEIGHT = 83;
     public int CITY_LEVEL2_HEIGHT = 91;
     public int CITY_LEVEL3_HEIGHT = 99;
+    public int CITY_LEVEL4_HEIGHT = 107;
+    public int CITY_LEVEL5_HEIGHT = 115;
+    public int CITY_LEVEL6_HEIGHT = 123;
+    public int CITY_LEVEL7_HEIGHT = 131;
     public int CITY_MINHEIGHT = 50;
-    public int CITY_MAXHEIGHT = 130;
+    public int CITY_MAXHEIGHT = 150;
 
     public int OCEAN_CORRECTION_BORDER = 4;
 
@@ -150,8 +154,6 @@ public class LostCityProfile implements ILostCityProfile {
     public int BUILDING_MAXCELLARS = 3;
     public float BUILDING_DOORWAYCHANCE = .6f;
     public float BUILDING_FRONTCHANCE = .2f;
-    public float LIBRARY_CHANCE = .1f;
-    public float DATACENTER_CHANCE = .1f;
     public float PARK_CHANCE = .2f;
 
     public float CORRIDOR_CHANCE = .7f;
@@ -334,8 +336,6 @@ public class LostCityProfile implements ILostCityProfile {
         BUILDING_MAXCELLARS = cfg.getInt("buildingMaxCellars", LostCityProfile.CATEGORY_LOSTCITY, BUILDING_MAXCELLARS, 0, 20, "The maximum number of cellars (below ground). 0 means no cellar");
         BUILDING_DOORWAYCHANCE = cfg.getFloat("buildingDoorwayChance", LostCityProfile.CATEGORY_LOSTCITY, BUILDING_DOORWAYCHANCE, 0.0f, 1.0f, "The chance that a doorway will be generated at a side of a building (on any level). Only when possible");
         BUILDING_FRONTCHANCE = cfg.getFloat("buildingFrontChance", LostCityProfile.CATEGORY_LOSTCITY, BUILDING_FRONTCHANCE, 0.0f, 1.0f, "The chance that a building will have a 'front' part if this is possible (i.e. adjacent street)");
-        LIBRARY_CHANCE = cfg.getFloat("libraryChance", LostCityProfile.CATEGORY_LOSTCITY, LIBRARY_CHANCE, 0.0f, 1.0f, "The chance that a 2x2 building will be a library");
-        DATACENTER_CHANCE = cfg.getFloat("dataCenterChance", LostCityProfile.CATEGORY_LOSTCITY, DATACENTER_CHANCE, 0.0f, 1.0f, "The chance that a 2x2 building will be a data center");
         PARK_CHANCE = cfg.getFloat("parkChance", LostCityProfile.CATEGORY_LOSTCITY, PARK_CHANCE, 0.0f, 1.0f, "The chance that a non-building section can be a park section");
 
         CORRIDOR_CHANCE = cfg.getFloat("corridorChance", LostCityProfile.CATEGORY_LOSTCITY, CORRIDOR_CHANCE, 0.0f, 1.0f, "The chance that a chunk can possibly contain a corridor. " +
@@ -408,14 +408,22 @@ public class LostCityProfile implements ILostCityProfile {
         CITY_STYLE_ALTERNATIVE = cfg.getString("cityStyleAlternative", LostCityProfile.CATEGORY_CITIES, CITY_STYLE_ALTERNATIVE, "Alternative city style. Used with cityStyleThreshold");
         CITY_AVOID_VOID = cfg.getBoolean("cityAvoidVoid", LostCityProfile.CATEGORY_CITIES, CITY_AVOID_VOID, "Only used with floating landscape type: if true an additional detection is done to see if the chunk is void and in that case the city isn't generated there. Otherwise you might get city chunks on the border of islands which sometimes looks weird");
 
-        CITY_LEVEL0_HEIGHT = cfg.getInt("cityLevel0Height", LostCityProfile.CATEGORY_CITIES, CITY_LEVEL0_HEIGHT, 1, 255,
+        CITY_LEVEL0_HEIGHT = cfg.getInt("cityLevel0Height", LostCityProfile.CATEGORY_CITIES, CITY_LEVEL0_HEIGHT, 1, 384,
                 "Below this chunk height cities will be level 0");
-        CITY_LEVEL1_HEIGHT = cfg.getInt("cityLevel1Height", LostCityProfile.CATEGORY_CITIES, CITY_LEVEL1_HEIGHT, 1, 255,
+        CITY_LEVEL1_HEIGHT = cfg.getInt("cityLevel1Height", LostCityProfile.CATEGORY_CITIES, CITY_LEVEL1_HEIGHT, 1, 384,
                 "Below this chunk height cities will be level 1");
-        CITY_LEVEL2_HEIGHT = cfg.getInt("cityLevel2Height", LostCityProfile.CATEGORY_CITIES, CITY_LEVEL2_HEIGHT, 1, 255,
+        CITY_LEVEL2_HEIGHT = cfg.getInt("cityLevel2Height", LostCityProfile.CATEGORY_CITIES, CITY_LEVEL2_HEIGHT, 1, 384,
                 "Below this chunk height cities will be level 2");
-        CITY_LEVEL3_HEIGHT = cfg.getInt("cityLevel3Height", LostCityProfile.CATEGORY_CITIES, CITY_LEVEL3_HEIGHT, 1, 255,
+        CITY_LEVEL3_HEIGHT = cfg.getInt("cityLevel3Height", LostCityProfile.CATEGORY_CITIES, CITY_LEVEL3_HEIGHT, 1, 384,
                 "Below this chunk height cities will be level 3");
+        CITY_LEVEL4_HEIGHT = cfg.getInt("cityLevel4Height", LostCityProfile.CATEGORY_CITIES, CITY_LEVEL4_HEIGHT, 1, 384,
+                "Below this chunk height cities will be level 4");
+        CITY_LEVEL5_HEIGHT = cfg.getInt("cityLevel5Height", LostCityProfile.CATEGORY_CITIES, CITY_LEVEL5_HEIGHT, 1, 384,
+                "Below this chunk height cities will be level 5");
+        CITY_LEVEL6_HEIGHT = cfg.getInt("cityLevel6Height", LostCityProfile.CATEGORY_CITIES, CITY_LEVEL6_HEIGHT, 1, 384,
+                "Below this chunk height cities will be level 6");
+        CITY_LEVEL7_HEIGHT = cfg.getInt("cityLevel7Height", LostCityProfile.CATEGORY_CITIES, CITY_LEVEL7_HEIGHT, 1, 384,
+                "Below this chunk height cities will be level 7");
         CITY_MINHEIGHT = cfg.getInt("cityMinHeight", LostCityProfile.CATEGORY_CITIES, CITY_MINHEIGHT, -1024, 2048,
                 "Below this height cities will not be generated");
         CITY_MAXHEIGHT = cfg.getInt("cityMaxHeight", LostCityProfile.CATEGORY_CITIES, CITY_MAXHEIGHT, -1024, 2048,
@@ -500,11 +508,15 @@ public class LostCityProfile implements ILostCityProfile {
     }
 
     @Override
-    public void setCityLevelHeights(int l0, int l1, int l2, int l3) {
+    public void setCityLevelHeights(int l0, int l1, int l2, int l3, int l4, int l5, int l6, int l7) {
         this.CITY_LEVEL0_HEIGHT = l0;
         this.CITY_LEVEL1_HEIGHT = l1;
         this.CITY_LEVEL2_HEIGHT = l2;
         this.CITY_LEVEL3_HEIGHT = l3;
+        this.CITY_LEVEL4_HEIGHT = l4;
+        this.CITY_LEVEL5_HEIGHT = l5;
+        this.CITY_LEVEL6_HEIGHT = l6;
+        this.CITY_LEVEL7_HEIGHT = l7;
     }
 
     @Override
