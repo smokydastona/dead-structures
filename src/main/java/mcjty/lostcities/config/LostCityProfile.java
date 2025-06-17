@@ -159,12 +159,12 @@ public class LostCityProfile implements ILostCityProfile {
     public float CORRIDOR_CHANCE = .7f;
     public float BRIDGE_CHANCE = .7f;
     public float FOUNTAIN_CHANCE = .05f;
-    public float BUILDING2X2_CHANCE = .03f; // No longer used!
     public boolean BRIDGE_SUPPORTS = true;
 
     public boolean PARK_ELEVATION = true;
-
     public boolean PARK_BORDER = true;
+    public int PARK_STREET_THRESHOLD = 3;
+
 
     public int BEDROCK_LAYER = 1;
 
@@ -348,6 +348,8 @@ public class LostCityProfile implements ILostCityProfile {
                 "If true parks get an extra layer of elevation");
         PARK_BORDER = cfg.getBoolean("parkBorder", LostCityProfile.CATEGORY_LOSTCITY, PARK_BORDER,
                 "If true parks border will use the street block as base.");
+        PARK_STREET_THRESHOLD = cfg.getInt("parkStreetThreshold", LostCityProfile.CATEGORY_LOSTCITY, PARK_STREET_THRESHOLD,
+                0, 8, "Determines how many surrounding street it needs to generate a park, based on current chunk's park chance.");
 
         FOUNTAIN_CHANCE = cfg.getFloat("fountainChance", LostCityProfile.CATEGORY_LOSTCITY, FOUNTAIN_CHANCE, 0.0f, 1.0f, "The chance that a street section contains a fountain");
 
