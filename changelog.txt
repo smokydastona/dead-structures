@@ -8,6 +8,7 @@ Upcoming:
 - TqLxQuanZ fixed ParkChance not working at all, it scales with total neighbour street condition + current chunk's park chance.
 - TqLxQuanZ cleaned up unused/outdated profile settings.
 - TqLxQuanZ added four new city levels
+- TqLxQuanZ added an option to use multibuilding top left corner level instead of average level for multibuildings
 - Improved the flattening algorithm
 
 1.20-7.3.6:
