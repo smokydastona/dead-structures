@@ -363,7 +363,7 @@ public class LostCityProfile implements ILostCityProfile {
                 "If true then railways are enabled. If false they are not (but stations will still generate)");
         RAILWAY_STATIONS_ENABLED = cfg.getBoolean("railwayStationsEnabled", LostCityProfile.CATEGORY_LOSTCITY, RAILWAY_STATIONS_ENABLED,
                 "If true then railway stations are enabled");
-        RAILWAY_SURFACE_STATIONS_ENABLED = cfg.getBoolean("railwayStationsEnabled", LostCityProfile.CATEGORY_LOSTCITY, RAILWAY_SURFACE_STATIONS_ENABLED,
+        RAILWAY_SURFACE_STATIONS_ENABLED = cfg.getBoolean("railwaySurfaceStationsEnabled", LostCityProfile.CATEGORY_LOSTCITY, RAILWAY_SURFACE_STATIONS_ENABLED,
                 "If true then railway surface station are enabled, otherwise there'll only be underground stations.");
 
         MULTI_USE_CORNER = cfg.getBoolean("multiUseCorner", LostCityProfile.CATEGORY_LOSTCITY, MULTI_USE_CORNER,
