@@ -1,3 +1,6 @@
+1.20-7.4.1:
+- TqLxQuanZ added a config for enabling surface railway station.
+
 1.20-7.4.0:
 - New 'railpartheight6' setting for worldstyle that indicates how high railway parts can be (in multiples of 6)
 - New 'optimizedHeightmap' config option to use a more optimized way to calculate the heightmap. This is disabled by default
