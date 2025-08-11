@@ -97,6 +97,7 @@ public class MultiChunk {
         // Get all the desired multibuildings based on the percentage of the city styles and the counter
         List<MultiBuilding> multiBuildings = new ArrayList<>();
         List<CityStyle> styleList = new ArrayList<>(cityStyleCounter.getMap().keySet());
+        styleList.sort(Comparator.comparing(CityStyle::getName));
         List<CityStyle> styleForBuilding = new ArrayList<>();
         styleList.sort(Comparator.comparing(CityStyle::getName));
         for (int i = 0 ; i < cnt ; i++) {
