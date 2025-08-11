@@ -1,6 +1,5 @@
 package mcjty.lostcities.worldgen.lost;
 
-import mcjty.lostcities.LostCities;
 import mcjty.lostcities.api.LostChunkCharacteristics;
 import mcjty.lostcities.api.RailChunkType;
 import mcjty.lostcities.config.LostCityProfile;
@@ -98,7 +97,6 @@ public class MultiChunk {
         List<MultiBuilding> multiBuildings = new ArrayList<>();
         List<CityStyle> styleList = new ArrayList<>(cityStyleCounter.getMap().keySet());
         List<CityStyle> styleForBuilding = new ArrayList<>();
-        styleList.sort(Comparator.comparing(CityStyle::getName));
         for (int i = 0 ; i < cnt ; i++) {
             CityStyle cityStyle = Tools.getRandomFromList(rand, styleList, style -> (float) cityStyleCounter.get(style));
             String multiBuilding = cityStyle.getRandomMultiBuilding(rand);
