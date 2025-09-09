@@ -3,6 +3,7 @@ package mcjty.lostcities.worldgen.lost;
 import mcjty.lostcities.LostCities;
 import mcjty.lostcities.api.*;
 import mcjty.lostcities.config.LostCityProfile;
+import mcjty.lostcities.setup.Config;
 import mcjty.lostcities.varia.ChunkCoord;
 import mcjty.lostcities.varia.Counter;
 import mcjty.lostcities.varia.QualityRandom;
@@ -661,7 +662,25 @@ public class BuildingInfo implements ILostChunkInfo {
             String randomPart = building.getRandomPart(rand, conditionContext);
             floorTypes[i] = AssetRegistries.PARTS.getOrThrow(provider.getWorld(), randomPart);
             belowPart = randomPart;
-            randomPart = building.getRandomPart2(rand, conditionContext);
+
+            ConditionContext conditionContext2 = new ConditionContext(cityLevel + i - cellars, i - cellars, cellars, floors, randomPart, belowPart, building.getName(), coord) {
+                @Override
+                public boolean isBuilding() {
+                    return true;
+                }
+
+                @Override
+                public boolean isSphere() {
+                    return CitySphere.isInSphere(coord, getCenter(0), provider);
+                }
+
+                @Override
+                public ResourceLocation getBiome() {
+                    Holder<Biome> biome = provider.getWorld().getBiome(getCenter(0));
+                    return biome.unwrap().map(ResourceKey::location, b -> provider.getWorld().registryAccess().registry(Registries.BIOME).orElseThrow().getKey(b));
+                }
+            };
+            randomPart = building.getRandomPart2(rand, conditionContext2);
             floorTypes2[i] = AssetRegistries.PARTS.get(provider.getWorld(), randomPart);    // null is legal
         }
     }
@@ -884,7 +903,25 @@ public class BuildingInfo implements ILostChunkInfo {
             }
             belowPart = randomPart;
             floorTypes[i] = AssetRegistries.PARTS.getOrThrow(provider.getWorld(), randomPart);
-            randomPart = building.getRandomPart2(rand, conditionContext);
+
+            ConditionContext conditionContext2 = new ConditionContext(cityLevel + i - cellars, i - cellars, cellars, floors, randomPart, belowPart, building.getName(), coord) {
+                @Override
+                public boolean isBuilding() {
+                    return true;
+                }
+
+                @Override
+                public boolean isSphere() {
+                    return CitySphere.isInSphere(coord, getCenter(0), provider);
+                }
+
+                @Override
+                public ResourceLocation getBiome() {
+                    Holder<Biome> biome = provider.getWorld().getBiome(getCenter(0));
+                    return biome.unwrap().map(ResourceKey::location, b -> provider.getWorld().registryAccess().registry(Registries.BIOME).orElseThrow().getKey(b));
+                }
+            };
+            randomPart = building.getRandomPart2(rand, conditionContext2);
             floorTypes2[i] = AssetRegistries.PARTS.get(provider.getWorld(), randomPart);    // null is legal
             connectionAtX[i] = isCity(coord.west(), provider) && (rand.nextFloat() < profile.BUILDING_DOORWAYCHANCE);
             connectionAtZ[i] = isCity(coord.north(), provider) && (rand.nextFloat() < profile.BUILDING_DOORWAYCHANCE);
@@ -1086,6 +1123,41 @@ public class BuildingInfo implements ILostChunkInfo {
     private static int getCityLevelNormal(ChunkCoord coord, IDimensionInfo provider, LostCityProfile profile) {
         ChunkHeightmap heightmap = provider.getHeightmap(coord);
         int height = heightmap.getHeight();
+        if (profile.USE_AVG_HEIGHTMAP && Config.HEIGHT_SAMPLE_SIZE.get() > 2) {
+            int sampleSize = Config.HEIGHT_SAMPLE_SIZE.get();
+            int constX = coord.chunkX() < 0 ? -1 : 1;
+            int constZ = coord.chunkZ() < 0 ? -1 : 1;
+            int chunkBaseX =  (coord.chunkX() / sampleSize) * sampleSize + (sampleSize / 2 * constX);
+            int chunkBaseZ =  (coord.chunkZ() / sampleSize) * sampleSize + (sampleSize / 2 * constZ);
+            int chunkLeft = ((coord.chunkX() / sampleSize) - 1) * sampleSize + (sampleSize / 2 * constX);
+            int chunkRight = ((coord.chunkX() / sampleSize) + 1) * sampleSize + (sampleSize / 2 * constX);
+            int chunkUp = ((coord.chunkZ() / sampleSize) - 1) * sampleSize + (sampleSize / 2 * constZ);
+            int chunkDown = ((coord.chunkZ() / sampleSize) + 1) * sampleSize + (sampleSize / 2 * constZ);
+            ChunkCoord left = new ChunkCoord(provider.dimension(), chunkLeft, chunkBaseZ);
+            ChunkCoord right = new ChunkCoord(provider.dimension(), chunkRight, chunkBaseZ);
+            ChunkCoord up = new ChunkCoord(provider.dimension(), chunkBaseX, chunkUp);
+            ChunkCoord down = new ChunkCoord(provider.dimension(), chunkBaseX, chunkDown);
+            int avgHeightmap = height;
+            int counter = 1;
+            if (isCityRaw(left, provider, profile)) {
+                avgHeightmap += provider.getHeightmap(left).getHeight();
+                counter++;
+            }
+            if (isCityRaw(right, provider, profile)) {
+                avgHeightmap += provider.getHeightmap(right).getHeight();
+                counter++;
+            }
+            if (isCityRaw(up, provider, profile)) {
+                avgHeightmap += provider.getHeightmap(up).getHeight();
+                counter++;
+            }
+            if (isCityRaw(down, provider, profile)) {
+                avgHeightmap += provider.getHeightmap(down).getHeight();
+                counter++;
+            }
+            avgHeightmap /= counter;
+            return getLevelBasedOnHeight(avgHeightmap, profile);
+        }
         return getLevelBasedOnHeight(height, profile);
     }
 
