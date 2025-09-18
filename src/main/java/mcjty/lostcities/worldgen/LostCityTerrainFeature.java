@@ -958,7 +958,7 @@ public class LostCityTerrainFeature {
         LostCityEvent.PreGenCityChunkEvent event = new LostCityEvent.PreGenCityChunkEvent(provider.getWorld(), LostCities.lostCitiesImp, chunkX, chunkZ, driver.getPrimer());
         if (!MinecraftForge.EVENT_BUS.post(event)) {
             if (building) {
-                generateBuilding(info, heightmap);
+                generateBuilding(info, heightmap, chunk);
             } else {
                 generateStreet(info, heightmap);
             }
@@ -2122,7 +2122,7 @@ public class LostCityTerrainFeature {
         }
     }
 
-    private void generateBuilding(BuildingInfo info, ChunkHeightmap heightmap) {
+    private void generateBuilding(BuildingInfo info, ChunkHeightmap heightmap, ChunkAccess chunk) {
         int lowestLevel = info.getBuildingBottomHeight();
         int cellars = info.cellars;
         int floors = info.getNumFloors();
@@ -2132,6 +2132,7 @@ public class LostCityTerrainFeature {
         makeRoomForBuilding(info, lowestLevel, heightmap, palette);
 
         char fillerBlock = info.getBuilding().getFillerBlock();
+        Map<Integer, BuildingPart> part2Map = new HashMap<>();
 
         int height = lowestLevel;
         for (int f = -cellars; f <= floors; f++) {
@@ -2146,7 +2147,7 @@ public class LostCityTerrainFeature {
             generatePart(info, part, Transform.ROTATE_NONE, 0, height, 0, HardAirSetting.AIR);
             part = info.getFloorPart2(f);
             if (part != null) {
-                generatePart(info, part, Transform.ROTATE_NONE, 0, height, 0, HardAirSetting.AIR);
+                part2Map.put(height, part);
             }
 
             // Check for doors
@@ -2174,6 +2175,15 @@ public class LostCityTerrainFeature {
         if (cellars >= 1) {
             // We have to potentially connect to corridors
             Corridors.generateCorridorConnections(driver, info);
+        }
+
+        if (!part2Map.isEmpty()) {
+            driver.actuallyGenerate(chunk);
+            for (Map.Entry<Integer, BuildingPart> entry : part2Map.entrySet()) {
+                int h = entry.getKey();
+                BuildingPart part = entry.getValue();
+                generatePart(info, part, Transform.ROTATE_NONE, 0, h, 0, HardAirSetting.AIR);
+            }
         }
     }
 
