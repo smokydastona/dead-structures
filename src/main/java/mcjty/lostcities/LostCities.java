@@ -49,6 +49,7 @@ public class LostCities {
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.COMMON_CONFIG, "lostcities/common.toml");
         ModLoadingContext.get().registerConfig(ModConfig.Type.SERVER, Config.SERVER_CONFIG);
 
+        setup.preInit();
         bus.addListener(setup::init);
         bus.addListener(this::processIMC);
         bus.addListener(this::onConstructModEvent);

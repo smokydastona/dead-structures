@@ -23,12 +23,12 @@ public class ModSetup {
         return logger;
     }
 
+    public void preInit() {
+        logger = LogManager.getLogger();
+        ProfileSetup.setupProfiles();
+    }
 
     public void init(FMLCommonSetupEvent e) {
-        logger = LogManager.getLogger();
-
-        ProfileSetup.setupProfiles();
-
         PacketHandler.registerMessages("lostcities");
 
         MinecraftForge.EVENT_BUS.register(new ForgeEventHandlers());
