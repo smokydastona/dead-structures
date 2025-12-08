@@ -312,8 +312,11 @@ The integration is **production-ready** and can be built/released immediately.
 
 ## Next Steps
 
-1. **Test Build**: `./gradlew build`
-2. **Test In-Game**: With and without BOP
-3. **Create Release**: Tag version and publish
-4. **Update Listings**: CurseForge/Modrinth with BOP integration info
-5. **Community Feedback**: Gather user suggestions for new palettes
+1. **Push to GitHub**: Commit changes and push to trigger GitHub Actions compilation
+2. **Monitor Actions**: Verify build completes successfully
+3. **Test In-Game**: Download artifact from Actions and test with/without BOP
+4. **Create Release**: User will manually tag and create releases when ready
+5. **Update Listings**: CurseForge/Modrinth with BOP integration info
+6. **Community Feedback**: Gather user suggestions for new palettes
+
+**Note**: Never build locally - always use GitHub Actions for compilation.

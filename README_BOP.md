@@ -98,13 +98,18 @@ See `BiomesOPlentyCompat.java` for block ID constants.
 
 ### Build Instructions
 
+This project uses **GitHub Actions** for compilation. Never build locally.
+
 ```bash
-git clone https://github.com/YourUsername/LostCities.git
-cd LostCities
-./gradlew build
+# Make your changes, then:
+git add -A
+git commit -m "descriptive message"
+git push
 ```
 
-BOP is specified as `compileOnly` - not required for building or runtime.
+GitHub Actions will automatically compile the mod. Download artifacts from the Actions tab.
+
+**DO NOT** create releases or tags - the maintainer handles this manually.
 
 ## 🤝 Contributing
 

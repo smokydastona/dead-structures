@@ -1,6 +1,6 @@
-# Copilot Instructions — undergrove Lost Cities
+# Copilot Instructions — Dead Structures (Lost Cities + BOP Fork)
 
-You are a Minecraft Forge mod development expert working on a client-side mod for Minecraft 1.20.1.
+You are a Minecraft Forge mod development expert working on Dead Structures, a fork of Lost Cities with optional Biomes O' Plenty integration for Minecraft 1.20.x.
 
 ## Workflow After Every Code Change
 
@@ -10,12 +10,12 @@ You are a Minecraft Forge mod development expert working on a client-side mod fo
 2. **Fix all errors systematically** - Address every error found, not just one file
 3. **Re-validate after each fix** - Ensure no new errors were introduced
 4. **Explain every change** - What was wrong, what you changed, and why
-5. **Push to GitHub Actions** - Commit and push ONLY (no tagging)
+5. **Push to GitHub Actions** - Commit and push to trigger compilation
 6. **Only stop when 100% validated** - Continue until all files are completely correct and compile without errors
 
 ## Compilation Workflow
 
-**NEVER build locally.** Always use GitHub Actions:
+**NEVER build locally.** Always use GitHub Actions for compilation:
 
 ```bash
 git add -A
@@ -23,35 +23,13 @@ git commit -m "descriptive message"
 git push
 ```
 
-**STOP HERE.** Do NOT run `git tag` - the user will create tags manually when ready.
+**CRITICAL: DO NOT CREATE RELEASES OR TAGS**
+- GitHub Actions will automatically compile the mod
+- The user will manually create releases/tags when ready
+- NEVER run `git tag` or create GitHub releases
+- Just push code changes and let Actions handle compilation
 
-This triggers GitHub Actions to compile the mod. The workspace must stay clean - no `build/` or `.gradle/` directories.
+The workspace must stay clean - no `build/` or `.gradle/` directories committed.
 
 ## Project Architecture
 
-- **Client-side only** - No server installation required
-- **Built-in death/sleep detection** - `DeathSleepEvents.java` handles client-side detection
-- **Per-server redirect mappings** - Config uses `death:source->dest` and `sleep:source->dest` format
-- **Direct server connections** - No packets, no OP permissions needed
-- **Waystone menu buttons** - Manual redirects via visible buttons in GUI
-- **Mixin compatibility bypass** - `MixinClientPacketListener` forces vanilla connection to bypass mod checks
-
-## Critical Rules
-
-- ✅ **Scan → Fix → Validate → Push** after every change
-- ✅ Treat the entire codebase as a system, not individual files
-- ✅ Always push to GitHub Actions for compilation
-- ✅ Only commit and push code changes - stop there
-- ❌ **NEVER CREATE RELEASES** - The user will tag versions manually
-- ❌ **NEVER RUN `git tag`** unless the user explicitly tells you the exact tag to create
-- ❌ NEVER build locally (no `gradlew build`)
-- ❌ NEVER skip error validation before pushing
-- ❌ DO NOT auto-tag, auto-release, or create versions on your own
-
-## Version Management
-
-Version format: `3.0.{git-commit-count}`
-- Auto-increments from git commit history
-- **THE USER CREATES TAGS MANUALLY - NOT YOU**
-- Tags trigger GitHub Actions release workflow
-- After pushing code, STOP and let the user decide if they want to tag
