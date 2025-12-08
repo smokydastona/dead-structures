@@ -1,0 +1,53 @@
+=== BOP Integration Fork Changelog ===
+
+Version: 1.20-BOP-1.0.0
+Date: December 7, 2025
+
+NEW FEATURES:
++ Added optional Biomes O' Plenty integration (soft dependency)
++ 4 new BOP-themed palettes:
+  - bop_cherry: Cherry blossom themed cities
+  - bop_dead: Post-apocalyptic wasteland aesthetic
+  - bop_tropical: Tropical mahogany cities
+  - bop_magic: Mystical purple/blue cities
++ BOP vegetation decorations (vines, moss, mushrooms, reeds)
++ BiomesOPlentyCompat compatibility helper class
++ Automatic fallback to vanilla blocks when BOP not installed
++ 3 new example styles and citystyles
++ Comprehensive documentation suite
+
+TECHNICAL CHANGES:
++ Added optional BOP dependency in mods.toml (mandatory=false)
++ Created compat package for soft dependency handling
++ Implemented block fallback system in palette JSONs
++ Runtime BOP detection with caching
+
+DOCUMENTATION:
++ BOP_INTEGRATION.md - Full technical guide
++ BOP_QUICKSTART.md - User quick start guide  
++ README_BOP.md - Fork overview
++ IMPLEMENTATION_SUMMARY.md - Developer reference
+
+COMPATIBILITY:
++ Works with Lost Cities 1.20.x
++ Compatible with BOP 18.0.0+
++ Fully backward compatible with existing Lost Cities worlds
++ No performance impact
++ No breaking changes to Lost Cities API
+
+NOTES:
+- BOP is completely optional - mod works standalone
+- All BOP blocks have vanilla fallbacks
+- Zero crashes or errors if BOP not installed
+- Can be safely added to or removed from existing modpacks
+
+FUTURE PLANS:
+- Additional BOP wood type palettes (fir, willow, redwood)
+- BOP biome-specific building types
+- BOP loot integration
+- Seasonal variations
+
+---
+
+Original Lost Cities by McJty
+BOP Integration Fork maintained separately

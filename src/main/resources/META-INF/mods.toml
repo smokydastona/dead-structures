@@ -21,3 +21,12 @@ Generate cities all over the world
     versionRange="[43.1.30,)"
     ordering="NONE"
     side="BOTH"
+
+# Optional soft dependency on Biomes O' Plenty
+# Lost Cities will use BOP blocks/biomes when available, but works fine without it
+[[dependencies.lostcities]]
+    modId="biomesoplenty"
+    mandatory=false
+    versionRange="[18.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

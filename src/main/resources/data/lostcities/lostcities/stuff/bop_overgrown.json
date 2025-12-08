@@ -1,0 +1,109 @@
+{
+  "_comment": "BOP vegetation and decorative elements for overgrown cities - gracefully degrades to vanilla if BOP not present",
+  "settings": [
+    {
+      "match": {
+        "block": "minecraft:grass_block"
+      },
+      "actions": [
+        {
+          "blocks": [
+            {
+              "random": 1,
+              "block": "biomesoplenty:willow_vine"
+            },
+            {
+              "random": 1,
+              "block": "minecraft:vine"
+            },
+            {
+              "random": 20,
+              "block": "minecraft:air"
+            }
+          ],
+          "offset": [0, 1, 0],
+          "condition": "PROBABILITY_0.05"
+        }
+      ]
+    },
+    {
+      "match": {
+        "block": "minecraft:oak_leaves"
+      },
+      "actions": [
+        {
+          "blocks": [
+            {
+              "random": 1,
+              "block": "biomesoplenty:spanish_moss"
+            },
+            {
+              "random": 1,
+              "block": "minecraft:vine"
+            },
+            {
+              "random": 30,
+              "block": "minecraft:air"
+            }
+          ],
+          "offset": [0, -1, 0],
+          "condition": "PROBABILITY_0.1"
+        }
+      ]
+    },
+    {
+      "match": {
+        "tag": "minecraft:dirt"
+      },
+      "actions": [
+        {
+          "blocks": [
+            {
+              "random": 2,
+              "block": "biomesoplenty:toadstool"
+            },
+            {
+              "random": 1,
+              "block": "minecraft:brown_mushroom"
+            },
+            {
+              "random": 1,
+              "block": "minecraft:red_mushroom"
+            },
+            {
+              "random": 50,
+              "block": "minecraft:air"
+            }
+          ],
+          "offset": [0, 1, 0],
+          "condition": "PROBABILITY_0.02"
+        }
+      ]
+    },
+    {
+      "match": {
+        "block": "minecraft:water"
+      },
+      "actions": [
+        {
+          "blocks": [
+            {
+              "random": 1,
+              "block": "biomesoplenty:reed"
+            },
+            {
+              "random": 1,
+              "block": "minecraft:tall_grass"
+            },
+            {
+              "random": 10,
+              "block": "minecraft:air"
+            }
+          ],
+          "offset": [0, 1, 0],
+          "condition": "PROBABILITY_0.15"
+        }
+      ]
+    }
+  ]
+}

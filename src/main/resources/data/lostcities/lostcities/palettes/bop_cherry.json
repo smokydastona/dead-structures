@@ -1,0 +1,187 @@
+{
+  "_comment": "Cherry blossom themed palette using Biomes O' Plenty blocks when available, falls back to vanilla cherry",
+  "palette": [
+    {
+      "char": "Q",
+      "block": "minecraft:quartz_block",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "R",
+      "block": "minecraft:pink_terracotta",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "u",
+      "blocks": [
+        {
+          "random": 1,
+          "block": "biomesoplenty:white_cherry_planks"
+        },
+        {
+          "random": 1,
+          "block": "minecraft:cherry_planks"
+        }
+      ],
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "S",
+      "blocks": [
+        {
+          "random": 1,
+          "block": "biomesoplenty:white_cherry_planks"
+        },
+        {
+          "random": 1,
+          "block": "minecraft:cherry_planks"
+        }
+      ],
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:structure_void"
+    },
+    {
+      "char": "B",
+      "block": "minecraft:bricks",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "v",
+      "variant": "stonebrick",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "y",
+      "variant": "stonebrick",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "x",
+      "variant": "stonebrick",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "_",
+      "blocks": [
+        {
+          "random": 1,
+          "block": "biomesoplenty:white_cherry_slab[type=bottom]"
+        },
+        {
+          "random": 1,
+          "block": "minecraft:cherry_slab[type=bottom]"
+        }
+      ]
+    },
+    {
+      "char": "=",
+      "blocks": [
+        {
+          "random": 1,
+          "block": "biomesoplenty:white_cherry_slab[type=bottom]"
+        },
+        {
+          "random": 1,
+          "block": "minecraft:cherry_slab[type=bottom]"
+        }
+      ]
+    },
+    {
+      "char": "w",
+      "block": "minecraft:cobblestone_wall"
+    },
+    {
+      "char": ":",
+      "block": "minecraft:iron_bars"
+    },
+    {
+      "char": "A",
+      "blocks": [
+        {
+          "random": 1,
+          "block": "biomesoplenty:white_cherry_stairs[facing=west,half=bottom,shape=straight]"
+        },
+        {
+          "random": 1,
+          "block": "minecraft:cherry_stairs[facing=west,half=bottom,shape=straight]"
+        }
+      ]
+    },
+    {
+      "char": "t",
+      "blocks": [
+        {
+          "random": 1,
+          "block": "biomesoplenty:white_cherry_stairs[facing=east,half=bottom,shape=straight]"
+        },
+        {
+          "random": 1,
+          "block": "minecraft:cherry_stairs[facing=east,half=bottom,shape=straight]"
+        }
+      ]
+    },
+    {
+      "char": "z",
+      "blocks": [
+        {
+          "random": 1,
+          "block": "biomesoplenty:white_cherry_stairs[facing=north,half=bottom,shape=straight]"
+        },
+        {
+          "random": 1,
+          "block": "minecraft:cherry_stairs[facing=north,half=bottom,shape=straight]"
+        }
+      ]
+    },
+    {
+      "char": "c",
+      "blocks": [
+        {
+          "random": 1,
+          "block": "biomesoplenty:white_cherry_stairs[facing=south,half=bottom,shape=straight]"
+        },
+        {
+          "random": 1,
+          "block": "minecraft:cherry_stairs[facing=south,half=bottom,shape=straight]"
+        }
+      ]
+    },
+    {
+      "char": "L",
+      "blocks": [
+        {
+          "random": 1,
+          "block": "biomesoplenty:white_cherry_log[axis=y]"
+        },
+        {
+          "random": 1,
+          "block": "minecraft:cherry_log[axis=y]"
+        }
+      ],
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:ladder[facing=south]"
+    },
+    {
+      "char": "T",
+      "block": "minecraft:torch"
+    },
+    {
+      "char": "G",
+      "block": "minecraft:pink_stained_glass"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:pink_stained_glass_pane"
+    },
+    {
+      "char": "F",
+      "block": "minecraft:oak_fence"
+    }
+  ]
+}

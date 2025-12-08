@@ -1,0 +1,178 @@
+{
+  "_comment": "Mystical/magic themed palette using BOP magic wood and umbran, falls back to warped/dark oak",
+  "palette": [
+    {
+      "char": "Q",
+      "block": "minecraft:purpur_block",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "R",
+      "block": "minecraft:purple_terracotta",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "u",
+      "blocks": [
+        {
+          "random": 1,
+          "block": "biomesoplenty:magic_planks"
+        },
+        {
+          "random": 1,
+          "block": "minecraft:warped_planks"
+        }
+      ],
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "S",
+      "blocks": [
+        {
+          "random": 1,
+          "block": "biomesoplenty:umbran_planks"
+        },
+        {
+          "random": 1,
+          "block": "minecraft:dark_oak_planks"
+        }
+      ],
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:structure_void"
+    },
+    {
+      "char": "B",
+      "block": "minecraft:purpur_pillar",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "v",
+      "variant": "stonebrick",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "y",
+      "variant": "stonebrick",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "x",
+      "block": "minecraft:obsidian",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "_",
+      "blocks": [
+        {
+          "random": 1,
+          "block": "biomesoplenty:magic_slab[type=bottom]"
+        },
+        {
+          "random": 1,
+          "block": "minecraft:warped_slab[type=bottom]"
+        }
+      ]
+    },
+    {
+      "char": "=",
+      "block": "minecraft:purpur_slab[type=bottom]"
+    },
+    {
+      "char": "w",
+      "block": "minecraft:end_stone_brick_wall"
+    },
+    {
+      "char": ":",
+      "block": "minecraft:iron_bars"
+    },
+    {
+      "char": "A",
+      "blocks": [
+        {
+          "random": 1,
+          "block": "biomesoplenty:umbran_stairs[facing=west,half=bottom,shape=straight]"
+        },
+        {
+          "random": 1,
+          "block": "minecraft:dark_oak_stairs[facing=west,half=bottom,shape=straight]"
+        }
+      ]
+    },
+    {
+      "char": "t",
+      "blocks": [
+        {
+          "random": 1,
+          "block": "biomesoplenty:umbran_stairs[facing=east,half=bottom,shape=straight]"
+        },
+        {
+          "random": 1,
+          "block": "minecraft:dark_oak_stairs[facing=east,half=bottom,shape=straight]"
+        }
+      ]
+    },
+    {
+      "char": "z",
+      "blocks": [
+        {
+          "random": 1,
+          "block": "biomesoplenty:umbran_stairs[facing=north,half=bottom,shape=straight]"
+        },
+        {
+          "random": 1,
+          "block": "minecraft:dark_oak_stairs[facing=north,half=bottom,shape=straight]"
+        }
+      ]
+    },
+    {
+      "char": "c",
+      "blocks": [
+        {
+          "random": 1,
+          "block": "biomesoplenty:umbran_stairs[facing=south,half=bottom,shape=straight]"
+        },
+        {
+          "random": 1,
+          "block": "minecraft:dark_oak_stairs[facing=south,half=bottom,shape=straight]"
+        }
+      ]
+    },
+    {
+      "char": "L",
+      "blocks": [
+        {
+          "random": 1,
+          "block": "biomesoplenty:magic_log[axis=y]"
+        },
+        {
+          "random": 1,
+          "block": "minecraft:warped_stem[axis=y]"
+        }
+      ],
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:ladder[facing=south]"
+    },
+    {
+      "char": "T",
+      "block": "minecraft:soul_lantern"
+    },
+    {
+      "char": "G",
+      "block": "minecraft:purple_stained_glass"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:purple_stained_glass_pane"
+    },
+    {
+      "char": "F",
+      "block": "minecraft:dark_oak_fence"
+    }
+  ]
+}

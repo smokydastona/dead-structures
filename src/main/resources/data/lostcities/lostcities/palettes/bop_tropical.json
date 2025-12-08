@@ -1,0 +1,178 @@
+{
+  "_comment": "Tropical themed palette using BOP mahogany wood, falls back to jungle wood",
+  "palette": [
+    {
+      "char": "Q",
+      "block": "minecraft:smooth_sandstone",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "R",
+      "block": "minecraft:orange_terracotta",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "u",
+      "blocks": [
+        {
+          "random": 1,
+          "block": "biomesoplenty:mahogany_planks"
+        },
+        {
+          "random": 1,
+          "block": "minecraft:jungle_planks"
+        }
+      ],
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "S",
+      "blocks": [
+        {
+          "random": 1,
+          "block": "biomesoplenty:mahogany_planks"
+        },
+        {
+          "random": 1,
+          "block": "minecraft:jungle_planks"
+        }
+      ],
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:structure_void"
+    },
+    {
+      "char": "B",
+      "block": "minecraft:sandstone_slab[type=double]",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "v",
+      "variant": "stonebrick",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "y",
+      "variant": "stonebrick",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "x",
+      "variant": "stonebrick",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "_",
+      "blocks": [
+        {
+          "random": 1,
+          "block": "biomesoplenty:mahogany_slab[type=bottom]"
+        },
+        {
+          "random": 1,
+          "block": "minecraft:jungle_slab[type=bottom]"
+        }
+      ]
+    },
+    {
+      "char": "=",
+      "block": "minecraft:sandstone_slab[type=bottom]"
+    },
+    {
+      "char": "w",
+      "block": "minecraft:sandstone_wall"
+    },
+    {
+      "char": ":",
+      "block": "minecraft:iron_bars"
+    },
+    {
+      "char": "A",
+      "blocks": [
+        {
+          "random": 1,
+          "block": "biomesoplenty:mahogany_stairs[facing=west,half=bottom,shape=straight]"
+        },
+        {
+          "random": 1,
+          "block": "minecraft:jungle_stairs[facing=west,half=bottom,shape=straight]"
+        }
+      ]
+    },
+    {
+      "char": "t",
+      "blocks": [
+        {
+          "random": 1,
+          "block": "biomesoplenty:mahogany_stairs[facing=east,half=bottom,shape=straight]"
+        },
+        {
+          "random": 1,
+          "block": "minecraft:jungle_stairs[facing=east,half=bottom,shape=straight]"
+        }
+      ]
+    },
+    {
+      "char": "z",
+      "blocks": [
+        {
+          "random": 1,
+          "block": "biomesoplenty:mahogany_stairs[facing=north,half=bottom,shape=straight]"
+        },
+        {
+          "random": 1,
+          "block": "minecraft:jungle_stairs[facing=north,half=bottom,shape=straight]"
+        }
+      ]
+    },
+    {
+      "char": "c",
+      "blocks": [
+        {
+          "random": 1,
+          "block": "biomesoplenty:mahogany_stairs[facing=south,half=bottom,shape=straight]"
+        },
+        {
+          "random": 1,
+          "block": "minecraft:jungle_stairs[facing=south,half=bottom,shape=straight]"
+        }
+      ]
+    },
+    {
+      "char": "L",
+      "blocks": [
+        {
+          "random": 1,
+          "block": "biomesoplenty:mahogany_log[axis=y]"
+        },
+        {
+          "random": 1,
+          "block": "minecraft:jungle_log[axis=y]"
+        }
+      ],
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:ladder[facing=south]"
+    },
+    {
+      "char": "T",
+      "block": "minecraft:torch"
+    },
+    {
+      "char": "G",
+      "block": "minecraft:lime_stained_glass"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:lime_stained_glass_pane"
+    },
+    {
+      "char": "F",
+      "block": "minecraft:jungle_fence"
+    }
+  ]
+}
