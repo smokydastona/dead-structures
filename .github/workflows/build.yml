@@ -24,12 +24,49 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
       
+    - name: Set version number
+      id: version
+      run: |
+        VERSION="1.0.${{ github.run_number }}"
+        echo "VERSION=$VERSION" >> $GITHUB_OUTPUT
+        echo "Building version $VERSION"
+        
     - name: Build with Gradle
-      run: ./gradlew build
+      run: ./gradlew build -Pversion=${{ steps.version.outputs.VERSION }}
       
     - name: Upload build artifact
       uses: actions/upload-artifact@v4
       with:
-        name: dead-structures-jar
+        name: dead-structures-${{ steps.version.outputs.VERSION }}
         path: build/libs/*.jar
         if-no-files-found: error
+        
+    - name: Create Release
+      if: github.event_name == 'push'
+      uses: softprops/action-gh-release@v1
+      with:
+        tag_name: v${{ steps.version.outputs.VERSION }}
+        name: Dead Structures v${{ steps.version.outputs.VERSION }}
+        body: |
+          ## Dead Structures v${{ steps.version.outputs.VERSION }}
+          
+          **Automatic build #${{ github.run_number }}**
+          
+          ### Features:
+          - Pillager Outpost Wastelords (500HP Evoker, 450HP Illusioner)
+          - Apocalypse zombie mechanics (block breaking, lunge attacks, speed scaling)
+          - Progressive difficulty system (20-400 zombies based on advancement)
+          - Enhanced loot tables and structures
+          - Server-side only - no client mods required
+          
+          ### Installation:
+          1. Download the JAR file below
+          2. Place in server `mods` folder
+          3. Restart server
+          
+          Commit: ${{ github.sha }}
+        files: build/libs/*.jar
+        draft: false
+        prerelease: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
