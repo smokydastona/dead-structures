@@ -36,7 +36,7 @@ public class PillagerOutpostIntegration {
      * 50% chance for Evoker Wastelord, 50% chance for Illusioner Wastelord
      */
     public static void spawnWastelord(ServerLevel level, BlockPos pos) {
-        Random random = level.getRandom();
+        net.minecraft.util.RandomSource random = level.getRandom();
         
         if (random.nextBoolean()) {
             spawnEvokerWastelord(level, pos);
@@ -195,7 +195,7 @@ public class PillagerOutpostIntegration {
         }
         
         // Random chance (e.g., 1 in 500 chunks)
-        Random random = new Random(level.getSeed() + pos.getX() * 341873128712L + pos.getZ() * 132897987541L);
+        net.minecraft.util.RandomSource random = net.minecraft.util.RandomSource.create(pos.getX() * 341873128712L + pos.getZ() * 132897987541L);
         return random.nextInt(500) == 0;
     }
     

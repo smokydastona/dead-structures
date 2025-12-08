@@ -7,7 +7,7 @@ import mcjty.lostcities.varia.ChunkCoord;
 import mcjty.lostcities.varia.Counter;
 import mcjty.lostcities.varia.Tools;
 import mcjty.lostcities.worldgen.IDimensionInfo;
-import mcjty.lostcities.worldgen.PerformanceOptimizer;
+import mcjty.lostcities.varia.PerformanceOptimizer;
 import mcjty.lostcities.worldgen.lost.cityassets.AssetRegistries;
 import mcjty.lostcities.worldgen.lost.cityassets.Building;
 import mcjty.lostcities.worldgen.lost.cityassets.CityStyle;

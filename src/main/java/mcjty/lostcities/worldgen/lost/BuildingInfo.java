@@ -11,7 +11,7 @@ import mcjty.lostcities.varia.Tools;
 import mcjty.lostcities.worldgen.ChunkHeightmap;
 import mcjty.lostcities.worldgen.IDimensionInfo;
 import mcjty.lostcities.worldgen.LostCityTerrainFeature;
-import mcjty.lostcities.worldgen.PerformanceOptimizer;
+import mcjty.lostcities.varia.PerformanceOptimizer;
 import mcjty.lostcities.worldgen.lost.cityassets.*;
 import mcjty.lostcities.worldgen.lost.regassets.data.CitySphereSettings;
 import mcjty.lostcities.worldgen.lost.regassets.data.PredefinedBuilding;

@@ -5,7 +5,7 @@ import mcjty.lostcities.config.LostCityProfile;
 import mcjty.lostcities.varia.ChunkCoord;
 import mcjty.lostcities.varia.QualityRandom;
 import mcjty.lostcities.worldgen.IDimensionInfo;
-import mcjty.lostcities.worldgen.PerformanceOptimizer;
+import mcjty.lostcities.varia.PerformanceOptimizer;
 import mcjty.lostcities.worldgen.lost.regassets.data.RailwayParts;
 
 import java.util.Collections;
