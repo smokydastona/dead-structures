@@ -85,3 +85,57 @@ Generate cities all over the world
     ordering="AFTER"
     side="BOTH"
 
+# Optional compatibility with Cobweb
+# Adds atmospheric cobwebs to abandoned buildings
+[[dependencies.lostcities]]
+    modId="cobweb"
+    mandatory=false
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+# Optional compatibility with Ice and Fire: Dragons
+# Adds dragon roosts, fire/ice damage, and mythical ruins
+[[dependencies.lostcities]]
+    modId="iceandfire"
+    mandatory=false
+    versionRange="[2.1.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+# Optional compatibility with Minecraft Comes Alive
+# Spawns zombie villagers in residential buildings
+[[dependencies.lostcities]]
+    modId="mca"
+    mandatory=false
+    versionRange="[7.5.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+# Optional compatibility with Traveler's Backpack
+# Spawns abandoned backpacks with loot throughout buildings
+[[dependencies.lostcities]]
+    modId="travelersbackpack"
+    mandatory=false
+    versionRange="[9.1.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+# Optional compatibility with Spartan Weaponry
+# Adds weapon loot to military and security buildings
+[[dependencies.lostcities]]
+    modId="spartanweaponry"
+    mandatory=false
+    versionRange="[3.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+# Optional compatibility with Ecologics
+# Nature reclaims cities with diverse flora and fauna
+[[dependencies.lostcities]]
+    modId="ecologics"
+    mandatory=false
+    versionRange="[2.2.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
