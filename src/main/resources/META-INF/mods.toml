@@ -36,7 +36,7 @@ Generate cities all over the world
 [[dependencies.lostcities]]
     modId="lootr"
     mandatory=false
-    versionRange="[1.10.0,)"
+    versionRange="[0.7.0,)"
     ordering="AFTER"
     side="BOTH"
 

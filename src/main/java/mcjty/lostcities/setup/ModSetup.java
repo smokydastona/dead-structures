@@ -1,6 +1,7 @@
 package mcjty.lostcities.setup;
 
 import mcjty.lostcities.api.ILostCityProfileSetup;
+import mcjty.lostcities.compat.LootrCompat;
 import mcjty.lostcities.config.ProfileSetup;
 import mcjty.lostcities.network.PacketHandler;
 import mcjty.lostcities.worldgen.lost.cityassets.AssetRegistries;
@@ -40,5 +41,8 @@ public class ModSetup {
 //        LootTableList.register(new ResourceLocation(LostCities.MODID, "chests/raildungeonchest"));
 
         AssetRegistries.reset();
+        
+        // Log Lootr integration status
+        LootrCompat.logStatus();
     }
 }
