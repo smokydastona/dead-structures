@@ -3,6 +3,7 @@ package mcjty.lostcities.worldgen.lost;
 import mcjty.lostcities.config.LostCityProfile;
 import mcjty.lostcities.varia.ChunkCoord;
 import mcjty.lostcities.varia.Tools;
+import mcjty.lostcities.varia.PerformanceOptimizer;
 import mcjty.lostcities.worldgen.ChunkHeightmap;
 import mcjty.lostcities.worldgen.IDimensionInfo;
 import mcjty.lostcities.worldgen.lost.cityassets.*;
@@ -28,8 +29,10 @@ public class City {
     private static Map<ChunkCoord, PredefinedStreet> predefinedStreetMap = null;
 
     // If cityChance == -1 then this is used to control where cities are
-    private static final Map<ResourceKey<Level>, CityRarityMap> CITY_RARITY_MAP = new HashMap<>();
-    private static final Map<ChunkCoord, CityStyle> CITY_STYLE_MAP = new HashMap<>();
+    private static final PerformanceOptimizer.LRUCache<ResourceKey<Level>, CityRarityMap> CITY_RARITY_MAP = 
+        new PerformanceOptimizer.LRUCache<>("CityRarity");
+    private static final PerformanceOptimizer.LRUCache<ChunkCoord, CityStyle> CITY_STYLE_MAP = 
+        new PerformanceOptimizer.LRUCache<>("CityStyle");
     private static Map<ChunkCoord, PreDefBuildingOffset> OCCUPIED_CHUNKS_BUILDING = null;
     private static Map<ChunkCoord, PredefinedStreet> OCCUPIED_CHUNKS_STREET = null;
 
@@ -44,7 +47,13 @@ public class City {
     }
 
     public static CityRarityMap getCityRarityMap(ResourceKey<Level> level, long seed, double scale, double offset, double innerScale) {
-        return CITY_RARITY_MAP.computeIfAbsent(level, k -> new CityRarityMap(seed, scale, offset, innerScale));
+        CityRarityMap existing = CITY_RARITY_MAP.get(level);
+        if (existing != null) {
+            return existing;
+        }
+        CityRarityMap newMap = new CityRarityMap(seed, scale, offset, innerScale);
+        CITY_RARITY_MAP.put(level, newMap);
+        return newMap;
     }
 
     public static PredefinedCity getPredefinedCity(CommonLevelAccessor level, ChunkCoord coord) {
@@ -214,7 +223,13 @@ public class City {
 
     // Calculate the citystyle based on all surrounding cities
     public static CityStyle getCityStyle(ChunkCoord coord, IDimensionInfo provider, LostCityProfile profile) {
-        return CITY_STYLE_MAP.computeIfAbsent(coord, k -> getCityStyleInt(coord, provider, profile));
+        CityStyle existing = CITY_STYLE_MAP.get(coord);
+        if (existing != null) {
+            return existing;
+        }
+        CityStyle newStyle = getCityStyleInt(coord, provider, profile);
+        CITY_STYLE_MAP.put(coord, newStyle);
+        return newStyle;
     }
 
     private static CityStyle getCityStyleInt(ChunkCoord coord, IDimensionInfo provider, LostCityProfile profile) {

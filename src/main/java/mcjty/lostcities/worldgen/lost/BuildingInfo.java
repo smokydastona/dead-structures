@@ -11,6 +11,7 @@ import mcjty.lostcities.varia.Tools;
 import mcjty.lostcities.worldgen.ChunkHeightmap;
 import mcjty.lostcities.worldgen.IDimensionInfo;
 import mcjty.lostcities.worldgen.LostCityTerrainFeature;
+import mcjty.lostcities.worldgen.PerformanceOptimizer;
 import mcjty.lostcities.worldgen.lost.cityassets.*;
 import mcjty.lostcities.worldgen.lost.regassets.data.CitySphereSettings;
 import mcjty.lostcities.worldgen.lost.regassets.data.PredefinedBuilding;
@@ -140,10 +141,13 @@ public class BuildingInfo implements ILostChunkInfo {
         }
     }
 
-    // BuildingInfo cache
-    private static final Map<ChunkCoord, BuildingInfo> BUILDING_INFO_MAP = new HashMap<>();
-    private static final Map<ChunkCoord, LostChunkCharacteristics> CITY_INFO_MAP = new HashMap<>();
-    private static final Map<ChunkCoord, Integer> CITY_LEVEL_CACHE = new HashMap<>();
+    // BuildingInfo cache - optimized with LRU and soft references
+    private static final PerformanceOptimizer.LRUCache<ChunkCoord, BuildingInfo> BUILDING_INFO_MAP = 
+        new PerformanceOptimizer.LRUCache<>("BuildingInfo");
+    private static final PerformanceOptimizer.LRUCache<ChunkCoord, LostChunkCharacteristics> CITY_INFO_MAP = 
+        new PerformanceOptimizer.LRUCache<>("CityInfo");
+    private static final PerformanceOptimizer.LRUCache<ChunkCoord, Integer> CITY_LEVEL_CACHE = 
+        new PerformanceOptimizer.LRUCache<>("CityLevel");
 
     public void addTorchTodo(BlockPos index) {
         torchTodo.add(index);
@@ -598,9 +602,11 @@ public class BuildingInfo implements ILostChunkInfo {
     }
 
     public static void cleanCache() {
+        LostCities.LOGGER.info("Cleaning BuildingInfo caches - " + PerformanceOptimizer.getCacheStats());
         BUILDING_INFO_MAP.clear();
         CITY_INFO_MAP.clear();
         CITY_LEVEL_CACHE.clear();
+        PerformanceOptimizer.BlockStatePool.clear();
     }
 
     public static synchronized BuildingInfo getBuildingInfo(ChunkCoord key, IDimensionInfo provider) {

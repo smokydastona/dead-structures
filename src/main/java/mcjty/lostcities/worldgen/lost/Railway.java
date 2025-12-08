@@ -5,6 +5,7 @@ import mcjty.lostcities.config.LostCityProfile;
 import mcjty.lostcities.varia.ChunkCoord;
 import mcjty.lostcities.varia.QualityRandom;
 import mcjty.lostcities.worldgen.IDimensionInfo;
+import mcjty.lostcities.worldgen.PerformanceOptimizer;
 import mcjty.lostcities.worldgen.lost.regassets.data.RailwayParts;
 
 import java.util.Collections;
@@ -88,7 +89,8 @@ public class Railway {
         }
     }
 
-    private static final Map<ChunkCoord, RailChunkInfo> RAIL_INFO = Collections.synchronizedMap(new HashMap<>());
+    private static final PerformanceOptimizer.LRUCache<ChunkCoord, RailChunkInfo> RAIL_INFO = 
+        new PerformanceOptimizer.LRUCache<>("RailInfo");
 
     public static void cleanCache() {
         RAIL_INFO.clear();

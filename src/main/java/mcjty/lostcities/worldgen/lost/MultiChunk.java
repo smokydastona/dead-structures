@@ -7,6 +7,7 @@ import mcjty.lostcities.varia.ChunkCoord;
 import mcjty.lostcities.varia.Counter;
 import mcjty.lostcities.varia.Tools;
 import mcjty.lostcities.worldgen.IDimensionInfo;
+import mcjty.lostcities.worldgen.PerformanceOptimizer;
 import mcjty.lostcities.worldgen.lost.cityassets.AssetRegistries;
 import mcjty.lostcities.worldgen.lost.cityassets.Building;
 import mcjty.lostcities.worldgen.lost.cityassets.CityStyle;
@@ -26,7 +27,9 @@ public class MultiChunk {
     record MB(String name, int offsetX, int offsetZ) {}
 
     // Multichunks are indexed by the chunk coordinates divided by the area size
-    private static final Map<ChunkCoord, MultiChunk> MULTICHUNKS = Collections.synchronizedMap(new HashMap<>());
+    private static final PerformanceOptimizer.LRUCache<ChunkCoord, MultiChunk> MULTICHUNKS = 
+        new PerformanceOptimizer.LRUCache<>("MultiChunk");
+    
     public static void cleanCache() {
         MULTICHUNKS.clear();
     }
@@ -52,7 +55,13 @@ public class MultiChunk {
     public static synchronized MultiChunk getOrCreate(IDimensionInfo provider, ChunkCoord coord) {
         int areasize = provider.getWorldStyle().getMultiSettings().areasize();
         ChunkCoord mc = getMultiCoord(coord, areasize);
-        return MULTICHUNKS.computeIfAbsent(mc, k -> new MultiChunk(mc, areasize).calculateBuildings(provider));
+        MultiChunk existing = MULTICHUNKS.get(mc);
+        if (existing != null) {
+            return existing;
+        }
+        MultiChunk newChunk = new MultiChunk(mc, areasize).calculateBuildings(provider);
+        MULTICHUNKS.put(mc, newChunk);
+        return newChunk;
     }
 
     public MB getMultiBuilding(ChunkCoord coord) {
