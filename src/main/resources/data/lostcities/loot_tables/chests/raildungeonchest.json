@@ -1,7 +1,7 @@
 {
   "pools": [
     {
-      "name": "lostcities:raildungeonchest",
+      "name": "lostcities:raildungeonchest_equipment",
       "rolls": {
         "min": 2,
         "max": 4
@@ -17,9 +17,33 @@
                 "min": 0,
                 "max": 1
               }
+            },
+            {
+              "function": "enchant_randomly"
             }
           ],
           "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_pickaxe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.1,
+                "max": 0.6
+              }
+            }
+          ],
+          "weight": 4
         },
         {
           "type": "item",
@@ -76,6 +100,106 @@
             }
           ],
           "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:redstone",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 12
+              }
+            }
+          ],
+          "weight": 6
+        }
+      ]
+    },
+    {
+      "name": "lostcities:raildungeonchest_rails",
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:rail",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 32
+              }
+            }
+          ],
+          "weight": 8
+        },
+        {
+          "type": "item",
+          "name": "minecraft:powered_rail",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 16
+              }
+            }
+          ],
+          "weight": 6
+        },
+        {
+          "type": "item",
+          "name": "minecraft:minecart",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "name": "minecraft:chest_minecart",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "name": "lostcities:raildungeonchest_rare",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:golden_apple",
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:music_disc_cat",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond_horse_armor",
+          "weight": 2
+        },
+        {
+          "type": "empty",
+          "weight": 10
         }
       ]
     }
