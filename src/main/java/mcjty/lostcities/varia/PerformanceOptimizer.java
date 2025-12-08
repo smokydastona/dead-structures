@@ -7,6 +7,7 @@ import org.apache.logging.log4j.Logger;
 import java.lang.ref.SoftReference;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
 
 /**
@@ -120,13 +121,13 @@ public class PerformanceOptimizer {
          */
         public void cleanupStaleEntries() {
             long now = System.currentTimeMillis();
-            int removed = 0;
+            AtomicInteger removed = new AtomicInteger(0);
             
             // Remove stale entries
             cache.entrySet().removeIf(entry -> {
                 CacheEntry<V> cacheEntry = entry.getValue();
                 boolean shouldRemove = cacheEntry.get() == null || cacheEntry.isStale();
-                if (shouldRemove) removed++;
+                if (shouldRemove) removed.incrementAndGet();
                 return shouldRemove;
             });
             
@@ -140,14 +141,14 @@ public class PerformanceOptimizer {
                     .limit(cache.size() - MAX_CACHE_SIZE)
                     .forEach(entry -> {
                         cache.remove(entry.getKey());
-                        removed++;
+                        removed.incrementAndGet();
                     });
             }
             
-            if (removed > 0) {
-                cacheEvictions.addAndGet(removed);
+            if (removed.get() > 0) {
+                cacheEvictions.addAndGet(removed.get());
                 LOGGER.debug("Cleaned up {} cache: removed {} stale entries, {} remaining",
-                    cacheName, removed, cache.size());
+                    cacheName, removed.get(), cache.size());
             }
         }
     }
