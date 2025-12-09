@@ -182,7 +182,15 @@ public class ApocalypseStructurePlacer {
         StructurePlaceSettings settings = new StructurePlaceSettings()
                 .setRotation(rotation)
                 .setMirror(mirror)
-                .setRandom(random);
+                .setRandom(random)
+                .setKeepLiquids(false)
+                .addProcessor(SafeEntityProcessor.INSTANCE); // Prevent invalid entity placement below min height
+        
+        // Validate position is above minimum world height to prevent hanging entity errors
+        int minY = serverLevel.getMinBuildHeight();
+        if (pos.getY() < minY) {
+            pos = new BlockPos(pos.getX(), minY, pos.getZ());
+        }
         
         template.placeInWorld(serverLevel, pos, pos, settings, random, 2);
         return true;

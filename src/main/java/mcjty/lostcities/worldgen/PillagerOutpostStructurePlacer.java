@@ -166,7 +166,15 @@ public class PillagerOutpostStructurePlacer {
         StructurePlaceSettings settings = new StructurePlaceSettings()
                 .setRotation(rotation)
                 .setMirror(mirror)
-                .setRandom(random);
+                .setRandom(random)
+                .setKeepLiquids(false)
+                .addProcessor(SafeEntityProcessor.INSTANCE); // Prevent invalid entity placement below min height
+        
+        // Validate position is above minimum world height to prevent hanging entity errors
+        int minY = level.getMinBuildHeight();
+        if (pos.getY() < minY) {
+            pos = new BlockPos(pos.getX(), minY, pos.getZ());
+        }
         
         template.placeInWorld(level, pos, pos, settings, random, 2);
         return true;
