@@ -65,7 +65,7 @@ jobs:
           3. Restart server
           
           Commit: ${{ github.sha }}
-        files: build/libs/lostcities-${{ steps.version.outputs.VERSION }}.jar
+        files: build/libs/forgotten-cities-${{ steps.version.outputs.VERSION }}.jar
         draft: false
         prerelease: false
       env:
