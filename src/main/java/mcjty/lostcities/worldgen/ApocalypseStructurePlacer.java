@@ -179,20 +179,52 @@ public class ApocalypseStructurePlacer {
         Rotation rotation = Rotation.getRandom(random);
         Mirror mirror = random.nextBoolean() ? Mirror.NONE : Mirror.FRONT_BACK;
         
+        // Validate position is above minimum world height
+        int minY = serverLevel.getMinBuildHeight();
+        BlockPos finalPos = pos;
+        if (pos.getY() < minY) {
+            finalPos = new BlockPos(pos.getX(), minY, pos.getZ());
+        }
+        
         StructurePlaceSettings settings = new StructurePlaceSettings()
                 .setRotation(rotation)
                 .setMirror(mirror)
                 .setRandom(random)
-                .setKeepLiquids(false)
-                .addProcessor(SafeEntityProcessor.INSTANCE); // Prevent invalid entity placement below min height
+                .setKeepLiquids(false);
         
-        // Validate position is above minimum world height to prevent hanging entity errors
-        int minY = serverLevel.getMinBuildHeight();
-        if (pos.getY() < minY) {
-            pos = new BlockPos(pos.getX(), minY, pos.getZ());
+        // Filter entities from template to prevent hanging entities below minimum height
+        try {
+            java.lang.reflect.Field entitiesField = StructureTemplate.class.getDeclaredField("f_74554_"); // entityInfoList
+            entitiesField.setAccessible(true);
+            @SuppressWarnings("unchecked")
+            java.util.List<StructureTemplate.StructureEntityInfo> originalEntities = 
+                (java.util.List<StructureTemplate.StructureEntityInfo>) entitiesField.get(template);
+            
+            if (originalEntities != null && !originalEntities.isEmpty()) {
+                final BlockPos placementPos = finalPos;
+                final int minYFinal = minY;
+                // Filter entities that would be placed below minimum world height
+                java.util.List<StructureTemplate.StructureEntityInfo> filteredEntities = originalEntities.stream()
+                    .filter(entity -> {
+                        BlockPos entityWorldPos = StructureTemplate.calculateRelativePosition(settings, entity.blockPos).offset(placementPos);
+                        return entityWorldPos.getY() >= minYFinal;
+                    })
+                    .collect(java.util.stream.Collectors.toList());
+                
+                // Temporarily replace entities with filtered list
+                entitiesField.set(template, filteredEntities);
+                template.placeInWorld(serverLevel, placementPos, placementPos, settings, random, 2);
+                // Restore original entities
+                entitiesField.set(template, originalEntities);
+            } else {
+                template.placeInWorld(serverLevel, finalPos, finalPos, settings, random, 2);
+            }
+        } catch (Exception e) {
+            // If reflection fails, place normally (will still have hanging entity errors)
+            LostCities.LOGGER.warn("Failed to filter entities, placing structure normally: " + e.getMessage());
+            template.placeInWorld(serverLevel, finalPos, finalPos, settings, random, 2);
         }
         
-        template.placeInWorld(serverLevel, pos, pos, settings, random, 2);
         return true;
     }
     

@@ -10,8 +10,8 @@ import net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemp
 import org.jetbrains.annotations.Nullable;
 
 /**
- * Structure processor that prevents hanging entities (paintings, item frames)
- * from spawning below minimum world height, which causes "Hanging entity at invalid position" errors
+ * Structure processor that prevents blocks from spawning below minimum world height
+ * Note: Entity filtering is done via reflection in structure placers
  */
 public class SafeEntityProcessor extends StructureProcessor {
     
@@ -35,9 +35,8 @@ public class SafeEntityProcessor extends StructureProcessor {
         int minY = level.getMinBuildHeight();
         
         // If block would be placed below minimum height, skip it
-        // This prevents hanging entities from spawning at invalid positions
         if (finalPos.getY() < minY) {
-            return null; // Don't place this block
+            return null;
         }
         
         return blockInfoGlobal;
