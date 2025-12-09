@@ -2,6 +2,10 @@
   "blocks": [
     {
       "random": 10,
+      "block": "minecraft:quartz_block"
+    },
+    {
+      "random": 10,
       "block": "minecraft:quartz_bricks"
     },
     {

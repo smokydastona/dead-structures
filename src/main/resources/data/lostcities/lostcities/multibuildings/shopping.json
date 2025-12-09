@@ -3,12 +3,12 @@
   "dimz": 2,
   "buildings": [
     [
-      "shopping00",
-      "shopping01"
+      "lcmt:shopping/shopping00",
+      "lcmt:shopping/shopping01"
     ],
     [
-      "shopping10",
-      "shopping11"
+      "lcmt:shopping/shopping10",
+      "lcmt:shopping/shopping11"
     ]
   ]
 }

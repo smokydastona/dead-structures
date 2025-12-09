@@ -2,15 +2,7 @@
   "blocks": [
     {
       "random": 10,
-      "block": "minecraft:bricks"
-    },
-    {
-      "random": 10,
-      "block": "minecraft:brick_stairs"
-    },
-    {
-      "random": 10,
-      "block": "minecraft:brick_slab"
+      "block": "minecraft:red_concrete"
     },
     {
       "random": 1000,

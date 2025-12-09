@@ -47,6 +47,55 @@
     {
       "char": "i",
       "block": "minecraft:powered_rail[powered=true,shape=ascending_east]"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:ochre_froglight[axis=y]",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "O",
+      "block": "minecraft:sea_lantern",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:ochre_froglight[axis=z]",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "J",
+      "blocks": [
+        {
+          "random": 12,
+          "block": "minecraft:andesite"
+        },
+        {
+          "random": 1000,
+          "block": "minecraft:polished_andesite"
+        }
+      ],
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "I",
+      "block": "minecraft:cobbled_deepslate",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "U",
+      "block": "minecraft:quartz_pillar[axis=y]",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "M",
+      "block": "minecraft:chiseled_quartz_block",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "N",
+      "block": "minecraft:quartz_bricks",
+      "damaged": "minecraft:iron_bars"
     }
   ]
 }

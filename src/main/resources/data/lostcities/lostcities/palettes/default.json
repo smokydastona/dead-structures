@@ -45,17 +45,17 @@
     },
     {
       "char": "v",
-      "variant": "stonebrick",
+      "variant": "lcmt:stonebrick",
       "damaged": "minecraft:iron_bars"
     },
     {
       "char": "y",
-      "variant": "stonebrick",
+      "variant": "lcmt:stonebrick",
       "damaged": "minecraft:iron_bars"
     },
     {
       "char": "x",
-      "variant": "stonebrick",
+      "variant": "lcmt:stonebrick",
       "damaged": "minecraft:iron_bars"
     },
     {
@@ -68,7 +68,8 @@
     },
     {
       "char": "w",
-      "block": "minecraft:cobblestone_wall"
+      "variant": "lcmt:cobblestone_wall",
+      "damaged": "minecraft:iron_bars"
     },
     {
       "char": ":",
@@ -76,35 +77,27 @@
     },
     {
       "char": "A",
-      "block": "minecraft:stone_brick_stairs[facing=west,half=bottom,shape=straight]"
+      "block": "minecraft:stone_brick_stairs[facing=west,half=bottom,shape=straight]",
+      "damaged": "minecraft:cobblestone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "t",
-      "block": "minecraft:stone_brick_stairs[facing=east,half=bottom,shape=straight]"
+      "block": "minecraft:stone_brick_stairs[facing=east,half=bottom,shape=straight]",
+      "damaged": "minecraft:cobblestone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "z",
-      "block": "minecraft:stone_brick_stairs[facing=north,half=bottom,shape=straight]"
+      "block": "minecraft:stone_brick_stairs[facing=north,half=bottom,shape=straight]",
+      "damaged": "minecraft:cobblestone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "c",
-      "block": "minecraft:stone_brick_stairs[facing=south,half=bottom,shape=straight]"
+      "block": "minecraft:stone_brick_stairs[facing=south,half=bottom,shape=straight]",
+      "damaged": "minecraft:cobblestone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "d",
       "block": "minecraft:stone_brick_stairs[facing=north,half=top,shape=straight]"
-    },
-    {
-      "char": "(",
-      "block": "minecraft:quartz_stairs[facing=north,half=bottom,shape=straight]"
-    },
-    {
-      "char": ")",
-      "block": "minecraft:quartz_stairs[facing=south,half=bottom,shape=straight]"
-    },
-    {
-      "char": "/",
-      "block": "minecraft:stone_stairs[facing=west,half=bottom,shape=straight]"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "blocks": [
     {
       "random": 32,
-      "block": "minecraft:polished_blackstone_bricks"
+      "block": "minecraft:blackstone"
     },
     {
       "random": 32,
@@ -10,7 +10,7 @@
     },
     {
       "random": 1000,
-      "block": "minecraft:polished_blackstone"
+      "block": "minecraft:polished_blackstone_bricks"
     }
   ]
 }

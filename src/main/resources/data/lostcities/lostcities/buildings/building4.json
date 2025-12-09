@@ -4,31 +4,55 @@
   "parts": [
     {
       "top": false,
-      "part": "building4_1"
+      "part": "lcmt:building4/building4_1"
     },
     {
       "top": false,
-      "part": "building4_2"
+      "part": "lcmt:building4/building4_2"
     },
     {
       "top": false,
-      "part": "building4_3"
+      "part": "lcmt:building4/building4_3"
     },
     {
       "top": false,
-      "part": "building4_4"
+      "part": "lcmt:building4/building4_4"
     },
     {
       "top": true,
-      "part": "top4_1"
+      "part": "lcmt:building4/building4_top_empty"
     },
     {
       "top": true,
-      "part": "top4_2"
+      "part": "lcmt:building4/building4_top_1"
     },
     {
       "top": true,
-      "part": "top4_3"
+      "part": "lcmt:building4/building4_top_2"
+    },
+    {
+      "top": true,
+      "part": "lcmt:building4/building4_top_3"
+    },
+    {
+      "top": true,
+      "part": "lcmt:building4/building4_top_ex_1"
+    },
+    {
+      "top": true,
+      "part": "lcmt:building4/building4_top_ex_2"
+    },
+    {
+      "top": true,
+      "part": "lcmt:building4/building4_top_ex_3"
+    },
+    {
+      "top": true,
+      "part": "lcmt:building4/building4_top_ex_4"
+    },
+    {
+      "top": true,
+      "part": "lcmt:building4/building4_top_small_exit"
     }
   ]
 }

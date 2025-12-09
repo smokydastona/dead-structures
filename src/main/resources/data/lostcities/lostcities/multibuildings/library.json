@@ -3,12 +3,12 @@
   "dimz": 2,
   "buildings": [
     [
-      "library00",
-      "library01"
+      "lcmt:library/library00",
+      "lcmt:library/library01"
     ],
     [
-      "library10",
-      "library11"
+      "lcmt:library/library10",
+      "lcmt:library/library11"
     ]
   ]
 }

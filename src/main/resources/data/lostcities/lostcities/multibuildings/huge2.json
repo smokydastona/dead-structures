@@ -3,19 +3,19 @@
   "dimz": 3,
   "buildings": [
     [
-      "building5",
-      "building5",
-      "building5"
+      "lcmt:building5",
+      "lcmt:building5",
+      "lcmt:building5"
     ],
     [
-      "building5",
-      "building5",
-      "building5"
+      "lcmt:building5",
+      "lcmt:building5",
+      "lcmt:building5"
     ],
     [
-      "building5",
-      "building5",
-      "building5"
+      "lcmt:building5",
+      "lcmt:building5",
+      "lcmt:building5"
     ]
   ]
 }

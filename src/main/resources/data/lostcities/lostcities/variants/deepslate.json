@@ -1,8 +1,16 @@
 {
   "blocks": [
     {
-      "random": 32,
+      "random": 36,
       "block": "minecraft:cracked_deepslate_tiles"
+    },
+    {
+      "random": 16,
+      "block": "minecraft:cracked_deepslate_bricks"
+    },
+    {
+      "random": 24,
+      "block": "minecraft:deepslate_bricks"
     },
     {
       "random": 1000,

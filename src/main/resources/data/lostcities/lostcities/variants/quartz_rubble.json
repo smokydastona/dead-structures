@@ -9,8 +9,16 @@
       "block": "minecraft:quartz_stairs"
     },
     {
+      "random": 8,
+      "block": "minecraft:smooth_quartz_stairs"
+    },
+    {
       "random": 10,
       "block": "minecraft:quartz_slab"
+    },
+    {
+      "random": 10,
+      "block": "minecraft:smooth_quartz_slab"
     },
     {
       "random": 1000,

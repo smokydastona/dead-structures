@@ -1,12 +1,16 @@
 {
   "blocks": [
     {
-      "random": 9,
+      "random": 16,
       "block": "minecraft:cracked_stone_bricks"
     },
     {
-      "random": 8,
+      "random": 16,
       "block": "minecraft:mossy_stone_bricks"
+    },
+    {
+      "random": 12,
+      "block": "minecraft:stone"
     },
     {
       "random": 1000,

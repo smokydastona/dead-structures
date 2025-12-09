@@ -53,7 +53,7 @@
       "blocks": [
         {
           "random": 32,
-          "block": "minecraft:glass"
+          "block": "minecraft:light_gray_stained_glass"
         },
         {
           "random": 32,
@@ -96,7 +96,8 @@
           "random": 1000,
           "block": "minecraft:acacia_sapling[stage=1]"
         }
-      ]
+      ],
+      "damaged": "minecraft:dead_bush"
     },
     {
       "char": "K",
@@ -109,7 +110,8 @@
           "random": 1000,
           "block": "minecraft:dandelion"
         }
-      ]
+      ],
+      "damaged": "minecraft:dead_bush"
     },
     {
       "char": "!",
@@ -187,10 +189,6 @@
       "block": "minecraft:chain"
     },
     {
-      "char": "*",
-      "block": "minecraft:potted_cactus"
-    },
-    {
       "char": "l",
       "block": "minecraft:ladder[facing=north]"
     },
@@ -204,7 +202,8 @@
     },
     {
       "char": "L",
-      "block": "minecraft:bookshelf"
+      "block": "minecraft:bookshelf",
+      "damaged": "minecraft:oak_fence"
     },
     {
       "char": "W",
@@ -230,6 +229,87 @@
     {
       "char": "~",
       "block": "minecraft:structure_void"
+    },
+    {
+      "char": "/",
+      "variant": "lcmt:stone_stairs_bottom_west",
+      "damaged": "minecraft:cobblestone_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "(",
+      "block": "minecraft:quartz_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+      "damaged": "minecraft:quartz_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": ")",
+      "block": "minecraft:quartz_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+      "damaged": "minecraft:quartz_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "[",
+      "block": "minecraft:quartz_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+      "damaged": "minecraft:quartz_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "]",
+      "block": "minecraft:quartz_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+      "damaged": "minecraft:quartz_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "2",
+      "block": "minecraft:quartz_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "|",
+      "block": "minecraft:potted_dead_bush"
+    },
+    {
+      "char": "i",
+      "variant": "lcmt:azalea_leaves"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:quartz_pillar[axis=y]",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:quartz_bricks",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "^",
+      "blocks": [
+        {
+          "random": 32,
+          "block": "minecraft:candle[candles=1,lit=false,waterlogged=false]"
+        },
+        {
+          "random": 32,
+          "block": "minecraft:candle[candles=2,lit=false,waterlogged=false]"
+        },
+        {
+          "random": 32,
+          "block": "minecraft:candle[candles=3,lit=false,waterlogged=false]"
+        },
+        {
+          "random": 1000,
+          "block": "minecraft:candle[candles=4,lit=false,waterlogged=false]"
+        }
+      ]
+    },
+    {
+      "char": "≈",
+      "variant": "lcmt:coral_dry"
+    },
+    {
+      "char": "≡",
+      "variant": "lcmt:seabed"
+    },
+    {
+      "char": "§",
+      "block": "minecraft:chiseled_stone_bricks",
+      "damaged": "minecraft:iron_bars"
     }
   ]
 }
