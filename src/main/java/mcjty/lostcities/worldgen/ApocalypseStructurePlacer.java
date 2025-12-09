@@ -104,7 +104,11 @@ public class ApocalypseStructurePlacer {
      */
     public static boolean placeSkyscraper(ServerLevelAccessor level, BlockPos pos, RandomSource random) {
         String structurePath = selectFromPool(SKYSCRAPERS, random);
-        return structurePath != null && placeStructure(level, structurePath, pos, random);
+        boolean placed = structurePath != null && placeStructure(level, structurePath, pos, random);
+        if (placed && level instanceof net.minecraft.server.level.ServerLevel serverLevel) {
+            initializeHauntedBuilding(serverLevel, pos.getX() >> 4, pos.getZ() >> 4, random);
+        }
+        return placed;
     }
     
     /**
@@ -112,7 +116,11 @@ public class ApocalypseStructurePlacer {
      */
     public static boolean placeHouse(ServerLevelAccessor level, BlockPos pos, RandomSource random) {
         String structurePath = selectFromPool(HOUSES, random);
-        return structurePath != null && placeStructure(level, structurePath, pos, random);
+        boolean placed = structurePath != null && placeStructure(level, structurePath, pos, random);
+        if (placed && level instanceof net.minecraft.server.level.ServerLevel serverLevel) {
+            initializeHauntedBuilding(serverLevel, pos.getX() >> 4, pos.getZ() >> 4, random);
+        }
+        return placed;
     }
     
     /**
@@ -120,7 +128,11 @@ public class ApocalypseStructurePlacer {
      */
     public static boolean placeCountryStructure(ServerLevelAccessor level, BlockPos pos, RandomSource random) {
         String structurePath = selectFromPool(COUNTRY_STRUCTURES, random);
-        return structurePath != null && placeStructure(level, structurePath, pos, random);
+        boolean placed = structurePath != null && placeStructure(level, structurePath, pos, random);
+        if (placed && level instanceof net.minecraft.server.level.ServerLevel serverLevel) {
+            initializeHauntedBuilding(serverLevel, pos.getX() >> 4, pos.getZ() >> 4, random);
+        }
+        return placed;
     }
     
     /**
@@ -128,7 +140,11 @@ public class ApocalypseStructurePlacer {
      */
     public static boolean placeRoadsideStructure(ServerLevelAccessor level, BlockPos pos, RandomSource random) {
         String structurePath = selectFromPool(ROADSIDE_STRUCTURES, random);
-        return structurePath != null && placeStructure(level, structurePath, pos, random);
+        boolean placed = structurePath != null && placeStructure(level, structurePath, pos, random);
+        if (placed && level instanceof net.minecraft.server.level.ServerLevel serverLevel) {
+            initializeHauntedBuilding(serverLevel, pos.getX() >> 4, pos.getZ() >> 4, random);
+        }
+        return placed;
     }
     
     /**
@@ -136,7 +152,11 @@ public class ApocalypseStructurePlacer {
      */
     public static boolean placeSpecialStructure(ServerLevelAccessor level, BlockPos pos, RandomSource random) {
         String structurePath = selectFromPool(SPECIAL_STRUCTURES, random);
-        return structurePath != null && placeStructure(level, structurePath, pos, random);
+        boolean placed = structurePath != null && placeStructure(level, structurePath, pos, random);
+        if (placed && level instanceof net.minecraft.server.level.ServerLevel serverLevel) {
+            initializeHauntedBuilding(serverLevel, pos.getX() >> 4, pos.getZ() >> 4, random);
+        }
+        return placed;
     }
     
     /**
@@ -178,6 +198,15 @@ public class ApocalypseStructurePlacer {
             LostCities.LOGGER.error("Failed to load apocalypse structure template: " + location, e);
             return null;
         }
+    }
+    
+    /**
+     * Initialize a haunted building system for placed structure
+     */
+    private static void initializeHauntedBuilding(net.minecraft.server.level.ServerLevel level, 
+                                                   int chunkX, int chunkZ, RandomSource random) {
+        HauntedBuildingHandler handler = HauntedBuildingHandler.get(level);
+        handler.initializeHauntedBuilding(chunkX, chunkZ, random);
     }
     
     /**
