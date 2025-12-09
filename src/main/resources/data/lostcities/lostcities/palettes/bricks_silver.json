@@ -2,22 +2,22 @@
   "palette": [
     {
       "char": "X",
-      "block": "minecraft:light_gray_terracotta",
+      "variant": "pomkotsmechs:brownlightblock",
       "damaged": "minecraft:iron_bars"
     },
     {
       "char": "$",
-      "block": "minecraft:brown_terracotta",
+      "variant": "pomkotsmechs:brownblock",
       "damaged": "minecraft:iron_bars"
     },
     {
       "char": "#",
-      "block": "minecraft:light_gray_terracotta",
+      "variant": "pomkotsmechs:brownlightblock",
       "damaged": "minecraft:iron_bars"
     },
     {
       "char": "}",
-      "block": "minecraft:light_gray_terracotta",
+      "variant": "pomkotsmechs:brownlightblock",
       "damaged": "minecraft:iron_bars"
     }
   ]

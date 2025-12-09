@@ -16,18 +16,35 @@ You are working on **Forgotten Cities**, a Minecraft 1.20.1 Forge mod (formerly 
 - **`varia/PerformanceOptimizer.java`** - LRU caches for chunk data, BlockState pooling
 
 ### Data-Driven Generation (JSON-based)
-All in `src/main/resources/data/lostcities/lostcities/`:
-- **`buildings/`** - Building type definitions (factories, libraries, shopping centers, townhalls)
-- **`parts/`** - Reusable structure components (floors, interiors, facades, rooftops)
-- **`palettes/`** - Block palette definitions (modern materials: concrete, deepslate, tuff, mud bricks)
-- **`styles/`** - City appearance styles (standard, desert, jungle, snowy, BOP variants)
+All in `src/main/resources/data/lostcities/lostcities/` (5,873+ files):
+- **`buildings/`** - Building type definitions with 12 categories:
+  - `base/` - Military bases (aircraft hangars, missile launchers, space shuttles, control towers)
+  - `center/` - City centers and commercial districts
+  - `factory/` - Industrial complexes and manufacturing facilities
+  - `library/` - Public libraries and educational buildings
+  - `megasolar/` - Large-scale solar power installations
+  - `offshore/` - Oil platforms and offshore structures
+  - `port/` - Harbor facilities and dock buildings
+  - `quarry/` - Mining operations and excavation sites
+  - `scattered/` - Random scattered structures
+  - `ships/` - Naval vessels and maritime structures
+  - `shopping/` - Shopping centers and retail complexes
+  - `townhall/` - Government and municipal buildings
+- **`parts/`** - 4,000+ reusable structure components (floors, interiors, facades, rooftops, industrial equipment)
+- **`palettes/`** - Block palette definitions (modern materials: concrete, deepslate, tuff, mud bricks, industrial blocks)
+- **`styles/`** - City appearance styles (standard, desert, jungle, snowy, BOP variants, military, industrial)
 - **`citystyles/`** - Complete city generation presets combining palettes and buildings
-- **`loot_tables/`** - Custom loot (vending machines, office supplies, factory components)
+- **`multibuildings/`** - Large multi-chunk structures (bases, factories, ports)
+- **`scattered/`** - Scattered decoration objects
+- **`variants/`** - Building variants and alternatives
+- **`worldstyles/`** - World-level generation rules
+- **`loot_tables/`** - Custom loot (vending machines, office supplies, factory components, military gear, apocalypse loot)
 
 ### Key Integrations
 - **Lootr (optional)** - Per-player loot chests (automatically converts vanilla chests w/ loot tables)
 - **BOP (optional)** - Enhanced palettes and biome-specific city styles (cherry, wasteland)
 - **Modern Tweaks** - Integrated modern building content (factories, data centers, monorails, shopping malls)
+- **Pomkots World** - Massive content pack (4,898 files): military bases, ships, offshore platforms, quarries, mega solar farms
 
 ## Critical Development Patterns
 

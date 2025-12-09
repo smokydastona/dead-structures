@@ -7,17 +7,17 @@
     },
     {
       "char": "$",
-      "block": "minecraft:smooth_stone_slab[type=double]",
+      "block": "minecraft:stone_slab[type=double]",
       "damaged": "minecraft:iron_bars"
     },
     {
       "char": "#",
-      "variant": "stonebrick",
+      "variant": "pomkotsmechs:stonebrick",
       "damaged": "minecraft:iron_bars"
     },
     {
       "char": "}",
-      "variant": "stonebrick_rubble",
+      "variant": "pomkotsmechs:stonebrick",
       "damaged": "minecraft:iron_bars"
     }
   ]
