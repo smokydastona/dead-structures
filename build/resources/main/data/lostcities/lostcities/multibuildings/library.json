@@ -1,0 +1,14 @@
+{
+  "dimx": 2,
+  "dimz": 2,
+  "buildings": [
+    [
+      "lostcities:library/library00",
+      "lostcities:library/library01"
+    ],
+    [
+      "lostcities:library/library10",
+      "lostcities:library/library11"
+    ]
+  ]
+}

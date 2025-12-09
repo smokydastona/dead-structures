@@ -1,0 +1,14 @@
+{
+  "dimx": 2,
+  "dimz": 2,
+  "buildings": [
+    [
+      "lostcities:scattered/scattered_radiotower00",
+      "lostcities:scattered/scattered_radiotower01"
+    ],
+    [
+      "lostcities:scattered/scattered_radiotower10",
+      "lostcities:scattered/scattered_radiotower11"
+    ]
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "dimx": 1,
+  "dimz": 2,
+  "buildings": [
+    [
+      "lostcities:quarry/quarry_dump_s00",
+      "lostcities:quarry/quarry_dump_s01"
+    ]
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "dimx": 1,
+  "dimz": 3,
+  "buildings": [
+    [
+      "lostcities:scattered/wind_mill00",
+      "lostcities:scattered/wind_mill01",
+      "lostcities:scattered/wind_mill02"
+    ]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "dimx": 3,
+  "dimz": 6,
+  "buildings": [
+    [
+      "lostcities:factory/factory_building_sub00",
+      "lostcities:factory/factory_building_sub01",
+      "lostcities:factory/factory_building_sub02",
+      "lostcities:factory/factory_building_sub03",
+      "lostcities:factory/factory_building_sub04",
+      "lostcities:factory/factory_building_sub05"
+    ],
+    [
+      "lostcities:factory/factory_building_sub10",
+      "lostcities:factory/factory_building_sub11",
+      "lostcities:factory/factory_building_sub12",
+      "lostcities:factory/factory_building_sub13",
+      "lostcities:factory/factory_building_sub14",
+      "lostcities:factory/factory_building_sub15"
+    ],
+    [
+      "lostcities:factory/factory_building_sub20",
+      "lostcities:factory/factory_building_sub21",
+      "lostcities:factory/factory_building_sub22",
+      "lostcities:factory/factory_building_sub23",
+      "lostcities:factory/factory_building_sub24",
+      "lostcities:factory/factory_building_sub25"
+    ]
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "dimx": 3,
+  "dimz": 4,
+  "buildings": [
+    [
+      "lostcities:base/base_space_shuttle00",
+      "lostcities:base/base_space_shuttle01",
+      "lostcities:base/base_space_shuttle02",
+      "lostcities:base/base_space_shuttle03"
+    ],
+    [
+      "lostcities:base/base_space_shuttle10",
+      "lostcities:base/base_space_shuttle11",
+      "lostcities:base/base_space_shuttle12",
+      "lostcities:base/base_space_shuttle13"
+    ],
+    [
+      "lostcities:base/base_space_shuttle20",
+      "lostcities:base/base_space_shuttle21",
+      "lostcities:base/base_space_shuttle22",
+      "lostcities:base/base_space_shuttle23"
+    ]
+  ]
+}

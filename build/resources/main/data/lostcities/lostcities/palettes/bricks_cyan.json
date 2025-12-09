@@ -1,0 +1,24 @@
+{
+  "palette": [
+    {
+      "char": "X",
+      "variant": "lostcities:cyanblock",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "$",
+      "variant": "lostcities:blackblock",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "#",
+      "variant": "lostcities:cyanblock",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "}",
+      "variant": "lostcities:cyanblock",
+      "damaged": "minecraft:iron_bars"
+    }
+  ]
+}

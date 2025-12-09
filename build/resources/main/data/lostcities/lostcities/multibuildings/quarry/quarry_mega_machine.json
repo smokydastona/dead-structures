@@ -1,0 +1,20 @@
+{
+  "dimx": 2,
+  "dimz": 5,
+  "buildings": [
+    [
+      "lostcities:quarry/quarry_mega_machine00",
+      "lostcities:quarry/quarry_mega_machine01",
+      "lostcities:quarry/quarry_mega_machine02",
+      "lostcities:quarry/quarry_mega_machine03",
+      "lostcities:quarry/quarry_mega_machine04"
+    ],
+    [
+      "lostcities:quarry/quarry_mega_machine10",
+      "lostcities:quarry/quarry_mega_machine11",
+      "lostcities:quarry/quarry_mega_machine12",
+      "lostcities:quarry/quarry_mega_machine13",
+      "lostcities:quarry/quarry_mega_machine14"
+    ]
+  ]
+}

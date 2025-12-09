@@ -1,0 +1,14 @@
+{
+  "dimx": 2,
+  "dimz": 2,
+  "buildings": [
+    [
+      "lostcities:scattered/scattered_watertank00",
+      "lostcities:scattered/scattered_watertank01"
+    ],
+    [
+      "lostcities:scattered/scattered_watertank10",
+      "lostcities:scattered/scattered_watertank11"
+    ]
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "dimx": 3,
+  "dimz": 3,
+  "buildings": [
+    [
+      "lostcities:megasolar/megasolar_reactor00",
+      "lostcities:megasolar/megasolar_reactor01",
+      "lostcities:megasolar/megasolar_reactor02"
+    ],
+    [
+      "lostcities:megasolar/megasolar_reactor10",
+      "lostcities:megasolar/megasolar_reactor11",
+      "lostcities:megasolar/megasolar_reactor12"
+    ],
+    [
+      "lostcities:megasolar/megasolar_reactor20",
+      "lostcities:megasolar/megasolar_reactor21",
+      "lostcities:megasolar/megasolar_reactor22"
+    ]
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "_comment": "Example citystyle that mixes vanilla and BOP palettes for diverse cities",
+  "styles": [
+    {
+      "factor": 3.0,
+      "style": "lostcities:standard"
+    },
+    {
+      "factor": 1.0,
+      "style": "lostcities:bop_cherry"
+    },
+    {
+      "factor": 1.0,
+      "style": "lostcities:bop_wasteland"
+    }
+  ]
+}

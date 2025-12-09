@@ -1,0 +1,30 @@
+{
+  "dimx": 3,
+  "dimz": 6,
+  "buildings": [
+    [
+      "lostcities:port/port_tanker_small00",
+      "lostcities:port/port_tanker_small01",
+      "lostcities:port/port_tanker_small02",
+      "lostcities:port/port_tanker_small03",
+      "lostcities:port/port_tanker_small04",
+      "lostcities:port/port_tanker_small05"
+    ],
+    [
+      "lostcities:port/port_tanker_small10",
+      "lostcities:port/port_tanker_small11",
+      "lostcities:port/port_tanker_small12",
+      "lostcities:port/port_tanker_small13",
+      "lostcities:port/port_tanker_small14",
+      "lostcities:port/port_tanker_small15"
+    ],
+    [
+      "lostcities:port/port_tanker_small20",
+      "lostcities:port/port_tanker_small21",
+      "lostcities:port/port_tanker_small22",
+      "lostcities:port/port_tanker_small23",
+      "lostcities:port/port_tanker_small24",
+      "lostcities:port/port_tanker_small25"
+    ]
+  ]
+}

@@ -1,0 +1,113 @@
+{
+    "type": "chest",
+     "pools": [
+      {
+        "rolls": 2,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+             {
+               "function": "minecraft:set_count",
+               "count": {
+                 "min": 30,
+                 "max": 64,
+                 "type": "minecraft:uniform"
+               }
+             },
+             {
+                "function": "set_nbt",
+                "tag": "{display: {Italics: 0b, Name: '{\"text\":\"Paper Towel\", \"italic\":\"false\"}'}}"
+            }
+           ],
+           "name": "minecraft:paper"
+         }
+      ]
+     },
+      {
+        "rolls": 4,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+             {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects: [{Duration: 200, Id: 5, Amplifier: 4}, {Duration: 200, Id: 20, Amplifier: 2}], CustomPotionColor: 16711680, display: {Name: '{\"text\":\"Concentrated Red Vinegar\", \"italic\":\"false\"}'}}"
+            }
+           ],
+           "name": "minecraft:potion"
+         },
+         {
+          "type": "minecraft:item",
+          "functions": [
+           {
+            "function": "set_nbt",
+            "tag": "{CustomPotionEffects: [{Duration: 1000, Id: 15, Amplifier: 10}, {Duration: 1000, Id: 19, Amplifier: 2}], CustomPotionColor: 255, display: {Italics: 0b, Name: '{\"text\":\"Toilet Cleaner\", \"italic\":\"false\"}'}}"
+          }
+         ],
+         "name": "minecraft:splash_potion"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+           {
+            "function": "set_nbt",
+            "tag": "{CustomPotionEffects: [{Duration: 200, Id: 17, Amplifier: 0}], CustomPotionColor: 13158500, display: {Italics: 0b, Name: '{\"text\":\"Cookiedough Air Freshener\", \"italic\":\"false\"}'}}"
+          }
+         ],
+         "name": "minecraft:lingering_potion"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+           {
+            "function": "set_nbt",
+            "tag": "{CustomPotionEffects: [{Duration: 2000, Id: 18, Amplifier: 0},{Duration: 2000, Id: 19, Amplifier: 0}], CustomPotionColor: 16777215, display: {Italics: 0b, Name: '{\"text\":\"Stain Remover\", \"italic\":\"false\"}'}}"
+          }
+         ],
+         "name": "minecraft:lingering_potion"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+           {
+            "function": "set_nbt",
+            "tag": "{CustomPotionEffects: [{Duration: 1000, Id: 17, Amplifier: 2},{Duration: 700, Id: 18, Amplifier: 10}, {Duration: 1100, Id: 9, Amplifier: 127}], CustomPotionColor: 25600, display: {Italics: 0b, Name: '{\"text\":\"Weed Killer\", \"italic\":\"false\"}'}}"
+          }
+         ],
+         "name": "minecraft:lingering_potion"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+           {
+            "function": "set_nbt",
+            "tag": "{CustomPotionEffects: [{Duration: 50, Id: 24, Amplifier: 0}, {Duration: 1000, Id: 19, Amplifier: 0}], CustomPotionColor: 7452847, display: {Italics: 0b, Name: '{\"text\":\"Cleaning Product\", \"italic\":\"false\"}'}}"
+          }
+         ],
+         "name": "minecraft:splash_potion"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+           {
+            "function": "set_nbt",
+            "tag": "{CustomPotionEffects: [{Duration: 1000, Id: 2, Amplifier: 10}, {Duration: 1000, Id: 15, Amplifier: 2}, {Duration: 1000, Id: 18, Amplifier: 127}, {Duration: 1000, Id: 4, Amplifier: 128}], CustomPotionColor: 0, display: {Italics: 0b, Name: '{\"text\":\"Keep Out of Reach of Children\", \"italic\":\"false\"}'}}"
+          }
+         ],
+         "name": "minecraft:splash_potion"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+           {
+            "function": "set_nbt",
+            "tag": "{CustomPotionEffects: [{Duration: 1000, Id: 10, Amplifier: 127}, {Duration: 1000, Id: 6, Amplifier: 128}], CustomPotionColor: 7452847, display: {Italics: 0b, Name: '{\"text\":\"Penicillin\", \"italic\":\"false\"}'}}"
+          }
+         ],
+         "name": "minecraft:splash_potion"
+        }
+        ]
+     }
+   ]
+  }

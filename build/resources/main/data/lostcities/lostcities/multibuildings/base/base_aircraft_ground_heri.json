@@ -1,0 +1,14 @@
+{
+  "dimx": 2,
+  "dimz": 2,
+  "buildings": [
+    [
+      "lostcities:base/base_aircraft_ground_heri00",
+      "lostcities:base/base_aircraft_ground_heri01"
+    ],
+    [
+      "lostcities:base/base_aircraft_ground_heri10",
+      "lostcities:base/base_aircraft_ground_heri11"
+    ]
+  ]
+}

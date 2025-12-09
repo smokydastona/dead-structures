@@ -1,0 +1,14 @@
+{
+  "dimx": 2,
+  "dimz": 2,
+  "buildings": [
+    [
+      "lostcities:building4",
+      "lostcities:building4"
+    ],
+    [
+      "lostcities:building4",
+      "lostcities:building4"
+    ]
+  ]
+}

@@ -22,10 +22,14 @@ public class PerformanceOptimizer {
     private static final AtomicLong cacheMisses = new AtomicLong(0);
     private static final AtomicLong cacheEvictions = new AtomicLong(0);
     
-    // Cache configuration
+    // Cache configuration - compatible with ModernFix and FerriteCore
     private static final int MAX_CACHE_SIZE = 8192; // Maximum cached chunks
     private static final int CLEANUP_THRESHOLD = 6144; // When to start cleanup (75%)
     private static final long CACHE_RETENTION_TIME = 60000; // 1 minute in milliseconds
+    
+    // Performance monitoring
+    private static volatile boolean performanceMode = false;
+    private static final AtomicInteger activeChunks = new AtomicInteger(0);
     
     /**
      * Soft reference cache entry with timestamp for LRU eviction
@@ -227,5 +231,36 @@ public class PerformanceOptimizer {
         LOGGER.info(getCacheStats());
         BlockStatePool.clear();
         resetStats();
+    }
+    
+    /**
+     * Enable performance mode - reduces cache sizes and increases cleanup frequency
+     * Useful for servers with limited resources or when running with ModernFix
+     */
+    public static void enablePerformanceMode() {
+        performanceMode = true;
+        LOGGER.info("Performance mode enabled - aggressive caching disabled");
+    }
+    
+    /**
+     * Check if performance mode is active
+     */
+    public static boolean isPerformanceMode() {
+        return performanceMode;
+    }
+    
+    /**
+     * Track active chunks for Dynamic View compatibility
+     */
+    public static void registerActiveChunk() {
+        activeChunks.incrementAndGet();
+    }
+    
+    public static void unregisterActiveChunk() {
+        activeChunks.decrementAndGet();
+    }
+    
+    public static int getActiveChunkCount() {
+        return activeChunks.get();
     }
 }

@@ -1,0 +1,24 @@
+{
+  "dimx": 3,
+  "dimz": 4,
+  "buildings": [
+    [
+      "lostcities:scattered/scattered_farmland00",
+      "lostcities:scattered/scattered_farmland01",
+      "lostcities:scattered/scattered_farmland02",
+      "lostcities:scattered/scattered_farmland03"
+    ],
+    [
+      "lostcities:scattered/scattered_farmland10",
+      "lostcities:scattered/scattered_farmland11",
+      "lostcities:scattered/scattered_farmland12",
+      "lostcities:scattered/scattered_farmland13"
+    ],
+    [
+      "lostcities:scattered/scattered_farmland20",
+      "lostcities:scattered/scattered_farmland21",
+      "lostcities:scattered/scattered_farmland22",
+      "lostcities:scattered/scattered_farmland23"
+    ]
+  ]
+}

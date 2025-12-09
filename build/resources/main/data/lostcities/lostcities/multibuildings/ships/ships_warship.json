@@ -1,0 +1,34 @@
+{
+  "dimx": 2,
+  "dimz": 12,
+  "buildings": [
+    [
+      "lostcities:ships/ships_warship00",
+      "lostcities:ships/ships_warship01",
+      "lostcities:ships/ships_warship02",
+      "lostcities:ships/ships_warship03",
+      "lostcities:ships/ships_warship04",
+      "lostcities:ships/ships_warship05",
+      "lostcities:ships/ships_warship06",
+      "lostcities:ships/ships_warship07",
+      "lostcities:ships/ships_warship08",
+      "lostcities:ships/ships_warship09",
+      "lostcities:ships/ships_warship010",
+      "lostcities:ships/ships_warship011"
+    ],
+    [
+      "lostcities:ships/ships_warship10",
+      "lostcities:ships/ships_warship11",
+      "lostcities:ships/ships_warship12",
+      "lostcities:ships/ships_warship13",
+      "lostcities:ships/ships_warship14",
+      "lostcities:ships/ships_warship15",
+      "lostcities:ships/ships_warship16",
+      "lostcities:ships/ships_warship17",
+      "lostcities:ships/ships_warship18",
+      "lostcities:ships/ships_warship19",
+      "lostcities:ships/ships_warship110",
+      "lostcities:ships/ships_warship111"
+    ]
+  ]
+}

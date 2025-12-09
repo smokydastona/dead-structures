@@ -1,0 +1,54 @@
+{
+  "dimx": 6,
+  "dimz": 6,
+  "buildings": [
+    [
+      "lostcities:megasolar/megasolar_cell",
+      "lostcities:megasolar/megasolar_cell",
+      "lostcities:megasolar/megasolar_cell",
+      "lostcities:megasolar/megasolar_cell",
+      "lostcities:megasolar/megasolar_cell",
+      "lostcities:megasolar/megasolar_cell"
+    ],
+    [
+      "lostcities:megasolar/megasolar_cell",
+      "lostcities:megasolar/megasolar_cell",
+      "lostcities:megasolar/megasolar_cell",
+      "lostcities:megasolar/megasolar_cell",
+      "lostcities:megasolar/megasolar_cell",
+      "lostcities:megasolar/megasolar_cell"
+    ],
+    [
+      "lostcities:megasolar/megasolar_cell",
+      "lostcities:megasolar/megasolar_cell",
+      "lostcities:megasolar/megasolar_cell",
+      "lostcities:megasolar/megasolar_cell",
+      "lostcities:megasolar/megasolar_cell",
+      "lostcities:megasolar/megasolar_cell"
+    ],
+    [
+      "lostcities:megasolar/megasolar_cell",
+      "lostcities:megasolar/megasolar_cell",
+      "lostcities:megasolar/megasolar_cell",
+      "lostcities:megasolar/megasolar_cell",
+      "lostcities:megasolar/megasolar_cell",
+      "lostcities:megasolar/megasolar_cell"
+    ],
+    [
+      "lostcities:megasolar/megasolar_cell",
+      "lostcities:megasolar/megasolar_cell",
+      "lostcities:megasolar/megasolar_cell",
+      "lostcities:megasolar/megasolar_cell",
+      "lostcities:megasolar/megasolar_cell",
+      "lostcities:megasolar/megasolar_cell"
+    ],
+    [
+      "lostcities:megasolar/megasolar_cell",
+      "lostcities:megasolar/megasolar_cell",
+      "lostcities:megasolar/megasolar_cell",
+      "lostcities:megasolar/megasolar_cell",
+      "lostcities:megasolar/megasolar_cell",
+      "lostcities:megasolar/megasolar_cell"
+    ]
+  ]
+}

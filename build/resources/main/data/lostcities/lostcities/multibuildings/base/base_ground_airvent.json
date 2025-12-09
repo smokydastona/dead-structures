@@ -1,0 +1,13 @@
+{
+  "dimx": 1,
+  "dimz": 5,
+  "buildings": [
+    [
+      "lostcities:base/base_airvent",
+      "lostcities:base/base_airvent",
+      "lostcities:base/base_airvent",
+      "lostcities:base/base_airvent",
+      "lostcities:base/base_airvent"
+    ]
+  ]
+}

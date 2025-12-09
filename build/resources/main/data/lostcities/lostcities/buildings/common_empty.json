@@ -1,0 +1,21 @@
+{
+  "filler": "#",
+  "rubble": "}",
+  "allowDoors": false,
+  "maxcellars": 0,
+  "parts": [
+    {
+      "floor": 0,
+      "top": false,
+      "part": "lostcities:base/base_ground_empty_0"
+    },
+    {
+      "top": false,
+      "part": "lostcities:common_empty"
+    },
+    {
+      "top": true,
+      "part": "lostcities:common_empty"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "values": [
+    {
+      "factor": 1,
+      "value": "lostcities:chests/shopping_food_basic",
+      "inpart": [
+        "lostcities:shopping/shopping01_3p_in_bar_1a",
+        "lostcities:shopping/shopping01_3p_in_bar_1b",
+        "lostcities:shopping/shopping01_3p_in_bar_1c"
+      ]
+    },
+    {
+      "factor": 1,
+      "value": "lostcities:chests/shopping_valuables",
+      "inpart": [
+        "lostcities:shopping/shopping11_2p_in_cashier",
+        "lostcities:shopping/shopping01_0_in_info_desk_alt"
+      ]
+    },
+    {
+      "factor": 1,
+      "value": "lostcities:chests/shopping_vending_machine",
+      "inpart": [
+        "lostcities:shopping/shopping11_2p_in_vending_machine",
+        "lostcities:shopping/shopping01_2_in_vending_machine",
+        "lostcities:shopping/shopping_open01_2_in_vending_machines"
+      ]
+    }
+  ]
+}

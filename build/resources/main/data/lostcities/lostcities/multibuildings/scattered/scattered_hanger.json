@@ -1,0 +1,56 @@
+{
+  "dimx": 5,
+  "dimz": 8,
+  "buildings": [
+    [
+      "lostcities:scattered/scattered_hanger00",
+      "lostcities:scattered/scattered_hanger01",
+      "lostcities:scattered/scattered_hanger02",
+      "lostcities:scattered/scattered_hanger03",
+      "lostcities:scattered/scattered_hanger04",
+      "lostcities:scattered/scattered_hanger05",
+      "lostcities:scattered/scattered_hanger06",
+      "lostcities:scattered/scattered_hanger07"
+    ],
+    [
+      "lostcities:scattered/scattered_hanger10",
+      "lostcities:scattered/scattered_hanger11",
+      "lostcities:scattered/scattered_hanger12",
+      "lostcities:scattered/scattered_hanger13",
+      "lostcities:scattered/scattered_hanger14",
+      "lostcities:scattered/scattered_hanger15",
+      "lostcities:scattered/scattered_hanger16",
+      "lostcities:scattered/scattered_hanger17"
+    ],
+    [
+      "lostcities:scattered/scattered_hanger20",
+      "lostcities:scattered/scattered_hanger21",
+      "lostcities:scattered/scattered_hanger22",
+      "lostcities:scattered/scattered_hanger23",
+      "lostcities:scattered/scattered_hanger24",
+      "lostcities:scattered/scattered_hanger25",
+      "lostcities:scattered/scattered_hanger26",
+      "lostcities:scattered/scattered_hanger27"
+    ],
+    [
+      "lostcities:scattered/scattered_hanger30",
+      "lostcities:scattered/scattered_hanger31",
+      "lostcities:scattered/scattered_hanger32",
+      "lostcities:scattered/scattered_hanger33",
+      "lostcities:scattered/scattered_hanger34",
+      "lostcities:scattered/scattered_hanger35",
+      "lostcities:scattered/scattered_hanger36",
+      "lostcities:scattered/scattered_hanger37"
+    ],
+    [
+      "lostcities:scattered/scattered_hanger40",
+      "lostcities:scattered/scattered_hanger41",
+      "lostcities:scattered/scattered_hanger42",
+      "lostcities:scattered/scattered_hanger43",
+      "lostcities:scattered/scattered_hanger44",
+      "lostcities:scattered/scattered_hanger45",
+      "lostcities:scattered/scattered_hanger46",
+      "lostcities:scattered/scattered_hanger47"
+    ]
+  ]
+}

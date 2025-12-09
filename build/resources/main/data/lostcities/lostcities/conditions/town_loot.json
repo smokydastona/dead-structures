@@ -1,0 +1,23 @@
+{
+  "values": [
+    {
+      "factor": 1,
+      "value": "lostcities:chests/town_office_supplies",
+      "inpart": [
+        "lostcities:town/town01_in_office_1",
+        "lostcities:town/town10_in_office_1",
+        "lostcities:town/town11_in_office_1"
+      ]
+    },
+    {
+      "factor": 1,
+      "value": "lostcities:chests/town_valuables",
+      "inpart": [
+        "lostcities:town/town01_in_executive_office_1",
+        "lostcities:town/town01_in_vault_1",
+        "lostcities:town/town10_in_executive_office_1",
+        "lostcities:town/town10_in_vault_1"
+      ]
+    }
+  ]
+}

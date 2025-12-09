@@ -1,0 +1,14 @@
+{
+  "dimx": 2,
+  "dimz": 2,
+  "buildings": [
+    [
+      "lostcities:townhall/town00",
+      "lostcities:townhall/town01"
+    ],
+    [
+      "lostcities:townhall/town10",
+      "lostcities:townhall/town11"
+    ]
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "style": "lostcities:standard",
+  "inherit": "lostcities:citystyle_common",
+  "generalblocks": {
+    "leaves": "☘"
+  },
+  "selectors": {
+    "parks": [
+      {
+        "factor": 0.5,
+        "value": "lostcities:park/park_stone_flower_garden_1"
+      },
+      {
+        "factor": 0.5,
+        "value": "lostcities:park/park_cherry_blossom"
+      },
+      {
+        "factor": 1.0,
+        "value": "lostcities:park/park_pool_ex_1"
+      },
+      {
+        "factor": 1.0,
+        "value": "lostcities:park/park_pool_ex_2"
+      },
+      {
+        "factor": 1.0,
+        "value": "lostcities:park/park_pool_ex_3"
+      }
+    ]
+  }
+}

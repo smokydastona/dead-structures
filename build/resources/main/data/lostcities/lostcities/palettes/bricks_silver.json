@@ -1,0 +1,24 @@
+{
+  "palette": [
+    {
+      "char": "X",
+      "variant": "lostcities:brownlightblock",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "$",
+      "variant": "lostcities:brownblock",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "#",
+      "variant": "lostcities:brownlightblock",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "}",
+      "variant": "lostcities:brownlightblock",
+      "damaged": "minecraft:iron_bars"
+    }
+  ]
+}

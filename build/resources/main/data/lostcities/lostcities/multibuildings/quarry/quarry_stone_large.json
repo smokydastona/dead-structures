@@ -1,0 +1,21 @@
+{
+  "dimx": 3,
+  "dimz": 3,
+  "buildings": [
+    [
+      "lostcities:quarry/quarry_stone_large00",
+      "lostcities:quarry/quarry_stone_large01",
+      "lostcities:quarry/quarry_stone_large02"
+    ],
+    [
+      "lostcities:quarry/quarry_stone_large10",
+      "lostcities:quarry/quarry_stone_large11",
+      "lostcities:quarry/quarry_stone_large12"
+    ],
+    [
+      "lostcities:quarry/quarry_stone_large20",
+      "lostcities:quarry/quarry_stone_large21",
+      "lostcities:quarry/quarry_stone_large22"
+    ]
+  ]
+}

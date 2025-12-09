@@ -1,0 +1,61 @@
+{
+  "dimx": 5,
+  "dimz": 9,
+  "buildings": [
+    [
+      "lostcities:base/base_building_main_empty",
+      "lostcities:base/base_building_pillar_diagonal_east",
+      "lostcities:base/base_building_main_empty",
+      "lostcities:base/base_building_pillar_diagonal_east",
+      "lostcities:base/base_building_main_empty",
+      "lostcities:base/base_building_pillar_diagonal_east",
+      "lostcities:base/base_building_main_empty",
+      "lostcities:base/base_building_pillar_diagonal_east",
+      "lostcities:base/base_building_main_empty"
+    ],
+    [
+      "lostcities:base/base_building_main_empty",
+      "lostcities:base/base_building_wall",
+      "lostcities:base/base_building_body00",
+      "lostcities:base/base_building_body01",
+      "lostcities:base/base_building_body01",
+      "lostcities:base/base_building_body01",
+      "lostcities:base/base_building_body02",
+      "lostcities:base/base_building_wall",
+      "lostcities:base/base_building_main_empty"
+    ],
+    [
+      "lostcities:base/base_building_main_empty",
+      "lostcities:base/base_building_main_empty",
+      "lostcities:base/base_building_body10",
+      "lostcities:base/base_building_body11",
+      "lostcities:base/base_building_body11",
+      "lostcities:base/base_building_body11",
+      "lostcities:base/base_building_body12",
+      "lostcities:base/base_building_main_empty",
+      "lostcities:base/base_building_main_empty"
+    ],
+    [
+      "lostcities:base/base_building_main_empty",
+      "lostcities:base/base_building_wall",
+      "lostcities:base/base_building_body20",
+      "lostcities:base/base_building_body21",
+      "lostcities:base/base_building_body21",
+      "lostcities:base/base_building_body21",
+      "lostcities:base/base_building_body22",
+      "lostcities:base/base_building_wall",
+      "lostcities:base/base_building_main_empty"
+    ],
+    [
+      "lostcities:base/base_building_main_empty",
+      "lostcities:base/base_building_pillar_diagonal_west",
+      "lostcities:base/base_building_main_empty",
+      "lostcities:base/base_building_pillar_diagonal_west",
+      "lostcities:base/base_building_main_empty",
+      "lostcities:base/base_building_pillar_diagonal_west",
+      "lostcities:base/base_building_main_empty",
+      "lostcities:base/base_building_pillar_diagonal_west",
+      "lostcities:base/base_building_main_empty"
+    ]
+  ]
+}

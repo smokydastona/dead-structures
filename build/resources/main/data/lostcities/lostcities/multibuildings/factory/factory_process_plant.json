@@ -1,0 +1,41 @@
+{
+  "dimx": 5,
+  "dimz": 5,
+  "buildings": [
+    [
+      "lostcities:factory/factory_process_plant00",
+      "lostcities:factory/factory_process_plant01",
+      "lostcities:factory/factory_process_plant02",
+      "lostcities:factory/factory_process_plant03",
+      "lostcities:factory/factory_process_plant04"
+    ],
+    [
+      "lostcities:factory/factory_process_plant10",
+      "lostcities:factory/factory_process_plant11",
+      "lostcities:factory/factory_process_plant12",
+      "lostcities:factory/factory_process_plant13",
+      "lostcities:factory/factory_process_plant14"
+    ],
+    [
+      "lostcities:factory/factory_process_plant20",
+      "lostcities:factory/factory_process_plant21",
+      "lostcities:factory/factory_process_plant22",
+      "lostcities:factory/factory_process_plant23",
+      "lostcities:factory/factory_process_plant24"
+    ],
+    [
+      "lostcities:factory/factory_process_plant30",
+      "lostcities:factory/factory_process_plant31",
+      "lostcities:factory/factory_process_plant32",
+      "lostcities:factory/factory_process_plant33",
+      "lostcities:factory/factory_process_plant34"
+    ],
+    [
+      "lostcities:factory/factory_process_plant40",
+      "lostcities:factory/factory_process_plant41",
+      "lostcities:factory/factory_process_plant42",
+      "lostcities:factory/factory_process_plant43",
+      "lostcities:factory/factory_process_plant44"
+    ]
+  ]
+}

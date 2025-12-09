@@ -1,0 +1,21 @@
+{
+  "dimx": 3,
+  "dimz": 3,
+  "buildings": [
+    [
+      "lostcities:base/base_container00",
+      "lostcities:base/base_container01",
+      "lostcities:base/base_container02"
+    ],
+    [
+      "lostcities:base/base_container10",
+      "lostcities:base/base_container11",
+      "lostcities:base/base_container12"
+    ],
+    [
+      "lostcities:base/base_container20",
+      "lostcities:base/base_container21",
+      "lostcities:base/base_container22"
+    ]
+  ]
+}

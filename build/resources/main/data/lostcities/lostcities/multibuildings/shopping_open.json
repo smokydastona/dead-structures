@@ -1,0 +1,14 @@
+{
+  "dimx": 2,
+  "dimz": 2,
+  "buildings": [
+    [
+      "lostcities:shopping/shopping_open00",
+      "lostcities:shopping/shopping_open01"
+    ],
+    [
+      "lostcities:shopping/shopping_open10",
+      "lostcities:shopping/shopping_open11"
+    ]
+  ]
+}

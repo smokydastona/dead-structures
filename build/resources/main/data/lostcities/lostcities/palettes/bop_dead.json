@@ -1,0 +1,204 @@
+{
+  "_comment": "Post-apocalyptic wasteland palette using BOP dead wood, falls back to dark oak",
+  "palette": [
+    {
+      "char": "Q",
+      "block": "minecraft:gray_concrete",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "R",
+      "block": "minecraft:gray_terracotta",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "u",
+      "blocks": [
+        {
+          "random": 1,
+          "block": "biomesoplenty:dead_planks"
+        },
+        {
+          "random": 1,
+          "block": "minecraft:dark_oak_planks"
+        }
+      ],
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "S",
+      "blocks": [
+        {
+          "random": 5,
+          "block": "minecraft:cracked_stone_bricks"
+        },
+        {
+          "random": 3,
+          "block": "minecraft:mossy_stone_bricks"
+        },
+        {
+          "random": 10,
+          "block": "minecraft:stone_bricks"
+        }
+      ],
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:structure_void"
+    },
+    {
+      "char": "B",
+      "blocks": [
+        {
+          "random": 3,
+          "block": "minecraft:cracked_stone_bricks"
+        },
+        {
+          "random": 10,
+          "block": "minecraft:stone_bricks"
+        }
+      ],
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "v",
+      "blocks": [
+        {
+          "random": 20,
+          "block": "minecraft:cracked_stone_bricks"
+        },
+        {
+          "random": 15,
+          "block": "minecraft:mossy_stone_bricks"
+        },
+        {
+          "random": 100,
+          "block": "minecraft:stone_bricks"
+        }
+      ],
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "y",
+      "variant": "stonebrick",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "x",
+      "variant": "stonebrick",
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "_",
+      "blocks": [
+        {
+          "random": 1,
+          "block": "biomesoplenty:dead_slab[type=bottom]"
+        },
+        {
+          "random": 1,
+          "block": "minecraft:dark_oak_slab[type=bottom]"
+        }
+      ]
+    },
+    {
+      "char": "=",
+      "block": "minecraft:smooth_stone_slab[type=bottom]"
+    },
+    {
+      "char": "w",
+      "block": "minecraft:cobblestone_wall"
+    },
+    {
+      "char": ":",
+      "block": "minecraft:iron_bars"
+    },
+    {
+      "char": "A",
+      "blocks": [
+        {
+          "random": 1,
+          "block": "biomesoplenty:dead_stairs[facing=west,half=bottom,shape=straight]"
+        },
+        {
+          "random": 1,
+          "block": "minecraft:dark_oak_stairs[facing=west,half=bottom,shape=straight]"
+        }
+      ]
+    },
+    {
+      "char": "t",
+      "blocks": [
+        {
+          "random": 1,
+          "block": "biomesoplenty:dead_stairs[facing=east,half=bottom,shape=straight]"
+        },
+        {
+          "random": 1,
+          "block": "minecraft:dark_oak_stairs[facing=east,half=bottom,shape=straight]"
+        }
+      ]
+    },
+    {
+      "char": "z",
+      "blocks": [
+        {
+          "random": 1,
+          "block": "biomesoplenty:dead_stairs[facing=north,half=bottom,shape=straight]"
+        },
+        {
+          "random": 1,
+          "block": "minecraft:dark_oak_stairs[facing=north,half=bottom,shape=straight]"
+        }
+      ]
+    },
+    {
+      "char": "c",
+      "blocks": [
+        {
+          "random": 1,
+          "block": "biomesoplenty:dead_stairs[facing=south,half=bottom,shape=straight]"
+        },
+        {
+          "random": 1,
+          "block": "minecraft:dark_oak_stairs[facing=south,half=bottom,shape=straight]"
+        }
+      ]
+    },
+    {
+      "char": "L",
+      "blocks": [
+        {
+          "random": 1,
+          "block": "biomesoplenty:dead_log[axis=y]"
+        },
+        {
+          "random": 1,
+          "block": "minecraft:dark_oak_log[axis=y]"
+        }
+      ],
+      "damaged": "minecraft:iron_bars"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:ladder[facing=south]"
+    },
+    {
+      "char": "T",
+      "block": "minecraft:soul_torch"
+    },
+    {
+      "char": "G",
+      "block": "minecraft:gray_stained_glass"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:gray_stained_glass_pane"
+    },
+    {
+      "char": "F",
+      "block": "minecraft:dark_oak_fence"
+    }
+  ]
+}

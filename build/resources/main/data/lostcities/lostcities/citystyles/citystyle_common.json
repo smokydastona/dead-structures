@@ -1,0 +1,336 @@
+{
+  "stuff_tags": ["rubble"],
+  "streetblocks": {
+    "width": 8,
+    "border": "y",
+    "wall": "w",
+    "street": "S",
+    "streetbase": "b",
+    "streetvariant": "B",
+    "parts": {
+      "full": ["lostcities:street/street_full_base"],
+      "straight": [
+        "lostcities:street/street_straight_base",
+        "lostcities:street/street_straight_alt_lamp",
+        "lostcities:street/street_straight_alt_lamp_bench",
+        "lostcities:street/street_straight_no_lamp",
+        "lostcities:street/street_straight_no_lamp_bench",
+        "lostcities:street/street_straight_no_lamp_bushes_1",
+        "lostcities:street/street_straight_no_lamp_bushes_2"
+      ],
+      "end": [
+        "lostcities:street/street_end_base",
+        "lostcities:street/street_end_no_lamp",
+        "lostcities:street/street_end_bench_1",
+        "lostcities:street/street_end_bench_2",
+        "lostcities:street/street_end_bench_trash_1",
+        "lostcities:street/street_end_bench_trash_2",
+        "lostcities:street/street_end_bushes"
+      ],
+      "bend": [
+        "lostcities:street/street_bend_base",
+        "lostcities:street/street_bend_bushes",
+        "lostcities:street/street_bend_alt_lamp",
+        "lostcities:street/street_bend_alt_lamp_bench_1",
+        "lostcities:street/street_bend_alt_lamp_bench_2",
+        "lostcities:street/street_bend_alt_lamp_bench_trash_1",
+        "lostcities:street/street_bend_alt_lamp_bench_trash_2",
+        "lostcities:street/street_bend_no_lamp"
+      ],
+      "t": [
+        "lostcities:street/street_t_base",
+        "lostcities:street/street_t_bench",
+        "lostcities:street/street_t_bushes",
+        "lostcities:street/street_t_alt_lamp",
+        "lostcities:street/street_t_alt_lamp_bushes",
+        "lostcities:street/street_t_no_lamp"
+      ],
+      "none": [
+        "lostcities:street/street_none_base",
+        "lostcities:street/street_none_alt_lamp",
+        "lostcities:street/street_none_no_lamp",
+        "lostcities:street/street_none_no_lamp_bushes"
+      ],
+      "all": [
+        "lostcities:street/street_all_base",
+        "lostcities:street/street_all_bushes",
+        "lostcities:street/street_all_flowers",
+        "lostcities:street/street_all_no_lamp",
+        "lostcities:street/street_all_no_lamp_bushes"
+      ]
+    }
+  },
+  "parkblocks": {
+    "elevation": "x"
+  },
+  "corridorblocks": {
+    "roof": "x",
+    "glass": "+"
+  },
+  "railblocks": {
+    "railmain": "y"
+  },
+  "sphereblocks": {
+    "glass": "Z",
+    "border": "9",
+    "inner": "b"
+  },
+  "selectors": {
+    "buildings": [
+      {
+        "factor": 0.3,
+        "value": "lostcities:building1"
+      },
+      {
+        "factor": 0.4,
+        "value": "lostcities:building2"
+      },
+      {
+        "factor": 0.2,
+        "value": "lostcities:building3"
+      },
+      {
+        "factor": 0.2,
+        "value": "lostcities:building4"
+      },
+      {
+        "factor": 0.3,
+        "value": "lostcities:building5"
+      },
+      {
+        "factor": 0.2,
+        "value": "lostcities:building6"
+      },
+      {
+        "factor": 0.2,
+        "value": "lostcities:building7"
+      },
+      {
+        "factor": 0.4,
+        "value": "lostcities:building8"
+      }
+    ],
+    "multibuildings": [
+      {
+        "factor": 0.2,
+        "value": "lostcities:multi1"
+      },
+      {
+        "factor": 0.2,
+        "value": "lostcities:multi2"
+      },
+      {
+        "factor": 0.12,
+        "value": "lostcities:multi3"
+      },
+      {
+        "factor": 0.12,
+        "value": "lostcities:multi4"
+      },
+      {
+        "factor": 0.05,
+        "value": "lostcities:multi5"
+      },
+      {
+        "factor": 0.07,
+        "value": "lostcities:library"
+      },
+      {
+        "factor": 0.07,
+        "value": "lostcities:center"
+      },
+      {
+        "factor": 0.05,
+        "value": "lostcities:townhall"
+      },
+      {
+        "factor": 0.15,
+        "value": "lostcities:shopping"
+      },
+      {
+        "factor": 0.12,
+        "value": "lostcities:shopping_open"
+      },
+      {
+        "factor": 0.05,
+        "value": "lostcities:huge1"
+      },
+      {
+        "factor": 0.05,
+        "value": "lostcities:huge2"
+      },
+      {
+        "factor": 0.13,
+        "value": "lostcities:factory"
+      }
+    ],
+    "bridges": [
+      {
+        "factor": 1.0,
+        "value": "lostcities:bridge/bridge_open"
+      },
+      {
+        "factor": 1.0,
+        "value": "lostcities:bridge/bridge_covered"
+      }
+    ],
+    "fronts": [
+      {
+        "factor": 1.0,
+        "value": "lostcities:building_front/building_front1"
+      },
+      {
+        "factor": 0.5,
+        "value": "lostcities:building_front/building_front1_ex_solid"
+      },
+      {
+        "factor": 0.5,
+        "value": "lostcities:building_front/building_front1_ex_glass"
+      },
+      {
+        "factor": 1.0,
+        "value": "lostcities:building_front/building_front2"
+      },
+      {
+        "factor": 1.0,
+        "value": "lostcities:building_front/building_front2_ex_flower_pots"
+      },
+      {
+        "factor": 1.0,
+        "value": "lostcities:building_front/building_front3"
+      },
+      {
+        "factor": 1.0,
+        "value": "lostcities:building_front/building_front3_ex_flower_pots"
+      },
+      {
+        "factor": 0.5,
+        "value": "lostcities:building_front/building_front_mini_1"
+      },
+      {
+        "factor": 0.5,
+        "value": "lostcities:building_front/building_front_mini_1_flower_pots"
+      }
+    ],
+    "stairs": [
+      {
+        "factor": 1.0,
+        "value": "lostcities:staircase/stairs1"
+      },
+      {
+        "factor": 1.0,
+        "value": "lostcities:staircase/stairs1_steep_railing"
+      },
+      {
+        "factor": 1.0,
+        "value": "lostcities:staircase/stairs2"
+      },
+      {
+        "factor": 1.0,
+        "value": "lostcities:staircase/stairs2_steep_railing"
+      },
+      {
+        "factor": 1.0,
+        "value": "lostcities:staircase/stairsnormal"
+      },
+      {
+        "factor": 1.0,
+        "value": "lostcities:staircase/stairsnormal_leaves"
+      },
+      {
+        "factor": 1.0,
+        "value": "lostcities:staircase/stairsbig"
+      },
+      {
+        "factor": 1.0,
+        "value": "lostcities:staircase/stairsbig_leaves"
+      },
+      {
+        "factor": 1.0,
+        "value": "lostcities:staircase/stairs_maintenance_iron_bars"
+      }
+    ],
+    "fountains": [
+      {
+        "factor": 1.0,
+        "value": "lostcities:fountain/fountain_small_stone_1"
+      },
+      {
+        "factor": 1.0,
+        "value": "lostcities:fountain/fountain_small_stone_2"
+      },
+      {
+        "factor": 1.0,
+        "value": "lostcities:fountain/fountain_small_quartz_1"
+      },
+      {
+        "factor": 1.0,
+        "value": "lostcities:fountain/fountain_small_quartz_2"
+      },
+      {
+        "factor": 1.0,
+        "value": "lostcities:fountain/fountain_medium_stone_1"
+      },
+      {
+        "factor": 1.0,
+        "value": "lostcities:fountain/fountain_medium_bricks_1"
+      }
+    ],
+    "parks": [
+      {
+        "factor": 1.0,
+        "value": "lostcities:park/park_pool"
+      },
+      {
+        "factor": 1.0,
+        "value": "lostcities:park/park_plants"
+      },
+      {
+        "factor": 1.0,
+        "value": "lostcities:park/park_trees"
+      },
+      {
+        "factor": 1.0,
+        "value": "lostcities:park/park_plants_pillars"
+      },
+      {
+        "factor": 0.8,
+        "value": "lostcities:park/park_fountain1"
+      },
+      {
+        "factor": 0.8,
+        "value": "lostcities:park/park_fountain2"
+      },
+      {
+        "factor": 0.3,
+        "value": "lostcities:park/park_building"
+      },
+      {
+        "factor": 0.3,
+        "value": "lostcities:park/park_building2"
+      },
+      {
+        "factor": 0.8,
+        "value": "lostcities:park/park_fountain_ex_1"
+      },
+      {
+        "factor": 0.8,
+        "value": "lostcities:park/park_fountain_ex_2"
+      },
+      {
+        "factor": 0.4,
+        "value": "lostcities:park/park_playground_1"
+      }
+    ],
+    "raildungeons": [
+      {
+        "factor": 1.0,
+        "value": "rail_dungeon1"
+      },
+      {
+        "factor": 1.0,
+        "value": "rail_dungeon2"
+      }
+    ]
+  }
+}

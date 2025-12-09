@@ -1,0 +1,11 @@
+{
+  "_comment": "Example style that uses BOP cherry palette - reference this from citystyles or worldstyles",
+  "randompalettes": [
+    [
+      {
+        "factor": 1.0,
+        "palette": "lostcities:bop_cherry"
+      }
+    ]
+  ]
+}

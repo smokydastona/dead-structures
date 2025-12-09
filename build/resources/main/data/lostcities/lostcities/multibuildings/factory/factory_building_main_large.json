@@ -1,0 +1,41 @@
+{
+  "dimx": 5,
+  "dimz": 5,
+  "buildings": [
+    [
+      "lostcities:factory/factory_building_main",
+      "lostcities:factory/factory_building_main",
+      "lostcities:factory/factory_building_main",
+      "lostcities:factory/factory_tower",
+      "lostcities:factory/factory_building_main"
+    ],
+    [
+      "lostcities:factory/factory_tower",
+      "lostcities:factory/factory_building_main",
+      "lostcities:factory/factory_chimney",
+      "lostcities:factory/factory_building_main",
+      "lostcities:factory/factory_building_main"
+    ],
+    [
+      "lostcities:factory/factory_building_main",
+      "lostcities:factory/factory_tank_long",
+      "lostcities:factory/factory_building_main",
+      "lostcities:factory/factory_tank_long",
+      "lostcities:factory/factory_building_main"
+    ],
+    [
+      "lostcities:factory/factory_building_main",
+      "lostcities:factory/factory_chimney",
+      "lostcities:factory/factory_building_main",
+      "lostcities:factory/factory_chimney",
+      "lostcities:factory/factory_building_main"
+    ],
+    [
+      "lostcities:factory/factory_building_main",
+      "lostcities:factory/factory_tower",
+      "lostcities:factory/factory_building_main",
+      "lostcities:factory/factory_tower",
+      "lostcities:factory/factory_tank_long"
+    ]
+  ]
+}

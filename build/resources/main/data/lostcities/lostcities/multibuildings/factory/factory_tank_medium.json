@@ -1,0 +1,14 @@
+{
+  "dimx": 2,
+  "dimz": 2,
+  "buildings": [
+    [
+      "lostcities:factory/factory_tank_medium00",
+      "lostcities:factory/factory_tank_medium01"
+    ],
+    [
+      "lostcities:factory/factory_tank_medium10",
+      "lostcities:factory/factory_tank_medium11"
+    ]
+  ]
+}

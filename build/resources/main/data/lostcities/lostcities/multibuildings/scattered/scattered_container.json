@@ -1,0 +1,21 @@
+{
+  "dimx": 3,
+  "dimz": 3,
+  "buildings": [
+    [
+      "lostcities:scattered/scattered_container00",
+      "lostcities:scattered/scattered_container01",
+      "lostcities:scattered/scattered_container02"
+    ],
+    [
+      "lostcities:scattered/scattered_container10",
+      "lostcities:scattered/scattered_container11",
+      "lostcities:scattered/scattered_container12"
+    ],
+    [
+      "lostcities:scattered/scattered_container20",
+      "lostcities:scattered/scattered_container21",
+      "lostcities:scattered/scattered_container22"
+    ]
+  ]
+}

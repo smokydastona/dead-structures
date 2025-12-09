@@ -1,0 +1,56 @@
+{
+  "dimx": 5,
+  "dimz": 8,
+  "buildings": [
+    [
+      "lostcities:base/base_building_hanger_empty",
+      "lostcities:base/base_building_hanger_empty",
+      "lostcities:base/base_building_hanger_empty",
+      "lostcities:base/base_building_hanger_empty",
+      "lostcities:base/base_building_hanger_empty",
+      "lostcities:base/base_building_hanger_empty",
+      "lostcities:base/base_building_hanger_empty",
+      "lostcities:base/base_building_hanger_empty"
+    ],
+    [
+      "lostcities:base/base_building_hanger_empty",
+      "lostcities:base/base_building_hanger00",
+      "lostcities:base/base_building_hanger01",
+      "lostcities:base/base_building_hanger01",
+      "lostcities:base/base_building_hanger01",
+      "lostcities:base/base_building_hanger01",
+      "lostcities:base/base_building_hanger02",
+      "lostcities:base/base_building_hanger_empty"
+    ],
+    [
+      "lostcities:base/base_building_hanger_empty",
+      "lostcities:base/base_building_hanger10",
+      "lostcities:base/base_building_hanger11",
+      "lostcities:base/base_building_hanger11",
+      "lostcities:base/base_building_hanger11",
+      "lostcities:base/base_building_hanger11",
+      "lostcities:base/base_building_hanger12",
+      "lostcities:base/base_building_hanger_empty"
+    ],
+    [
+      "lostcities:base/base_building_hanger_empty",
+      "lostcities:base/base_building_hanger20",
+      "lostcities:base/base_building_hanger21",
+      "lostcities:base/base_building_hanger21",
+      "lostcities:base/base_building_hanger21",
+      "lostcities:base/base_building_hanger21",
+      "lostcities:base/base_building_hanger22",
+      "lostcities:base/base_building_hanger_empty"
+    ],
+    [
+      "lostcities:base/base_building_hanger_empty",
+      "lostcities:base/base_building_hanger_empty",
+      "lostcities:base/base_building_hanger_empty",
+      "lostcities:base/base_building_hanger_empty",
+      "lostcities:base/base_building_hanger_empty",
+      "lostcities:base/base_building_hanger_empty",
+      "lostcities:base/base_building_hanger_empty",
+      "lostcities:base/base_building_hanger_empty"
+    ]
+  ]
+}

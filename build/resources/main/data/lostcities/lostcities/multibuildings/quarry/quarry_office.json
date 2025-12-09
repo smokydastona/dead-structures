@@ -1,0 +1,14 @@
+{
+  "dimx": 2,
+  "dimz": 2,
+  "buildings": [
+    [
+      "lostcities:quarry/quarry_office00",
+      "lostcities:quarry/quarry_office01"
+    ],
+    [
+      "lostcities:quarry/quarry_office10",
+      "lostcities:quarry/quarry_office11"
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "dimx": 5,
+  "dimz": 5,
+  "buildings": [
+    [
+      "lostcities:scattered/scattered_garage00",
+      "lostcities:scattered/scattered_garage01",
+      "lostcities:scattered/scattered_garage02",
+      "lostcities:scattered/scattered_garage03",
+      "lostcities:scattered/scattered_garage04"
+    ],
+    [
+      "lostcities:scattered/scattered_garage10",
+      "lostcities:scattered/scattered_garage11",
+      "lostcities:scattered/scattered_garage12",
+      "lostcities:scattered/scattered_garage13",
+      "lostcities:scattered/scattered_garage14"
+    ],
+    [
+      "lostcities:scattered/scattered_garage20",
+      "lostcities:scattered/scattered_garage21",
+      "lostcities:scattered/scattered_garage22",
+      "lostcities:scattered/scattered_garage23",
+      "lostcities:scattered/scattered_garage24"
+    ],
+    [
+      "lostcities:scattered/scattered_garage30",
+      "lostcities:scattered/scattered_garage31",
+      "lostcities:scattered/scattered_garage32",
+      "lostcities:scattered/scattered_garage33",
+      "lostcities:scattered/scattered_garage34"
+    ],
+    [
+      "lostcities:scattered/scattered_garage40",
+      "lostcities:scattered/scattered_garage41",
+      "lostcities:scattered/scattered_garage42",
+      "lostcities:scattered/scattered_garage43",
+      "lostcities:scattered/scattered_garage44"
+    ]
+  ]
+}

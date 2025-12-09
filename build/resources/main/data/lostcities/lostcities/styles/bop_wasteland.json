@@ -1,0 +1,11 @@
+{
+  "_comment": "Example style that uses BOP wasteland palette",
+  "randompalettes": [
+    [
+      {
+        "factor": 1.0,
+        "palette": "lostcities:bop_dead"
+      }
+    ]
+  ]
+}

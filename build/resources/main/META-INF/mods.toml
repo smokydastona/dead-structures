@@ -1,0 +1,141 @@
+modLoader="javafml"
+license="MIT License https://github.com/McJtyMods/LostCities/blob/1.16/LICENCE"
+loaderVersion="[47,)"
+issueTrackerURL="http://github.com/McJtyMods/LostCities/issues"
+displayURL="http://github.com/McJtyMods/LostCities/"
+#logoFile="examplemod.png" #optional
+#credits="Thanks for this example mod goes to Java" #optional
+authors="McJty"
+
+[[mods]]
+modId="lostcities"
+version="${file.jarVersion}"
+displayName="LostCities"
+#updateJSONURL="http://myurl.me/" #optional
+description='''
+Generate cities all over the world
+'''
+[[dependencies.lostcities]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43.1.30,)"
+    ordering="NONE"
+    side="BOTH"
+
+# Optional soft dependency on Biomes O' Plenty
+# Lost Cities will use BOP blocks/biomes when available, but works fine without it
+[[dependencies.lostcities]]
+    modId="biomesoplenty"
+    mandatory=false
+    versionRange="[18.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+# Optional soft dependency on Lootr
+# Lost Cities will use Lootr for per-player loot chests when available
+[[dependencies.lostcities]]
+    modId="lootr"
+    mandatory=false
+    versionRange="[0.7.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+# Optional compatibility with When Dungeons Arise
+# Both mods coexist peacefully with proper structure spacing
+[[dependencies.lostcities]]
+    modId="dungeons_arise"
+    mandatory=false
+    versionRange="[2.1.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+# Optional compatibility with Refurbished Furniture
+# Adds furniture blocks to building interiors when available
+[[dependencies.lostcities]]
+    modId="refurbished_furniture"
+    mandatory=false
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+# Optional compatibility with Farmer's Delight
+# Adds cooking and food storage blocks to kitchens and restaurants
+[[dependencies.lostcities]]
+    modId="farmersdelight"
+    mandatory=false
+    versionRange="[1.2.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+# Optional compatibility with Serene Seasons
+# Cities experience seasonal weather effects when available
+[[dependencies.lostcities]]
+    modId="sereneseasons"
+    mandatory=false
+    versionRange="[9.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+# Optional compatibility with Waystones
+# Spawns fast travel waypoints in major city centers
+[[dependencies.lostcities]]
+    modId="waystones"
+    mandatory=false
+    versionRange="[14.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+# Optional compatibility with Cobweb
+# Adds atmospheric cobwebs to abandoned buildings
+[[dependencies.lostcities]]
+    modId="cobweb"
+    mandatory=false
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+# Optional compatibility with Ice and Fire: Dragons
+# Adds dragon roosts, fire/ice damage, and mythical ruins
+[[dependencies.lostcities]]
+    modId="iceandfire"
+    mandatory=false
+    versionRange="[2.1.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+# Optional compatibility with Minecraft Comes Alive
+# Spawns zombie villagers in residential buildings
+[[dependencies.lostcities]]
+    modId="mca"
+    mandatory=false
+    versionRange="[7.5.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+# Optional compatibility with Traveler's Backpack
+# Spawns abandoned backpacks with loot throughout buildings
+[[dependencies.lostcities]]
+    modId="travelersbackpack"
+    mandatory=false
+    versionRange="[9.1.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+# Optional compatibility with Spartan Weaponry
+# Adds weapon loot to military and security buildings
+[[dependencies.lostcities]]
+    modId="spartanweaponry"
+    mandatory=false
+    versionRange="[3.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+# Optional compatibility with Ecologics
+# Nature reclaims cities with diverse flora and fauna
+[[dependencies.lostcities]]
+    modId="ecologics"
+    mandatory=false
+    versionRange="[2.2.0,)"
+    ordering="AFTER"
+    side="BOTH"
+

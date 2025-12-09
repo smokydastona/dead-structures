@@ -1,0 +1,41 @@
+{
+  "dimx": 5,
+  "dimz": 5,
+  "buildings": [
+    [
+      "lostcities:scattered/scattered_minifactory00",
+      "lostcities:scattered/scattered_minifactory01",
+      "lostcities:scattered/scattered_minifactory02",
+      "lostcities:scattered/scattered_minifactory03",
+      "lostcities:scattered/scattered_minifactory04"
+    ],
+    [
+      "lostcities:scattered/scattered_minifactory10",
+      "lostcities:scattered/scattered_minifactory11",
+      "lostcities:scattered/scattered_minifactory12",
+      "lostcities:scattered/scattered_minifactory13",
+      "lostcities:scattered/scattered_minifactory14"
+    ],
+    [
+      "lostcities:scattered/scattered_minifactory20",
+      "lostcities:scattered/scattered_minifactory21",
+      "lostcities:scattered/scattered_minifactory22",
+      "lostcities:scattered/scattered_minifactory23",
+      "lostcities:scattered/scattered_minifactory24"
+    ],
+    [
+      "lostcities:scattered/scattered_minifactory30",
+      "lostcities:scattered/scattered_minifactory31",
+      "lostcities:scattered/scattered_minifactory32",
+      "lostcities:scattered/scattered_minifactory33",
+      "lostcities:scattered/scattered_minifactory34"
+    ],
+    [
+      "lostcities:scattered/scattered_minifactory40",
+      "lostcities:scattered/scattered_minifactory41",
+      "lostcities:scattered/scattered_minifactory42",
+      "lostcities:scattered/scattered_minifactory43",
+      "lostcities:scattered/scattered_minifactory44"
+    ]
+  ]
+}

@@ -40,6 +40,9 @@ public class LostCities {
         
         // Register log filter early to suppress annoying messages
         mcjty.lostcities.varia.LogFilter.register();
+        
+        // Initialize optimization mod compatibility
+        mcjty.lostcities.compat.OptimizationModCompat.init();
 
         Registration.init(bus);
         CustomRegistries.init(bus);

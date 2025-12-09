@@ -10,6 +10,7 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.monster.Zombie;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Items;
@@ -25,7 +26,8 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
 import java.util.List;
-import java.util.Random;
+import java.util.Map;
+import java.util.WeakHashMap;
 
 /**
  * Apocalypse Zombie Mechanics Handler
@@ -39,11 +41,22 @@ import java.util.Random;
 @Mod.EventBusSubscriber(modid = "lostcities")
 public class ApocalypseZombieHandler {
     
-    private static final Random RANDOM = new Random();
+    // Use WeakHashMap to prevent memory leaks - compatible with MemoryLeakFix mod
+    private static final Map<Zombie, Long> LAST_UPDATE_TIME = new WeakHashMap<>();
+    private static final Map<Zombie, Long> LAST_LUNGE_TIME = new WeakHashMap<>();
+    private static final Map<Player, Long> LAST_BODY_ODOR_CHECK = new WeakHashMap<>();
+    
+    // Reduced tick frequency for better performance
+    private static final int ATTRIBUTE_UPDATE_INTERVAL = 400; // 20 seconds instead of 10
+    private static final int LUNGE_COOLDOWN_TICKS = 100; // 5 seconds between lunges
+    private static final int BODY_ODOR_CHECK_INTERVAL = 40; // 2 seconds
+    private static final int BLOCK_BREAK_COOLDOWN = 20; // 1 second
+    
     private static int tickCounter = 0;
     
     /**
      * Main tick handler for apocalypse zombie mechanics
+     * Optimized to reduce overhead and be compatible with AI optimization mods
      */
     @SubscribeEvent
     public static void onServerTick(TickEvent.ServerTickEvent event) {
@@ -51,35 +64,64 @@ public class ApocalypseZombieHandler {
         
         tickCounter++;
         
-        // Run every tick for critical mechanics
+        // Process only every 4 ticks (5 times per second) instead of every tick
+        if (tickCounter % 4 != 0) return;
+        
         for (ServerLevel level : event.getServer().getAllLevels()) {
             if (!isLostCitiesDimension(level)) continue;
             
-            // Process all zombies in the dimension
-            for (Entity entity : level.getAllEntities()) {
-                if (entity instanceof Zombie zombie && zombie.isAlive()) {
-                    // Update zombie attributes based on difficulty
-                    if (tickCounter % 200 == 0) { // Every 10 seconds
-                        updateZombieAttributes(zombie, level);
-                    }
-                    
-                    // Lunge attack when near other zombies (1 in 30 chance per tick)
-                    if (RANDOM.nextInt(30) == 0) {
-                        attemptZombieLunge(zombie, level);
-                    }
-                    
-                    // Block breaking mechanic
-                    if (zombie.getTarget() instanceof Player) {
-                        attemptBlockBreak(zombie, level);
-                    }
+            // Use getEntitiesOfClass with filter - more efficient than getAllEntities
+            // Compatible with Very Many Players and AI Improvements mods
+            List<Zombie> zombies = level.getEntitiesOfClass(Zombie.class, 
+                new AABB(level.getSharedSpawnPos()).inflate(256), 
+                zombie -> zombie.isAlive() && zombie.getTarget() != null);
+            
+            for (Zombie zombie : zombies) {
+                // Update zombie attributes with cooldown
+                Long lastUpdate = LAST_UPDATE_TIME.get(zombie);
+                if (lastUpdate == null || tickCounter - lastUpdate > ATTRIBUTE_UPDATE_INTERVAL) {
+                    updateZombieAttributes(zombie, level);
+                    LAST_UPDATE_TIME.put(zombie, (long) tickCounter);
+                }
+                
+                // Lunge attack with cooldown
+                Long lastLunge = LAST_LUNGE_TIME.get(zombie);
+                if ((lastLunge == null || tickCounter - lastLunge > LUNGE_COOLDOWN_TICKS) 
+                    && zombie.getRandom().nextInt(30) == 0) {
+                    attemptZombieLunge(zombie, level);
+                    LAST_LUNGE_TIME.put(zombie, (long) tickCounter);
+                }
+                
+                // Block breaking mechanic (only for zombies targeting players)
+                if (zombie.getTarget() instanceof Player) {
+                    attemptBlockBreak(zombie, level);
                 }
             }
             
-            // Body odor effect for players holding rotten flesh
-            for (Player player : level.players()) {
-                handleBodyOdorMechanic(player, level);
+            // Body odor effect for players - only check periodically
+            if (tickCounter % BODY_ODOR_CHECK_INTERVAL == 0) {
+                for (Player player : level.players()) {
+                    handleBodyOdorMechanic(player, level);
+                }
             }
         }
+        
+        // Cleanup old entries every 30 seconds to prevent memory buildup
+        if (tickCounter % 600 == 0) {
+            cleanupStaleData();
+        }
+    }
+    
+    /**
+     * Cleanup stale data from WeakHashMaps
+     * Compatible with MemoryLeakFix mod
+     */
+    private static void cleanupStaleData() {
+        // WeakHashMap auto-cleans, but we can help by removing old timestamps
+        long currentTick = tickCounter;
+        LAST_UPDATE_TIME.entrySet().removeIf(entry -> currentTick - entry.getValue() > 1200);
+        LAST_LUNGE_TIME.entrySet().removeIf(entry -> currentTick - entry.getValue() > 1200);
+        LAST_BODY_ODOR_CHECK.entrySet().removeIf(entry -> currentTick - entry.getValue() > 1200);
     }
     
     /**
@@ -87,6 +129,7 @@ public class ApocalypseZombieHandler {
      * Easy: 0.18 (slower than default 0.23)
      * Normal: 0.23 (default speed)
      * Hard: 0.30 (30% faster)
+     * Uses proper attribute system - compatible with AI Improvements mod
      */
     private static void updateZombieAttributes(Zombie zombie, Level level) {
         Difficulty difficulty = level.getDifficulty();
@@ -97,6 +140,12 @@ public class ApocalypseZombieHandler {
             case NORMAL -> speed = 0.23;
             case HARD -> speed = 0.30;
             default -> speed = 0.23;
+        }
+        
+        // Use proper attribute modification instead of direct NBT
+        // More compatible with Canary/Radium optimization mods
+        if (zombie.getAttribute(Attributes.MOVEMENT_SPEED) != null) {
+            zombie.getAttribute(Attributes.MOVEMENT_SPEED).setBaseValue(speed);
         }
         
         zombie.getAttribute(net.minecraft.world.entity.ai.attributes.Attributes.MOVEMENT_SPEED)
