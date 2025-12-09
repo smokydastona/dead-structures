@@ -332,6 +332,16 @@ public class LostCityTerrainFeature {
 //        }
 //
         fixTorches(info);
+        
+        // Generate custom Pillager Outposts with Wastelord bosses
+        BlockPos chunkPos = new BlockPos(chunkX * 16, 64, chunkZ * 16);
+        if (PillagerOutpostIntegration.shouldSpawnOutpost(region.getLevel(), chunkPos)) {
+            int height = PillagerOutpostIntegration.getOutpostSpawnHeight(region.getLevel(), chunkPos);
+            BlockPos outpostPos = new BlockPos(chunkX * 16 + 8, height, chunkZ * 16 + 8);
+            if (region instanceof net.minecraft.server.level.ServerLevel serverLevel) {
+                PillagerOutpostStructurePlacer.placeOutpost(region, outpostPos, rand);
+            }
+        }
 
         // We make a new random here because the primer for a normal chunk may have
         // been cached and we want to be able to do the same when returning from a cached
