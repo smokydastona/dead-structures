@@ -342,6 +342,32 @@ public class LostCityTerrainFeature {
                 PillagerOutpostStructurePlacer.placeOutpost(region, outpostPos, rand);
             }
         }
+        
+        // Generate Apocalypse Overwrite structures
+        if (region instanceof net.minecraft.server.level.ServerLevel serverLevel) {
+            BlockPos structurePos = new BlockPos(chunkX * 16 + 8, 64, chunkZ * 16 + 8);
+            
+            // Skyscrapers in dense city areas (1/100 chunks)
+            if (ApocalypseStructurePlacer.shouldGenerateStructure(rand, 100)) {
+                ApocalypseStructurePlacer.placeSkyscraper(serverLevel, structurePos, rand);
+            }
+            // Houses in residential zones (1/50 chunks)
+            else if (ApocalypseStructurePlacer.shouldGenerateStructure(rand, 50)) {
+                ApocalypseStructurePlacer.placeHouse(serverLevel, structurePos, rand);
+            }
+            // Country structures in outskirts (1/150 chunks)
+            else if (ApocalypseStructurePlacer.shouldGenerateStructure(rand, 150)) {
+                ApocalypseStructurePlacer.placeCountryStructure(serverLevel, structurePos, rand);
+            }
+            // Roadside structures along streets (1/200 chunks)
+            else if (ApocalypseStructurePlacer.shouldGenerateStructure(rand, 200)) {
+                ApocalypseStructurePlacer.placeRoadsideStructure(serverLevel, structurePos, rand);
+            }
+            // Special structures rare (1/300 chunks)
+            else if (ApocalypseStructurePlacer.shouldGenerateStructure(rand, 300)) {
+                ApocalypseStructurePlacer.placeSpecialStructure(serverLevel, structurePos, rand);
+            }
+        }
 
         // We make a new random here because the primer for a normal chunk may have
         // been cached and we want to be able to do the same when returning from a cached
