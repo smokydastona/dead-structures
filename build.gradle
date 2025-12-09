@@ -26,7 +26,7 @@ if (project.file('../gradletools.gradle').exists()) {
 }
 
 group = "com.github.mcjty"
-archivesBaseName = "lostcities"
+archivesBaseName = "forgotten-cities"
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
 if (System.getenv('BUILD_NUMBER') != null) {
