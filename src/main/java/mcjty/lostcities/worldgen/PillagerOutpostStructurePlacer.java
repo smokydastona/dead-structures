@@ -33,8 +33,11 @@ public class PillagerOutpostStructurePlacer {
     private static final List<String> FEATURE_STRUCTURES = new ArrayList<>();
     
     static {
-        // Main outpost structures
+        // Main outpost structures (base plates)
         OUTPOST_STRUCTURES.add("pillager_outpost/pillager_centers/base_plate");
+        OUTPOST_STRUCTURES.add("pillager_outpost/spread_plate_crossroad");
+        OUTPOST_STRUCTURES.add("pillager_outpost/spread_plate_curve");
+        OUTPOST_STRUCTURES.add("pillager_outpost/spread_plate_t_crossing");
         
         // Feature structures (cages, tents, targets, etc.)
         FEATURE_STRUCTURES.add("pillager_outpost/feature_cage1");
@@ -43,8 +46,14 @@ public class PillagerOutpostStructurePlacer {
         FEATURE_STRUCTURES.add("pillager_outpost/feature_cage_with_allays");
         FEATURE_STRUCTURES.add("pillager_outpost/feature_tent1");
         FEATURE_STRUCTURES.add("pillager_outpost/feature_tent2");
+        FEATURE_STRUCTURES.add("pillager_outpost/feature_tent3");
+        FEATURE_STRUCTURES.add("pillager_outpost/feature_tent4");
         FEATURE_STRUCTURES.add("pillager_outpost/feature_targets");
         FEATURE_STRUCTURES.add("pillager_outpost/feature_logs");
+        FEATURE_STRUCTURES.add("pillager_outpost/feature_fire");
+        FEATURE_STRUCTURES.add("pillager_outpost/feature_crane");
+        FEATURE_STRUCTURES.add("pillager_outpost/feature_classic");
+        FEATURE_STRUCTURES.add("pillager_outpost/feature_backhoe");
         FEATURE_STRUCTURES.add("pillager_outpost/watchtower");
         FEATURE_STRUCTURES.add("pillager_outpost/watchtower_overgrown");
     }
@@ -59,8 +68,9 @@ public class PillagerOutpostStructurePlacer {
         
         StructureTemplateManager templateManager = serverLevel.getStructureManager();
         
-        // Place main base plate
-        ResourceLocation baseStructure = new ResourceLocation("lostcities", OUTPOST_STRUCTURES.get(0));
+        // Place main base plate (randomly choose from available base plates)
+        String baseStructurePath = OUTPOST_STRUCTURES.get(random.nextInt(OUTPOST_STRUCTURES.size()));
+        ResourceLocation baseStructure = new ResourceLocation("lostcities", baseStructurePath);
         StructureTemplate template = loadTemplate(templateManager, baseStructure);
         
         if (template == null) {
@@ -79,7 +89,7 @@ public class PillagerOutpostStructurePlacer {
         // Place the structure
         template.placeInWorld(serverLevel, pos, pos, settings, random, 2);
         
-        // Place random features around the outpost
+        // Place random features around the outpost (4-8 features like vanilla)
         placeFeatures(serverLevel, pos, random, templateManager, rotation, mirror);
         
         // Spawn Wastelord boss at center
@@ -94,7 +104,7 @@ public class PillagerOutpostStructurePlacer {
      */
     private static void placeFeatures(ServerLevel level, BlockPos basePos, RandomSource random, 
                                      StructureTemplateManager templateManager, Rotation rotation, Mirror mirror) {
-        int featureCount = 2 + random.nextInt(4); // 2-5 features
+        int featureCount = 4 + random.nextInt(5); // 4-8 features (matches vanilla outpost complexity)
         
         for (int i = 0; i < featureCount; i++) {
             // Random feature
@@ -104,15 +114,15 @@ public class PillagerOutpostStructurePlacer {
             
             if (featureTemplate == null) continue;
             
-            // Random offset from base
-            int offsetX = -20 + random.nextInt(40);
-            int offsetZ = -20 + random.nextInt(40);
+            // Random offset from base (spread out like vanilla)
+            int offsetX = -25 + random.nextInt(50);
+            int offsetZ = -25 + random.nextInt(50);
             BlockPos featurePos = basePos.offset(offsetX, 0, offsetZ);
             
-            // Create placement settings
+            // Create placement settings with random rotation
             StructurePlaceSettings settings = new StructurePlaceSettings()
-                    .setRotation(rotation)
-                    .setMirror(mirror)
+                    .setRotation(Rotation.getRandom(random))
+                    .setMirror(random.nextBoolean() ? Mirror.NONE : Mirror.FRONT_BACK)
                     .setRandom(random);
             
             // Place feature
