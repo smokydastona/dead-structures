@@ -3,19 +3,19 @@
   "dimz": 3,
   "buildings": [
     [
-      "pomkotsmechs:scattered/scattered_scaffold00",
-      "pomkotsmechs:scattered/scattered_scaffold01",
-      "pomkotsmechs:scattered/scattered_scaffold02"
+      "lostcities:scattered/scattered_scaffold00",
+      "lostcities:scattered/scattered_scaffold01",
+      "lostcities:scattered/scattered_scaffold02"
     ],
     [
-      "pomkotsmechs:scattered/scattered_scaffold10",
-      "pomkotsmechs:scattered/scattered_scaffold11",
-      "pomkotsmechs:scattered/scattered_scaffold12"
+      "lostcities:scattered/scattered_scaffold10",
+      "lostcities:scattered/scattered_scaffold11",
+      "lostcities:scattered/scattered_scaffold12"
     ],
     [
-      "pomkotsmechs:scattered/scattered_scaffold20",
-      "pomkotsmechs:scattered/scattered_scaffold21",
-      "pomkotsmechs:scattered/scattered_scaffold22"
+      "lostcities:scattered/scattered_scaffold20",
+      "lostcities:scattered/scattered_scaffold21",
+      "lostcities:scattered/scattered_scaffold22"
     ]
   ]
 }

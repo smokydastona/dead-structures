@@ -3,19 +3,19 @@
   "dimz": 3,
   "buildings": [
     [
-      "pomkotsmechs:factory/factory_furnace00",
-      "pomkotsmechs:factory/factory_furnace01",
-      "pomkotsmechs:factory/factory_furnace02"
+      "lostcities:factory/factory_furnace00",
+      "lostcities:factory/factory_furnace01",
+      "lostcities:factory/factory_furnace02"
     ],
     [
-      "pomkotsmechs:factory/factory_furnace10",
-      "pomkotsmechs:factory/factory_furnace11",
-      "pomkotsmechs:factory/factory_furnace12"
+      "lostcities:factory/factory_furnace10",
+      "lostcities:factory/factory_furnace11",
+      "lostcities:factory/factory_furnace12"
     ],
     [
-      "pomkotsmechs:factory/factory_furnace20",
-      "pomkotsmechs:factory/factory_furnace21",
-      "pomkotsmechs:factory/factory_furnace22"
+      "lostcities:factory/factory_furnace20",
+      "lostcities:factory/factory_furnace21",
+      "lostcities:factory/factory_furnace22"
     ]
   ]
 }

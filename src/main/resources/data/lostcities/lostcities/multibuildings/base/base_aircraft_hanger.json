@@ -3,12 +3,12 @@
   "dimz": 2,
   "buildings": [
     [
-      "pomkotsmechs:base/base_aircraft_hanger00",
-      "pomkotsmechs:base/base_aircraft_hanger01"
+      "lostcities:base/base_aircraft_hanger00",
+      "lostcities:base/base_aircraft_hanger01"
     ],
     [
-      "pomkotsmechs:base/base_aircraft_hanger10",
-      "pomkotsmechs:base/base_aircraft_hanger11"
+      "lostcities:base/base_aircraft_hanger10",
+      "lostcities:base/base_aircraft_hanger11"
     ]
   ]
 }

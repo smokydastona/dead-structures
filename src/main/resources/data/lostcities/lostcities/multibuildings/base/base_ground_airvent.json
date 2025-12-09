@@ -3,11 +3,11 @@
   "dimz": 5,
   "buildings": [
     [
-      "pomkotsmechs:base/base_airvent",
-      "pomkotsmechs:base/base_airvent",
-      "pomkotsmechs:base/base_airvent",
-      "pomkotsmechs:base/base_airvent",
-      "pomkotsmechs:base/base_airvent"
+      "lostcities:base/base_airvent",
+      "lostcities:base/base_airvent",
+      "lostcities:base/base_airvent",
+      "lostcities:base/base_airvent",
+      "lostcities:base/base_airvent"
     ]
   ]
 }

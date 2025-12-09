@@ -10,17 +10,17 @@
     {
       "floor": 0,
       "top": false,
-      "part": "pomkotsmechs:quarry/quarry_stone_large10_0"
+      "part": "lostcities:quarry/quarry_stone_large10_0"
     },
     {
       "floor": 1,
       "top": false,
-      "part": "pomkotsmechs:quarry/quarry_stone_large10_1"
+      "part": "lostcities:quarry/quarry_stone_large10_1"
     },
     {
       "floor": 2,
       "top": true,
-      "part": "pomkotsmechs:quarry/quarry_stone_large10_2"
+      "part": "lostcities:quarry/quarry_stone_large10_2"
     }
   ]
 }

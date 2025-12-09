@@ -3,19 +3,19 @@
   "dimz": 3,
   "buildings": [
     [
-      "pomkotsmechs:black_building",
-      "pomkotsmechs:black_building",
-      "pomkotsmechs:black_building"
+      "lostcities:black_building",
+      "lostcities:black_building",
+      "lostcities:black_building"
     ],
     [
-      "pomkotsmechs:black_building",
-      "pomkotsmechs:black_building",
-      "pomkotsmechs:black_building"
+      "lostcities:black_building",
+      "lostcities:black_building",
+      "lostcities:black_building"
     ],
     [
-      "pomkotsmechs:black_building",
-      "pomkotsmechs:black_building",
-      "pomkotsmechs:black_building"
+      "lostcities:black_building",
+      "lostcities:black_building",
+      "lostcities:black_building"
     ]
   ]
 }

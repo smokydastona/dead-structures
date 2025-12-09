@@ -10,12 +10,12 @@
     {
       "floor": 0,
       "top": false,
-      "part": "pomkotsmechs:base/base_cargo_b_0"
+      "part": "lostcities:base/base_cargo_b_0"
     },
     {
       "floor": 1,
       "top": true,
-      "part": "pomkotsmechs:base/base_cargo_b_1"
+      "part": "lostcities:base/base_cargo_b_1"
     }
   ]
 }

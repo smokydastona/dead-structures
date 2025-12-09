@@ -9,21 +9,21 @@
     {
       "floor": 0,
       "top": false,
-      "part": "pomkotsmechs:factory/factory_tower_0"
+      "part": "lostcities:factory/factory_tower_0"
     },
     {
       "range": "1,6",
       "top": false,
-      "part": "pomkotsmechs:factory/factory_tower_1"
+      "part": "lostcities:factory/factory_tower_1"
     },
     {
       "range": "7,100",
       "top": false,
-      "part": "pomkotsmechs:factory/factory_tower_2"
+      "part": "lostcities:factory/factory_tower_2"
     },
     {
       "top": true,
-      "part": "pomkotsmechs:factory/factory_tower_3"
+      "part": "lostcities:factory/factory_tower_3"
     }
   ]
 }

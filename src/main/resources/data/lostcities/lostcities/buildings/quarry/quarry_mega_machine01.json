@@ -10,32 +10,32 @@
     {
       "floor": 0,
       "top": false,
-      "part": "pomkotsmechs:quarry/quarry_mega_machine01_0"
+      "part": "lostcities:quarry/quarry_mega_machine01_0"
     },
     {
       "floor": 1,
       "top": false,
-      "part": "pomkotsmechs:quarry/quarry_mega_machine01_1"
+      "part": "lostcities:quarry/quarry_mega_machine01_1"
     },
     {
       "floor": 2,
       "top": false,
-      "part": "pomkotsmechs:quarry/quarry_mega_machine01_2"
+      "part": "lostcities:quarry/quarry_mega_machine01_2"
     },
     {
       "floor": 3,
       "top": false,
-      "part": "pomkotsmechs:quarry/quarry_mega_machine01_3"
+      "part": "lostcities:quarry/quarry_mega_machine01_3"
     },
     {
       "floor": 4,
       "top": false,
-      "part": "pomkotsmechs:quarry/quarry_mega_machine01_4"
+      "part": "lostcities:quarry/quarry_mega_machine01_4"
     },
     {
       "floor": 5,
       "top": true,
-      "part": "pomkotsmechs:quarry/quarry_mega_machine01_5"
+      "part": "lostcities:quarry/quarry_mega_machine01_5"
     }
   ]
 }

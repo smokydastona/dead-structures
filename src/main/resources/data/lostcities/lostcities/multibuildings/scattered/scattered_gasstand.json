@@ -3,19 +3,19 @@
   "dimz": 3,
   "buildings": [
     [
-      "pomkotsmechs:scattered/scattered_gasstand00",
-      "pomkotsmechs:scattered/scattered_gasstand01",
-      "pomkotsmechs:scattered/scattered_gasstand02"
+      "lostcities:scattered/scattered_gasstand00",
+      "lostcities:scattered/scattered_gasstand01",
+      "lostcities:scattered/scattered_gasstand02"
     ],
     [
-      "pomkotsmechs:scattered/scattered_gasstand10",
-      "pomkotsmechs:scattered/scattered_gasstand11",
-      "pomkotsmechs:scattered/scattered_gasstand12"
+      "lostcities:scattered/scattered_gasstand10",
+      "lostcities:scattered/scattered_gasstand11",
+      "lostcities:scattered/scattered_gasstand12"
     ],
     [
-      "pomkotsmechs:scattered/scattered_gasstand20",
-      "pomkotsmechs:scattered/scattered_gasstand21",
-      "pomkotsmechs:scattered/scattered_gasstand22"
+      "lostcities:scattered/scattered_gasstand20",
+      "lostcities:scattered/scattered_gasstand21",
+      "lostcities:scattered/scattered_gasstand22"
     ]
   ]
 }

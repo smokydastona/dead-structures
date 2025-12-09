@@ -3,19 +3,19 @@
   "dimz": 3,
   "buildings": [
     [
-      "pomkotsmechs:base/base_container00",
-      "pomkotsmechs:base/base_container01",
-      "pomkotsmechs:base/base_container02"
+      "lostcities:base/base_container00",
+      "lostcities:base/base_container01",
+      "lostcities:base/base_container02"
     ],
     [
-      "pomkotsmechs:base/base_container10",
-      "pomkotsmechs:base/base_container11",
-      "pomkotsmechs:base/base_container12"
+      "lostcities:base/base_container10",
+      "lostcities:base/base_container11",
+      "lostcities:base/base_container12"
     ],
     [
-      "pomkotsmechs:base/base_container20",
-      "pomkotsmechs:base/base_container21",
-      "pomkotsmechs:base/base_container22"
+      "lostcities:base/base_container20",
+      "lostcities:base/base_container21",
+      "lostcities:base/base_container22"
     ]
   ]
 }

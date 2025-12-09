@@ -10,27 +10,27 @@
     {
       "floor": 0,
       "top": false,
-      "part": "pomkotsmechs:base/base_airvent_0"
+      "part": "lostcities:base/base_airvent_0"
     },
     {
       "floor": 1,
       "top": false,
-      "part": "pomkotsmechs:base/base_airvent_1"
+      "part": "lostcities:base/base_airvent_1"
     },
     {
       "floor": 2,
       "top": false,
-      "part": "pomkotsmechs:base/base_airvent_2"
+      "part": "lostcities:base/base_airvent_2"
     },
     {
       "floor": 3,
       "top": false,
-      "part": "pomkotsmechs:base/base_airvent_3"
+      "part": "lostcities:base/base_airvent_3"
     },
     {
       "floor": 4,
       "top": true,
-      "part": "pomkotsmechs:base/base_airvent_4"
+      "part": "lostcities:base/base_airvent_4"
     }
   ]
 }

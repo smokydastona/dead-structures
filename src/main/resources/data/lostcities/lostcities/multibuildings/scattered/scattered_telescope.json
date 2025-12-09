@@ -3,19 +3,19 @@
   "dimz": 3,
   "buildings": [
     [
-      "pomkotsmechs:scattered/scattered_telescope00",
-      "pomkotsmechs:scattered/scattered_telescope01",
-      "pomkotsmechs:scattered/scattered_telescope02"
+      "lostcities:scattered/scattered_telescope00",
+      "lostcities:scattered/scattered_telescope01",
+      "lostcities:scattered/scattered_telescope02"
     ],
     [
-      "pomkotsmechs:scattered/scattered_telescope10",
-      "pomkotsmechs:scattered/scattered_telescope11",
-      "pomkotsmechs:scattered/scattered_telescope12"
+      "lostcities:scattered/scattered_telescope10",
+      "lostcities:scattered/scattered_telescope11",
+      "lostcities:scattered/scattered_telescope12"
     ],
     [
-      "pomkotsmechs:scattered/scattered_telescope20",
-      "pomkotsmechs:scattered/scattered_telescope21",
-      "pomkotsmechs:scattered/scattered_telescope22"
+      "lostcities:scattered/scattered_telescope20",
+      "lostcities:scattered/scattered_telescope21",
+      "lostcities:scattered/scattered_telescope22"
     ]
   ]
 }

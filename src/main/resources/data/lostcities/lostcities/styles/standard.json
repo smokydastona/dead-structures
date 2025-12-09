@@ -9,25 +9,25 @@
     [
       {
         "factor": 1.0,
-        "palette": "pomkotsmechs:default"
+        "palette": "lostcities:default"
       }
     ],
     [
       {
         "factor": 1.0,
-        "palette": "pomkotsmechs:bricks_standard"
+        "palette": "lostcities:bricks_standard"
       },
       {
         "factor": 1.0,
-        "palette": "pomkotsmechs:bricks_cyan"
+        "palette": "lostcities:bricks_cyan"
       },
       {
         "factor": 1.0,
-        "palette": "pomkotsmechs:bricks_gray"
+        "palette": "lostcities:bricks_gray"
       },
       {
         "factor": 1.0,
-        "palette": "pomkotsmechs:bricks_silver"
+        "palette": "lostcities:bricks_silver"
       }
     ],
     [

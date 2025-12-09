@@ -1,5 +1,5 @@
 {
-  "multibuilding": "pomkotsmechs:scattered/scattered_radiotower",
+  "multibuilding": "lostcities:scattered/scattered_radiotower",
   "terrainheight": "highest",
   "terrainfix": "repeatslice",
   "heightoffset": -1

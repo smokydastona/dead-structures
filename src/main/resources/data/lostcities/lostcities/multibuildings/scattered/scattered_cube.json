@@ -3,39 +3,39 @@
   "dimz": 5,
   "buildings": [
     [
-      "pomkotsmechs:scattered/scattered_cube00",
-      "pomkotsmechs:scattered/scattered_cube01",
-      "pomkotsmechs:scattered/scattered_cube02",
-      "pomkotsmechs:scattered/scattered_cube03",
-      "pomkotsmechs:scattered/scattered_cube04"
+      "lostcities:scattered/scattered_cube00",
+      "lostcities:scattered/scattered_cube01",
+      "lostcities:scattered/scattered_cube02",
+      "lostcities:scattered/scattered_cube03",
+      "lostcities:scattered/scattered_cube04"
     ],
     [
-      "pomkotsmechs:scattered/scattered_cube10",
-      "pomkotsmechs:scattered/scattered_cube11",
-      "pomkotsmechs:scattered/scattered_cube12",
-      "pomkotsmechs:scattered/scattered_cube13",
-      "pomkotsmechs:scattered/scattered_cube14"
+      "lostcities:scattered/scattered_cube10",
+      "lostcities:scattered/scattered_cube11",
+      "lostcities:scattered/scattered_cube12",
+      "lostcities:scattered/scattered_cube13",
+      "lostcities:scattered/scattered_cube14"
     ],
     [
-      "pomkotsmechs:scattered/scattered_cube20",
-      "pomkotsmechs:scattered/scattered_cube21",
-      "pomkotsmechs:scattered/scattered_cube22",
-      "pomkotsmechs:scattered/scattered_cube23",
-      "pomkotsmechs:scattered/scattered_cube24"
+      "lostcities:scattered/scattered_cube20",
+      "lostcities:scattered/scattered_cube21",
+      "lostcities:scattered/scattered_cube22",
+      "lostcities:scattered/scattered_cube23",
+      "lostcities:scattered/scattered_cube24"
     ],
     [
-      "pomkotsmechs:scattered/scattered_cube30",
-      "pomkotsmechs:scattered/scattered_cube31",
-      "pomkotsmechs:scattered/scattered_cube32",
-      "pomkotsmechs:scattered/scattered_cube33",
-      "pomkotsmechs:scattered/scattered_cube34"
+      "lostcities:scattered/scattered_cube30",
+      "lostcities:scattered/scattered_cube31",
+      "lostcities:scattered/scattered_cube32",
+      "lostcities:scattered/scattered_cube33",
+      "lostcities:scattered/scattered_cube34"
     ],
     [
-      "pomkotsmechs:scattered/scattered_cube40",
-      "pomkotsmechs:scattered/scattered_cube41",
-      "pomkotsmechs:scattered/scattered_cube42",
-      "pomkotsmechs:scattered/scattered_cube43",
-      "pomkotsmechs:scattered/scattered_cube44"
+      "lostcities:scattered/scattered_cube40",
+      "lostcities:scattered/scattered_cube41",
+      "lostcities:scattered/scattered_cube42",
+      "lostcities:scattered/scattered_cube43",
+      "lostcities:scattered/scattered_cube44"
     ]
   ]
 }

@@ -2,22 +2,22 @@
   "palette": [
     {
       "char": "X",
-      "variant": "pomkotsmechs:brownlightblock",
+      "variant": "lostcities:brownlightblock",
       "damaged": "minecraft:iron_bars"
     },
     {
       "char": "$",
-      "variant": "pomkotsmechs:brownblock",
+      "variant": "lostcities:brownblock",
       "damaged": "minecraft:iron_bars"
     },
     {
       "char": "#",
-      "variant": "pomkotsmechs:brownlightblock",
+      "variant": "lostcities:brownlightblock",
       "damaged": "minecraft:iron_bars"
     },
     {
       "char": "}",
-      "variant": "pomkotsmechs:brownlightblock",
+      "variant": "lostcities:brownlightblock",
       "damaged": "minecraft:iron_bars"
     }
   ]

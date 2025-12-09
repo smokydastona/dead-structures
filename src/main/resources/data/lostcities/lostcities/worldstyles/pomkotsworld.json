@@ -17,7 +17,7 @@
     "weightnone": 30,
     "list": [
       {
-        "name": "pomkotsmechs:scattered_antenna",
+        "name": "lostcities:scattered_antenna",
         "weight": 5,
         "maxheightdiff": 100,
         "biomes": {
@@ -30,7 +30,7 @@
         }
       },
       {
-        "name": "pomkotsmechs:scattered_container",
+        "name": "lostcities:scattered_container",
         "weight": 5,
         "maxheightdiff": 100,
         "biomes": {
@@ -43,7 +43,7 @@
         }
       },
       {
-        "name": "pomkotsmechs:scattered_farmland",
+        "name": "lostcities:scattered_farmland",
         "weight": 8,
         "maxheightdiff": 100,
         "biomes": {
@@ -56,7 +56,7 @@
         }
       },
       {
-        "name": "pomkotsmechs:scattered_garage",
+        "name": "lostcities:scattered_garage",
         "weight": 5,
         "maxheightdiff": 100,
         "biomes": {
@@ -69,7 +69,7 @@
         }
       },
       {
-        "name": "pomkotsmechs:scattered_gasstand",
+        "name": "lostcities:scattered_gasstand",
         "weight": 8,
         "maxheightdiff": 100,
         "biomes": {
@@ -82,7 +82,7 @@
         }
       },
       {
-        "name": "pomkotsmechs:scattered_hanger",
+        "name": "lostcities:scattered_hanger",
         "weight": 5,
         "maxheightdiff": 100,
         "biomes": {
@@ -95,7 +95,7 @@
         }
       },
       {
-        "name": "pomkotsmechs:scattered_lighthouse",
+        "name": "lostcities:scattered_lighthouse",
         "weight": 5,
         "maxheightdiff": 100,
         "biomes": {
@@ -108,7 +108,7 @@
         }
       },
       {
-        "name": "pomkotsmechs:scattered_minifactory",
+        "name": "lostcities:scattered_minifactory",
         "weight": 5,
         "maxheightdiff": 100,
         "biomes": {
@@ -121,7 +121,7 @@
         }
       },
       {
-        "name": "pomkotsmechs:scattered_radiotower",
+        "name": "lostcities:scattered_radiotower",
         "weight": 5,
         "maxheightdiff": 100,
         "biomes": {
@@ -134,7 +134,7 @@
         }
       },
       {
-        "name": "pomkotsmechs:scattered_scaffold",
+        "name": "lostcities:scattered_scaffold",
         "weight": 5,
         "maxheightdiff": 100,
         "biomes": {
@@ -147,7 +147,7 @@
         }
       },
       {
-        "name": "pomkotsmechs:scattered_telescope",
+        "name": "lostcities:scattered_telescope",
         "weight": 5,
         "maxheightdiff": 100,
         "biomes": {
@@ -160,7 +160,7 @@
         }
       },
       {
-        "name": "pomkotsmechs:scattered_watertank",
+        "name": "lostcities:scattered_watertank",
         "weight": 5,
         "maxheightdiff": 100,
         "biomes": {
@@ -173,7 +173,7 @@
         }
       },
       {
-        "name": "pomkotsmechs:wind_mill",
+        "name": "lostcities:wind_mill",
         "weight": 5,
         "maxheightdiff": 100,
         "biomes": {
@@ -185,7 +185,7 @@
         }
       },
       {
-        "name": "pomkotsmechs:warship",
+        "name": "lostcities:warship",
         "weight": 15,
         "maxheightdiff": 100,
         "biomes": {
@@ -195,7 +195,7 @@
         }
       },
       {
-        "name": "pomkotsmechs:mega_platform",
+        "name": "lostcities:mega_platform",
         "weight": 5,
         "maxheightdiff": 100,
         "biomes": {
@@ -272,7 +272,7 @@
   ],
   "citystyles": [
     {
-      "citystyle": "pomkotsmechs:port",
+      "citystyle": "lostcities:port",
       "factor": 9,
       "biomes": {
         "if_any": [
@@ -284,7 +284,7 @@
       }
     },
     {
-      "citystyle": "pomkotsmechs:base",
+      "citystyle": "lostcities:base",
       "factor": 9,
       "biomes": {
         "if_any": [
@@ -298,7 +298,7 @@
       }
     },
     {
-      "citystyle": "pomkotsmechs:quarry",
+      "citystyle": "lostcities:quarry",
       "factor": 9,
       "biomes": {
         "if_any": [
@@ -315,7 +315,7 @@
       }
     },
     {
-      "citystyle": "pomkotsmechs:megasolar",
+      "citystyle": "lostcities:megasolar",
       "factor": 9,
       "biomes": {
         "if_any": [
@@ -327,7 +327,7 @@
       }
     },
     {
-      "citystyle": "pomkotsmechs:factory",
+      "citystyle": "lostcities:factory",
       "factor": 9,
       "biomes": {
         "if_any": [
@@ -336,7 +336,7 @@
       }
     },
     {
-      "citystyle": "pomkotsmechs:standard",
+      "citystyle": "lostcities:standard",
       "factor": 9,
       "biomes": {
         "if_any": [
@@ -347,7 +347,7 @@
       }
     },
     {
-      "citystyle": "pomkotsmechs:standard2",
+      "citystyle": "lostcities:standard2",
       "factor": 1,
       "biomes": {
         "if_any": [
@@ -356,67 +356,67 @@
       }
     },
     {
-      "citystyle": "pomkotsmechs:weatheredcity",
+      "citystyle": "lostcities:weatheredcity",
       "factor": 0.001
     }
   ],
   "parts": {
     "highways": {
       "bridge": [
-        "pomkotsmechs:common/highway_bridge"
+        "lostcities:common/highway_bridge"
       ],
       "bridge_bi": [
-        "pomkotsmechs:common/highway_bridge_bi"
+        "lostcities:common/highway_bridge_bi"
       ],
       "tunnel": [
-        "pomkotsmechs:common/highway_tunnel"
+        "lostcities:common/highway_tunnel"
       ],
       "tunnel_bi": [
-        "pomkotsmechs:common/highway_tunnel_bi"
+        "lostcities:common/highway_tunnel_bi"
       ],
       "open": [
-        "pomkotsmechs:common/highway_open"
+        "lostcities:common/highway_open"
       ],
       "open_bi": [
-        "pomkotsmechs:common/highway_open_bi"
+        "lostcities:common/highway_open_bi"
       ]
     },
     "railways": {
       "stationunderground": [
-        "pomkotsmechs:common/station_underground"
+        "lostcities:common/station_underground"
       ],
       "stationundergroundstairs": [
-        "pomkotsmechs:common/station_underground_stairs"
+        "lostcities:common/station_underground_stairs"
       ],
       "railshorizontal": [
-        "pomkotsmechs:common/rails_horizontal"
+        "lostcities:common/rails_horizontal"
       ],
       "railshorizontalend": [
-        "pomkotsmechs:common/rails_horizontal_end"
+        "lostcities:common/rails_horizontal_end"
       ],
       "railshorizontalwater": [
-        "pomkotsmechs:common/rails_horizontal_water"
+        "lostcities:common/rails_horizontal_water"
       ],
       "railsvertical": [
-        "pomkotsmechs:common/rails_vertical"
+        "lostcities:common/rails_vertical"
       ],
       "railsverticalwater": [
-        "pomkotsmechs:common/rails_vertical_water"
+        "lostcities:common/rails_vertical_water"
       ],
       "rails3split": [
-        "pomkotsmechs:common/rails_3split"
+        "lostcities:common/rails_3split"
       ],
       "railsbend": [
-        "pomkotsmechs:common/rails_bend"
+        "lostcities:common/rails_bend"
       ],
       "railsflat": [
-        "pomkotsmechs:common/rails_flat"
+        "lostcities:common/rails_flat"
       ],
       "railsdown1": [
-        "pomkotsmechs:common/rails_down1"
+        "lostcities:common/rails_down1"
       ],
       "railsdown2": [
-        "pomkotsmechs:common/rails_down2"
+        "lostcities:common/rails_down2"
       ]
     }
   }

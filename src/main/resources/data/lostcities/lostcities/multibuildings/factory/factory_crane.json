@@ -3,19 +3,19 @@
   "dimz": 3,
   "buildings": [
     [
-      "pomkotsmechs:factory/factory_crane00",
-      "pomkotsmechs:factory/factory_crane01",
-      "pomkotsmechs:factory/factory_crane02"
+      "lostcities:factory/factory_crane00",
+      "lostcities:factory/factory_crane01",
+      "lostcities:factory/factory_crane02"
     ],
     [
-      "pomkotsmechs:factory/factory_crane10",
-      "pomkotsmechs:factory/factory_crane11",
-      "pomkotsmechs:factory/factory_crane12"
+      "lostcities:factory/factory_crane10",
+      "lostcities:factory/factory_crane11",
+      "lostcities:factory/factory_crane12"
     ],
     [
-      "pomkotsmechs:factory/factory_crane20",
-      "pomkotsmechs:factory/factory_crane21",
-      "pomkotsmechs:factory/factory_crane22"
+      "lostcities:factory/factory_crane20",
+      "lostcities:factory/factory_crane21",
+      "lostcities:factory/factory_crane22"
     ]
   ]
 }

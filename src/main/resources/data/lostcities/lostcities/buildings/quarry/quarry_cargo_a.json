@@ -10,12 +10,12 @@
     {
       "floor": 0,
       "top": false,
-      "part": "pomkotsmechs:quarry/quarry_cargo_a_0"
+      "part": "lostcities:quarry/quarry_cargo_a_0"
     },
     {
       "floor": 1,
       "top": true,
-      "part": "pomkotsmechs:quarry/quarry_cargo_a_1"
+      "part": "lostcities:quarry/quarry_cargo_a_1"
     }
   ]
 }

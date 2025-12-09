@@ -9,21 +9,21 @@
     {
       "floor": 0,
       "top": false,
-      "part": "pomkotsmechs:base/base_building_wall_0"
+      "part": "lostcities:base/base_building_wall_0"
     },
     {
       "range": "1,8",
       "top": false,
-      "part": "pomkotsmechs:base/base_building_wall_1"
+      "part": "lostcities:base/base_building_wall_1"
     },
     {
       "range": "9,100",
       "top": false,
-      "part": "pomkotsmechs:base/base_building_wall_2"
+      "part": "lostcities:base/base_building_wall_2"
     },
     {
       "top": true,
-      "part": "pomkotsmechs:base/base_building_wall_3"
+      "part": "lostcities:base/base_building_wall_3"
     }
   ]
 }

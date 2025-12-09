@@ -32,7 +32,7 @@
     },
     {
       "char": "Ͷ",
-      "block": "pomkotsmechs:mechworkbench[facing=west]",
+      "block": "lostcities:mechworkbench[facing=west]",
       "damaged": "minecraft:iron_bars"
     },
     {
@@ -162,7 +162,7 @@
     },
     {
       "char": "g",
-      "block": "pomkotsmechs:pomkotscube[facing=west,type=single,waterlogged=false]",
+      "block": "lostcities:pomkotscube[facing=west,type=single,waterlogged=false]",
       "damaged": "minecraft:iron_bars"
     },
     {
@@ -357,7 +357,7 @@
     },
     {
       "char": "i",
-      "block": "pomkotsmechs:pomkotscube[facing=east,type=single,waterlogged=false]",
+      "block": "lostcities:pomkotscube[facing=east,type=single,waterlogged=false]",
       "damaged": "minecraft:iron_bars"
     },
     {
@@ -402,7 +402,7 @@
     },
     {
       "char": "͸",
-      "block": "pomkotsmechs:pomkotscube[facing=north,type=single,waterlogged=false]",
+      "block": "lostcities:pomkotscube[facing=north,type=single,waterlogged=false]",
       "damaged": "minecraft:iron_bars"
     },
     {
@@ -462,7 +462,7 @@
     },
     {
       "char": "o",
-      "block": "pomkotsmechs:pomkotscube[facing=south,type=single,waterlogged=false]",
+      "block": "lostcities:pomkotscube[facing=south,type=single,waterlogged=false]",
       "damaged": "minecraft:iron_bars"
     },
     {

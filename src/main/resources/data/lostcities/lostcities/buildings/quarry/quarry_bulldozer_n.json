@@ -10,12 +10,12 @@
     {
       "floor": 0,
       "top": false,
-      "part": "pomkotsmechs:quarry/quarry_bulldozer_n_0"
+      "part": "lostcities:quarry/quarry_bulldozer_n_0"
     },
     {
       "floor": 1,
       "top": true,
-      "part": "pomkotsmechs:quarry/quarry_bulldozer_n_1"
+      "part": "lostcities:quarry/quarry_bulldozer_n_1"
     }
   ]
 }

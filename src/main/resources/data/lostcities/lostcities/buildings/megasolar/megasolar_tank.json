@@ -10,17 +10,17 @@
     {
       "floor": 0,
       "top": false,
-      "part": "pomkotsmechs:megasolar/megasolar_tank_0"
+      "part": "lostcities:megasolar/megasolar_tank_0"
     },
     {
       "floor": 1,
       "top": false,
-      "part": "pomkotsmechs:megasolar/megasolar_tank_1"
+      "part": "lostcities:megasolar/megasolar_tank_1"
     },
     {
       "floor": 2,
       "top": true,
-      "part": "pomkotsmechs:megasolar/megasolar_tank_2"
+      "part": "lostcities:megasolar/megasolar_tank_2"
     }
   ]
 }

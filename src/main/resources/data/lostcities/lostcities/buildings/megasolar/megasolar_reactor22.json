@@ -10,36 +10,36 @@
     {
       "floor": 0,
       "top": false,
-      "part": "pomkotsmechs:megasolar/megasolar_reactor22_0"
+      "part": "lostcities:megasolar/megasolar_reactor22_0"
     },
     {
       "floor": 1,
       "top": false,
-      "part": "pomkotsmechs:megasolar/megasolar_reactor22_1"
+      "part": "lostcities:megasolar/megasolar_reactor22_1"
     },
     {
       "floor": 2,
       "top": false,
-      "part": "pomkotsmechs:megasolar/megasolar_reactor22_2"
+      "part": "lostcities:megasolar/megasolar_reactor22_2"
     },
     {
       "range": "3,100",
       "top": false,
-      "part": "pomkotsmechs:megasolar/megasolar_reactor22_3"
+      "part": "lostcities:megasolar/megasolar_reactor22_3"
     },
     {
       "range": "3,100",
       "top": false,
-      "part": "pomkotsmechs:megasolar/megasolar_reactor22_4"
+      "part": "lostcities:megasolar/megasolar_reactor22_4"
     },
     {
       "range": "3,100",
       "top": false,
-      "part": "pomkotsmechs:megasolar/megasolar_reactor22_5"
+      "part": "lostcities:megasolar/megasolar_reactor22_5"
     },
     {
       "top": true,
-      "part": "pomkotsmechs:megasolar/megasolar_reactor22_6"
+      "part": "lostcities:megasolar/megasolar_reactor22_6"
     }
   ]
 }

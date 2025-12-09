@@ -10,38 +10,38 @@
     {
       "floor": 0,
       "top": false,
-      "part": "pomkotsmechs:factory/factory_rack_0"
+      "part": "lostcities:factory/factory_rack_0"
     },
     {
       "floor": 1,
       "top": false,
-      "part": "pomkotsmechs:factory/factory_rack_1"
+      "part": "lostcities:factory/factory_rack_1"
     },
     {
       "range": "2,100",
       "top": false,
-      "part": "pomkotsmechs:factory/factory_rack_2"
+      "part": "lostcities:factory/factory_rack_2"
     },
     {
       "range": "2,100",
       "top": false,
-      "part": "pomkotsmechs:factory/factory_rack_3"
+      "part": "lostcities:factory/factory_rack_3"
     },
     {
       "top": true,
-      "part": "pomkotsmechs:factory/factory_rack_4"
+      "part": "lostcities:factory/factory_rack_4"
     },
     {
       "top": true,
-      "part": "pomkotsmechs:factory/factory_rack_5"
+      "part": "lostcities:factory/factory_rack_5"
     },
     {
       "top": true,
-      "part": "pomkotsmechs:factory/factory_rack_6"
+      "part": "lostcities:factory/factory_rack_6"
     },
     {
       "top": true,
-      "part": "pomkotsmechs:factory/factory_rack_7"
+      "part": "lostcities:factory/factory_rack_7"
     }
   ]
 }

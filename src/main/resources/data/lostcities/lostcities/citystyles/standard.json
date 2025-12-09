@@ -1,6 +1,6 @@
 {
   "inherit": "citystyle_config",
-  "style": "pomkotsmechs:standard",
+  "style": "lostcities:standard",
   "stuff_tags": ["rubble"],
   "streetblocks": {
     "border": "y",
@@ -10,13 +10,13 @@
     "streetvariant": "B",
     "width": 16,
     "parts": {
-      "full": "pomkotsmechs:common/street_full",
-      "straight": "pomkotsmechs:common/street_straight",
-      "end": "pomkotsmechs:common/street_end",
-      "bend": "pomkotsmechs:common/street_bend",
-      "t": "pomkotsmechs:common/street_t",
-      "none": "pomkotsmechs:common/street_none",
-      "all": "pomkotsmechs:common/street_all"
+      "full": "lostcities:common/street_full",
+      "straight": "lostcities:common/street_straight",
+      "end": "lostcities:common/street_end",
+      "bend": "lostcities:common/street_bend",
+      "t": "lostcities:common/street_t",
+      "none": "lostcities:common/street_none",
+      "all": "lostcities:common/street_all"
     }
   },
   "parkblocks": {
@@ -122,11 +122,11 @@
     "bridges": [
       {
         "factor": 1.0,
-        "value": "pomkotsmechs:common/bridge_open"
+        "value": "lostcities:common/bridge_open"
       },
       {
         "factor": 1.0,
-        "value": "pomkotsmechs:common/bridge_covered"
+        "value": "lostcities:common/bridge_covered"
       }
     ],
     "fronts": [

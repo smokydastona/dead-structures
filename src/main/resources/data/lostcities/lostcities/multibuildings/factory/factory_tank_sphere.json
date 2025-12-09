@@ -3,12 +3,12 @@
   "dimz": 2,
   "buildings": [
     [
-      "pomkotsmechs:factory/factory_tank_sphere00",
-      "pomkotsmechs:factory/factory_tank_sphere01"
+      "lostcities:factory/factory_tank_sphere00",
+      "lostcities:factory/factory_tank_sphere01"
     ],
     [
-      "pomkotsmechs:factory/factory_tank_sphere10",
-      "pomkotsmechs:factory/factory_tank_sphere11"
+      "lostcities:factory/factory_tank_sphere10",
+      "lostcities:factory/factory_tank_sphere11"
     ]
   ]
 }

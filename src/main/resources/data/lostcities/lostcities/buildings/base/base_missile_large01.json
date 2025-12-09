@@ -10,17 +10,17 @@
     {
       "floor": 0,
       "top": false,
-      "part": "pomkotsmechs:base/base_missile_large01_0"
+      "part": "lostcities:base/base_missile_large01_0"
     },
     {
       "floor": 1,
       "top": false,
-      "part": "pomkotsmechs:base/base_missile_large01_1"
+      "part": "lostcities:base/base_missile_large01_1"
     },
     {
       "floor": 2,
       "top": true,
-      "part": "pomkotsmechs:base/base_missile_large01_2"
+      "part": "lostcities:base/base_missile_large01_2"
     }
   ]
 }

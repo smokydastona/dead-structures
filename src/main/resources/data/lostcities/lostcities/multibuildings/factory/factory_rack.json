@@ -3,19 +3,19 @@
   "dimz": 3,
   "buildings": [
     [
-      "pomkotsmechs:factory/factory_rack",
-      "pomkotsmechs:factory/factory_rack",
-      "pomkotsmechs:factory/factory_rack"
+      "lostcities:factory/factory_rack",
+      "lostcities:factory/factory_rack",
+      "lostcities:factory/factory_rack"
     ],
     [
-      "pomkotsmechs:factory/factory_rack",
-      "pomkotsmechs:factory/factory_rack",
-      "pomkotsmechs:factory/factory_rack"
+      "lostcities:factory/factory_rack",
+      "lostcities:factory/factory_rack",
+      "lostcities:factory/factory_rack"
     ],
     [
-      "pomkotsmechs:factory/factory_rack",
-      "pomkotsmechs:factory/factory_rack",
-      "pomkotsmechs:factory/factory_rack"
+      "lostcities:factory/factory_rack",
+      "lostcities:factory/factory_rack",
+      "lostcities:factory/factory_rack"
     ]
   ]
 }

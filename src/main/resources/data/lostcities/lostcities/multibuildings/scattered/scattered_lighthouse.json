@@ -3,19 +3,19 @@
   "dimz": 3,
   "buildings": [
     [
-      "pomkotsmechs:scattered/scattered_lighthouse00",
-      "pomkotsmechs:scattered/scattered_lighthouse01",
-      "pomkotsmechs:scattered/scattered_lighthouse02"
+      "lostcities:scattered/scattered_lighthouse00",
+      "lostcities:scattered/scattered_lighthouse01",
+      "lostcities:scattered/scattered_lighthouse02"
     ],
     [
-      "pomkotsmechs:scattered/scattered_lighthouse10",
-      "pomkotsmechs:scattered/scattered_lighthouse11",
-      "pomkotsmechs:scattered/scattered_lighthouse12"
+      "lostcities:scattered/scattered_lighthouse10",
+      "lostcities:scattered/scattered_lighthouse11",
+      "lostcities:scattered/scattered_lighthouse12"
     ],
     [
-      "pomkotsmechs:scattered/scattered_lighthouse20",
-      "pomkotsmechs:scattered/scattered_lighthouse21",
-      "pomkotsmechs:scattered/scattered_lighthouse22"
+      "lostcities:scattered/scattered_lighthouse20",
+      "lostcities:scattered/scattered_lighthouse21",
+      "lostcities:scattered/scattered_lighthouse22"
     ]
   ]
 }

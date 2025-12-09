@@ -3,12 +3,12 @@
   "dimz": 2,
   "buildings": [
     [
-      "pomkotsmechs:factory/factory_garage00",
-      "pomkotsmechs:factory/factory_garage01"
+      "lostcities:factory/factory_garage00",
+      "lostcities:factory/factory_garage01"
     ],
     [
-      "pomkotsmechs:factory/factory_garage10",
-      "pomkotsmechs:factory/factory_garage11"
+      "lostcities:factory/factory_garage10",
+      "lostcities:factory/factory_garage11"
     ]
   ]
 }

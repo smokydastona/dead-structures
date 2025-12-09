@@ -9,56 +9,56 @@
     {
       "floor": 0,
       "top": false,
-      "part": "pomkotsmechs:factory/factory_building_main_0"
+      "part": "lostcities:factory/factory_building_main_0"
     },
     {
       "range": "1,5",
       "top": false,
-      "part": "pomkotsmechs:factory/factory_building_main_1"
+      "part": "lostcities:factory/factory_building_main_1"
     },
     {
       "range": "1,5",
       "top": false,
-      "part": "pomkotsmechs:factory/factory_building_main_2"
+      "part": "lostcities:factory/factory_building_main_2"
     },
     {
       "range": "1,5",
       "top": false,
-      "part": "pomkotsmechs:factory/factory_building_main_3"
+      "part": "lostcities:factory/factory_building_main_3"
     },
     {
       "range": "1,5",
       "top": false,
-      "part": "pomkotsmechs:factory/factory_building_main_4"
+      "part": "lostcities:factory/factory_building_main_4"
     },
     {
       "range": "1,5",
       "top": false,
-      "part": "pomkotsmechs:factory/factory_building_main_5"
+      "part": "lostcities:factory/factory_building_main_5"
     },
     {
       "floor": 6,
       "top": false,
-      "part": "pomkotsmechs:factory/factory_building_main_6"
+      "part": "lostcities:factory/factory_building_main_6"
     },
     {
       "floor": 6,
       "top": false,
-      "part": "pomkotsmechs:factory/factory_building_main_7"
+      "part": "lostcities:factory/factory_building_main_7"
     },
     {
       "floor": 6,
       "top": false,
-      "part": "pomkotsmechs:factory/factory_building_main_8"
+      "part": "lostcities:factory/factory_building_main_8"
     },
     {
       "range": "7,100",
       "top": false,
-      "part": "pomkotsmechs:factory/factory_building_main_9"
+      "part": "lostcities:factory/factory_building_main_9"
     },
     {
       "top": true,
-      "part": "pomkotsmechs:factory/factory_building_main_10"
+      "part": "lostcities:factory/factory_building_main_10"
     }
   ]
 }

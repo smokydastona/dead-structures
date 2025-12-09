@@ -3,22 +3,22 @@
   "dimz": 4,
   "buildings": [
     [
-      "pomkotsmechs:scattered/scattered_farmland00",
-      "pomkotsmechs:scattered/scattered_farmland01",
-      "pomkotsmechs:scattered/scattered_farmland02",
-      "pomkotsmechs:scattered/scattered_farmland03"
+      "lostcities:scattered/scattered_farmland00",
+      "lostcities:scattered/scattered_farmland01",
+      "lostcities:scattered/scattered_farmland02",
+      "lostcities:scattered/scattered_farmland03"
     ],
     [
-      "pomkotsmechs:scattered/scattered_farmland10",
-      "pomkotsmechs:scattered/scattered_farmland11",
-      "pomkotsmechs:scattered/scattered_farmland12",
-      "pomkotsmechs:scattered/scattered_farmland13"
+      "lostcities:scattered/scattered_farmland10",
+      "lostcities:scattered/scattered_farmland11",
+      "lostcities:scattered/scattered_farmland12",
+      "lostcities:scattered/scattered_farmland13"
     ],
     [
-      "pomkotsmechs:scattered/scattered_farmland20",
-      "pomkotsmechs:scattered/scattered_farmland21",
-      "pomkotsmechs:scattered/scattered_farmland22",
-      "pomkotsmechs:scattered/scattered_farmland23"
+      "lostcities:scattered/scattered_farmland20",
+      "lostcities:scattered/scattered_farmland21",
+      "lostcities:scattered/scattered_farmland22",
+      "lostcities:scattered/scattered_farmland23"
     ]
   ]
 }

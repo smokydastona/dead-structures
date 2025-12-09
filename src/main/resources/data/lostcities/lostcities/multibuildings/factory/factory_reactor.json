@@ -3,19 +3,19 @@
   "dimz": 3,
   "buildings": [
     [
-      "pomkotsmechs:factory/factory_reactor00",
-      "pomkotsmechs:factory/factory_reactor01",
-      "pomkotsmechs:factory/factory_reactor02"
+      "lostcities:factory/factory_reactor00",
+      "lostcities:factory/factory_reactor01",
+      "lostcities:factory/factory_reactor02"
     ],
     [
-      "pomkotsmechs:factory/factory_reactor10",
-      "pomkotsmechs:factory/factory_reactor11",
-      "pomkotsmechs:factory/factory_reactor12"
+      "lostcities:factory/factory_reactor10",
+      "lostcities:factory/factory_reactor11",
+      "lostcities:factory/factory_reactor12"
     ],
     [
-      "pomkotsmechs:factory/factory_reactor20",
-      "pomkotsmechs:factory/factory_reactor21",
-      "pomkotsmechs:factory/factory_reactor22"
+      "lostcities:factory/factory_reactor20",
+      "lostcities:factory/factory_reactor21",
+      "lostcities:factory/factory_reactor22"
     ]
   ]
 }

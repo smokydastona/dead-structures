@@ -10,36 +10,36 @@
     {
       "floor": 0,
       "top": false,
-      "part": "pomkotsmechs:factory/factory_reactor01_0"
+      "part": "lostcities:factory/factory_reactor01_0"
     },
     {
       "floor": 1,
       "top": false,
-      "part": "pomkotsmechs:factory/factory_reactor01_1"
+      "part": "lostcities:factory/factory_reactor01_1"
     },
     {
       "floor": 2,
       "top": false,
-      "part": "pomkotsmechs:factory/factory_reactor01_2"
+      "part": "lostcities:factory/factory_reactor01_2"
     },
     {
       "range": "3,100",
       "top": false,
-      "part": "pomkotsmechs:factory/factory_reactor01_3"
+      "part": "lostcities:factory/factory_reactor01_3"
     },
     {
       "range": "3,100",
       "top": false,
-      "part": "pomkotsmechs:factory/factory_reactor01_4"
+      "part": "lostcities:factory/factory_reactor01_4"
     },
     {
       "range": "3,100",
       "top": false,
-      "part": "pomkotsmechs:factory/factory_reactor01_5"
+      "part": "lostcities:factory/factory_reactor01_5"
     },
     {
       "top": true,
-      "part": "pomkotsmechs:factory/factory_reactor01_6"
+      "part": "lostcities:factory/factory_reactor01_6"
     }
   ]
 }

@@ -3,24 +3,24 @@
   "dimz": 2,
   "buildings": [
     [
-      "pomkotsmechs:base/base_missile_large00",
-      "pomkotsmechs:base/base_missile_large01"
+      "lostcities:base/base_missile_large00",
+      "lostcities:base/base_missile_large01"
     ],
     [
-      "pomkotsmechs:base/base_missile_large00",
-      "pomkotsmechs:base/base_missile_large01"
+      "lostcities:base/base_missile_large00",
+      "lostcities:base/base_missile_large01"
     ],
     [
-      "pomkotsmechs:base/base_missile_large00",
-      "pomkotsmechs:base/base_missile_large01"
+      "lostcities:base/base_missile_large00",
+      "lostcities:base/base_missile_large01"
     ],
     [
-      "pomkotsmechs:base/base_missile_large00",
-      "pomkotsmechs:base/base_missile_large01"
+      "lostcities:base/base_missile_large00",
+      "lostcities:base/base_missile_large01"
     ],
     [
-      "pomkotsmechs:base/base_missile_large00",
-      "pomkotsmechs:base/base_missile_large01"
+      "lostcities:base/base_missile_large00",
+      "lostcities:base/base_missile_large01"
     ]
   ]
 }

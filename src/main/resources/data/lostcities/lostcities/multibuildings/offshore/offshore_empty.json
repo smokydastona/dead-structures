@@ -3,19 +3,19 @@
   "dimz": 3,
   "buildings": [
     [
-      "pomkotsmechs:offshore/offshore_building_pillar",
-      "pomkotsmechs:offshore/offshore_building_pillar",
-      "pomkotsmechs:offshore/offshore_building_pillar"
+      "lostcities:offshore/offshore_building_pillar",
+      "lostcities:offshore/offshore_building_pillar",
+      "lostcities:offshore/offshore_building_pillar"
     ],
     [
-      "pomkotsmechs:offshore/offshore_building_pillar",
-      "pomkotsmechs:offshore/offshore_building_pillar",
-      "pomkotsmechs:offshore/offshore_building_pillar"
+      "lostcities:offshore/offshore_building_pillar",
+      "lostcities:offshore/offshore_building_pillar",
+      "lostcities:offshore/offshore_building_pillar"
     ],
     [
-      "pomkotsmechs:offshore/offshore_building_pillar",
-      "pomkotsmechs:offshore/offshore_building_pillar",
-      "pomkotsmechs:offshore/offshore_building_pillar"
+      "lostcities:offshore/offshore_building_pillar",
+      "lostcities:offshore/offshore_building_pillar",
+      "lostcities:offshore/offshore_building_pillar"
     ]
   ]
 }

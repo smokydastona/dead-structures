@@ -1,5 +1,5 @@
 {
-  "multibuilding": "pomkotsmechs:scattered/scattered_watertank",
+  "multibuilding": "lostcities:scattered/scattered_watertank",
   "terrainheight": "highest",
   "terrainfix": "repeatslice",
   "heightoffset": -1

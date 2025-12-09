@@ -1,6 +1,6 @@
 {
   "inherit": "citystyle_config",
-  "style": "pomkotsmechs:weathered",
+  "style": "lostcities:weathered",
   "explosionchance": 0,
   "buildingsettings": {
     "minfloors": 0,
@@ -16,13 +16,13 @@
     "streetvariant": "B",
     "width": 16,
     "parts": {
-      "full": "pomkotsmechs:common/street_full",
-      "straight": "pomkotsmechs:common/street_straight",
-      "end": "pomkotsmechs:common/street_end",
-      "bend": "pomkotsmechs:common/street_bend",
-      "t": "pomkotsmechs:common/street_t",
-      "none": "pomkotsmechs:common/street_none",
-      "all": "pomkotsmechs:common/street_all"
+      "full": "lostcities:common/street_full",
+      "straight": "lostcities:common/street_straight",
+      "end": "lostcities:common/street_end",
+      "bend": "lostcities:common/street_bend",
+      "t": "lostcities:common/street_t",
+      "none": "lostcities:common/street_none",
+      "all": "lostcities:common/street_all"
     }
   },
   "parkblocks": {
@@ -45,39 +45,39 @@
     "buildings": [
       {
         "factor": 0.1,
-        "value": "pomkotsmechs:base/base_cargo_a"
+        "value": "lostcities:base/base_cargo_a"
       },
       {
         "factor": 0.1,
-        "value": "pomkotsmechs:base/base_cargo_b"
+        "value": "lostcities:base/base_cargo_b"
       }
     ],
     "multibuildings": [
       {
         "factor": 1,
-        "value": "pomkotsmechs:port/port_tanker"
+        "value": "lostcities:port/port_tanker"
       },
       {
         "factor": 1,
-        "value": "pomkotsmechs:port/port_tanker_small"
+        "value": "lostcities:port/port_tanker_small"
       },
       {
         "factor": 0.5,
-        "value": "pomkotsmechs:factory/factory_crane"
+        "value": "lostcities:factory/factory_crane"
       },
       {
         "factor": 0.5,
-        "value": "pomkotsmechs:factory/factory_tank_medium"
+        "value": "lostcities:factory/factory_tank_medium"
       }
     ],
     "bridges": [
       {
         "factor": 1.0,
-        "value": "pomkotsmechs:common/bridge_open"
+        "value": "lostcities:common/bridge_open"
       },
       {
         "factor": 1.0,
-        "value": "pomkotsmechs:common/bridge_covered"
+        "value": "lostcities:common/bridge_covered"
       }
     ],
     "fronts": [

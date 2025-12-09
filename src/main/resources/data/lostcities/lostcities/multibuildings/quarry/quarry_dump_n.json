@@ -3,8 +3,8 @@
   "dimz": 2,
   "buildings": [
     [
-      "pomkotsmechs:quarry/quarry_dump_n00",
-      "pomkotsmechs:quarry/quarry_dump_n01"
+      "lostcities:quarry/quarry_dump_n00",
+      "lostcities:quarry/quarry_dump_n01"
     ]
   ]
 }

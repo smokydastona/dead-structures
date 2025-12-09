@@ -2,7 +2,7 @@
   "palette": [
     {
       "char": "R",
-      "variant": "pomkotsmechs:roadblock",
+      "variant": "lostcities:roadblock",
       "damaged": "minecraft:iron_bars"
     },
     {
@@ -21,17 +21,17 @@
     },
     {
       "char": "Q",
-      "variant": "pomkotsmechs:quartzblock",
+      "variant": "lostcities:quartzblock",
       "damaged": "minecraft:iron_bars"
     },
     {
       "char": "u",
-      "variant": "pomkotsmechs:stonebrick",
+      "variant": "lostcities:stonebrick",
       "damaged": "minecraft:iron_bars"
     },
     {
       "char": "S",
-      "variant": "pomkotsmechs:roadblock",
+      "variant": "lostcities:roadblock",
       "damaged": "minecraft:iron_bars"
     },
     {
@@ -40,22 +40,22 @@
     },
     {
       "char": "B",
-      "variant": "pomkotsmechs:stonebrick",
+      "variant": "lostcities:stonebrick",
       "damaged": "minecraft:iron_bars"
     },
     {
       "char": "v",
-      "variant": "pomkotsmechs:stonebrick",
+      "variant": "lostcities:stonebrick",
       "damaged": "minecraft:iron_bars"
     },
     {
       "char": "y",
-      "variant": "pomkotsmechs:stonebrick",
+      "variant": "lostcities:stonebrick",
       "damaged": "minecraft:iron_bars"
     },
     {
       "char": "x",
-      "variant": "pomkotsmechs:stonebrick",
+      "variant": "lostcities:stonebrick",
       "damaged": "minecraft:iron_bars"
     },
     {

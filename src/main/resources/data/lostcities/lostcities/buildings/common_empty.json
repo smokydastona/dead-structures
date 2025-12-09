@@ -7,15 +7,15 @@
     {
       "floor": 0,
       "top": false,
-      "part": "pomkotsmechs:base/base_ground_empty_0"
+      "part": "lostcities:base/base_ground_empty_0"
     },
     {
       "top": false,
-      "part": "pomkotsmechs:common_empty"
+      "part": "lostcities:common_empty"
     },
     {
       "top": true,
-      "part": "pomkotsmechs:common_empty"
+      "part": "lostcities:common_empty"
     }
   ]
 }

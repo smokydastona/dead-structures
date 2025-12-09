@@ -12,31 +12,31 @@
       "floor": -3,
       "cellar": true,
       "top": false,
-      "part": "pomkotsmechs:common_water"
+      "part": "lostcities:common_water"
     },
     {
       "floor": -2,
       "cellar": true,
       "top": false,
-      "part": "pomkotsmechs:port/port_tanker_small00_0"
+      "part": "lostcities:port/port_tanker_small00_0"
     },
     {
       "floor": -1,
       "cellar": true,
       "top": false,
-      "part": "pomkotsmechs:port/port_tanker_small00_1"
+      "part": "lostcities:port/port_tanker_small00_1"
     },
     {
       "floor": 0,
       "cellar": false,
       "top": false,
-      "part": "pomkotsmechs:port/port_tanker_small00_2"
+      "part": "lostcities:port/port_tanker_small00_2"
     },
     {
       "floor": 1,
       "cellar": false,
       "top": true,
-      "part": "pomkotsmechs:port/port_tanker_small00_3"
+      "part": "lostcities:port/port_tanker_small00_3"
     }
   ]
 }

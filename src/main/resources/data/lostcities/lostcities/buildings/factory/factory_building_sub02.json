@@ -10,32 +10,32 @@
     {
       "floor": 0,
       "top": false,
-      "part": "pomkotsmechs:factory/factory_building_sub02_0"
+      "part": "lostcities:factory/factory_building_sub02_0"
     },
     {
       "floor": 1,
       "top": false,
-      "part": "pomkotsmechs:factory/factory_building_sub02_1"
+      "part": "lostcities:factory/factory_building_sub02_1"
     },
     {
       "floor": 2,
       "top": false,
-      "part": "pomkotsmechs:factory/factory_building_sub02_2"
+      "part": "lostcities:factory/factory_building_sub02_2"
     },
     {
       "floor": 3,
       "top": false,
-      "part": "pomkotsmechs:factory/factory_building_sub02_3"
+      "part": "lostcities:factory/factory_building_sub02_3"
     },
     {
       "floor": 4,
       "top": false,
-      "part": "pomkotsmechs:factory/factory_building_sub02_4"
+      "part": "lostcities:factory/factory_building_sub02_4"
     },
     {
       "floor": 5,
       "top": true,
-      "part": "pomkotsmechs:factory/factory_building_sub02_5"
+      "part": "lostcities:factory/factory_building_sub02_5"
     }
   ]
 }

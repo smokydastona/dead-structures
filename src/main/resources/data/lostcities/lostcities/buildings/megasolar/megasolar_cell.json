@@ -10,12 +10,12 @@
     {
       "floor": 0,
       "top": false,
-      "part": "pomkotsmechs:megasolar/megasolar_cell_0"
+      "part": "lostcities:megasolar/megasolar_cell_0"
     },
     {
       "floor": 1,
       "top": true,
-      "part": "pomkotsmechs:megasolar/megasolar_cell_1"
+      "part": "lostcities:megasolar/megasolar_cell_1"
     }
   ]
 }

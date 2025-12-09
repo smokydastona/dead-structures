@@ -11,12 +11,12 @@
       "floor": 0,
       "cellar": true,
       "top": false,
-      "part": "pomkotsmechs:common_water"
+      "part": "lostcities:common_water"
     },
     {
       "floor": 0,
       "top": true,
-      "part": "pomkotsmechs:port/common_water_0"
+      "part": "lostcities:port/common_water_0"
     }
   ]
 }

@@ -3,12 +3,12 @@
   "dimz": 2,
   "buildings": [
     [
-      "pomkotsmechs:quarry/quarry_office00",
-      "pomkotsmechs:quarry/quarry_office01"
+      "lostcities:quarry/quarry_office00",
+      "lostcities:quarry/quarry_office01"
     ],
     [
-      "pomkotsmechs:quarry/quarry_office10",
-      "pomkotsmechs:quarry/quarry_office11"
+      "lostcities:quarry/quarry_office10",
+      "lostcities:quarry/quarry_office11"
     ]
   ]
 }

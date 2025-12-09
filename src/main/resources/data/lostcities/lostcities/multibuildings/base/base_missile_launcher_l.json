@@ -3,10 +3,10 @@
   "dimz": 4,
   "buildings": [
     [
-      "pomkotsmechs:base/base_missile_launcher_l",
-      "pomkotsmechs:base/base_missile_launcher_l",
-      "pomkotsmechs:base/base_missile_launcher_l",
-      "pomkotsmechs:base/base_missile_launcher_l"
+      "lostcities:base/base_missile_launcher_l",
+      "lostcities:base/base_missile_launcher_l",
+      "lostcities:base/base_missile_launcher_l",
+      "lostcities:base/base_missile_launcher_l"
     ]
   ]
 }
