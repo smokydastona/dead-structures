@@ -37,6 +37,9 @@ public class LostCities {
         Dist dist = FMLEnvironment.dist;
 
         instance = this;
+        
+        // Register log filter early to suppress annoying messages
+        mcjty.lostcities.varia.LogFilter.register();
 
         Registration.init(bus);
         CustomRegistries.init(bus);
