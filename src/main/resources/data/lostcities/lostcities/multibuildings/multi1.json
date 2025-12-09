@@ -3,12 +3,12 @@
   "dimz": 2,
   "buildings": [
     [
-      "lcmt:building1",
-      "lcmt:building1"
+      "lostcities:building1",
+      "lostcities:building1"
     ],
     [
-      "lcmt:building1",
-      "lcmt:building1"
+      "lostcities:building1",
+      "lostcities:building1"
     ]
   ]
 }

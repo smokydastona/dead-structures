@@ -232,7 +232,7 @@
     },
     {
       "char": "/",
-      "variant": "lcmt:stone_stairs_bottom_west",
+      "variant": "lostcities:stone_stairs_bottom_west",
       "damaged": "minecraft:cobblestone_slab[type=bottom,waterlogged=false]"
     },
     {
@@ -265,7 +265,7 @@
     },
     {
       "char": "i",
-      "variant": "lcmt:azalea_leaves"
+      "variant": "lostcities:azalea_leaves"
     },
     {
       "char": "j",
@@ -300,11 +300,11 @@
     },
     {
       "char": "≈",
-      "variant": "lcmt:coral_dry"
+      "variant": "lostcities:coral_dry"
     },
     {
       "char": "≡",
-      "variant": "lcmt:seabed"
+      "variant": "lostcities:seabed"
     },
     {
       "char": "§",

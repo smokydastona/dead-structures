@@ -3,19 +3,19 @@
   "dimz": 3,
   "buildings": [
     [
-      "lcmt:building5",
-      "lcmt:building5",
-      "lcmt:building5"
+      "lostcities:building5",
+      "lostcities:building5",
+      "lostcities:building5"
     ],
     [
-      "lcmt:building5",
-      "lcmt:building5",
-      "lcmt:building5"
+      "lostcities:building5",
+      "lostcities:building5",
+      "lostcities:building5"
     ],
     [
-      "lcmt:building5",
-      "lcmt:building5",
-      "lcmt:building5"
+      "lostcities:building5",
+      "lostcities:building5",
+      "lostcities:building5"
     ]
   ]
 }

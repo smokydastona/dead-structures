@@ -5,23 +5,23 @@
     "palette": [
       {
         "char": "f",
-        "variant": "lcmt:sandstone_stairs_bottom_north"
+        "variant": "lostcities:sandstone_stairs_bottom_north"
       },
       {
         "char": "j",
-        "variant": "lcmt:sandstone_stairs_bottom_east"
+        "variant": "lostcities:sandstone_stairs_bottom_east"
       },
       {
         "char": "m",
-        "variant": "lcmt:sandstone_stairs_bottom_south"
+        "variant": "lostcities:sandstone_stairs_bottom_south"
       },
       {
         "char": "i",
-        "variant": "lcmt:sandstone_stairs_bottom_west"
+        "variant": "lostcities:sandstone_stairs_bottom_west"
       },
       {
         "char": "x",
-        "variant": "lcmt:cut_sandstone_textured",
+        "variant": "lostcities:cut_sandstone_textured",
         "damaged": "minecraft:iron_bars"
       },
       {
@@ -30,7 +30,7 @@
       },
       {
         "char": "_",
-        "variant": "lcmt:cut_sandstone_slab_bottom_textured"
+        "variant": "lostcities:cut_sandstone_slab_bottom_textured"
       }
     ]
   },

@@ -195,7 +195,7 @@
     {
       "char": "?",
       "block": "minecraft:chest[facing=north,type=single,waterlogged=false]",
-      "loot": "lcmt:library_loot"
+      "loot": "lostcities:library_loot"
     }
   ]
 }

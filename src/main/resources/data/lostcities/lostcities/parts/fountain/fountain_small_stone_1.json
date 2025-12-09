@@ -5,27 +5,27 @@
     "palette": [
       {
         "char": "i",
-        "variant": "lcmt:stone_brick_stairs_top_east"
+        "variant": "lostcities:stone_brick_stairs_top_east"
       },
       {
         "char": "m",
-        "variant": "lcmt:stone_brick_stairs_top_north"
+        "variant": "lostcities:stone_brick_stairs_top_north"
       },
       {
         "char": "n",
-        "variant": "lcmt:stone_brick_slab_bottom"
+        "variant": "lostcities:stone_brick_slab_bottom"
       },
       {
         "char": "f",
-        "variant": "lcmt:stone_brick_stairs_top_south"
+        "variant": "lostcities:stone_brick_stairs_top_south"
       },
       {
         "char": "j",
-        "variant": "lcmt:stonebrick"
+        "variant": "lostcities:stonebrick"
       },
       {
         "char": "k",
-        "variant": "lcmt:stone_brick_stairs_top_west"
+        "variant": "lostcities:stone_brick_stairs_top_west"
       }
     ]
   },

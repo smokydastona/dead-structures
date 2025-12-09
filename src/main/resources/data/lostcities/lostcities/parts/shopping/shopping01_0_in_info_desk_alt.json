@@ -22,7 +22,7 @@
       {
         "char": "C",
         "block": "minecraft:chest[facing=north,type=single,waterlogged=false]",
-        "loot": "lcmt:shopping_loot"
+        "loot": "lostcities:shopping_loot"
       }
     ]
   },

@@ -5,57 +5,57 @@
   "parts": [
     {
       "cellar": true,
-      "part": "lcmt:center/center00_underground_1"
+      "part": "lostcities:center/center00_underground_1"
     },
     {
       "top": false,
       "cellar": false,
-      "part": "lcmt:center/center00_1"
+      "part": "lostcities:center/center00_1"
     },
     {
       "top": true,
-      "part": "lcmt:center/center00_top_1"
+      "part": "lostcities:center/center00_top_1"
     },
     {
       "top": true,
-      "part": "lcmt:center/center00_top_2"
+      "part": "lostcities:center/center00_top_2"
     },
     {
       "top": true,
-      "part": "lcmt:center/center00_top_ex_radio_tower"
+      "part": "lostcities:center/center00_top_ex_radio_tower"
     },
     {
       "top": true,
-      "part": "lcmt:center/center00_top_ex_antenna"
+      "part": "lostcities:center/center00_top_ex_antenna"
     }
   ],
   "parts2": [
     {
       "top": false,
-      "part": "lcmt:center/center_in_empty"
+      "part": "lostcities:center/center_in_empty"
     },
     {
       "top": false,
-      "part": "lcmt:center/center00_in_restroom_1"
+      "part": "lostcities:center/center00_in_restroom_1"
     },
     {
       "top": false,
-      "part": "lcmt:center/center00_in_servers_1"
-    },
-    {
-      "top": false,
-      "cellar": false,
-      "part": "lcmt:center/center00_in_computer_desks_1"
+      "part": "lostcities:center/center00_in_servers_1"
     },
     {
       "top": false,
       "cellar": false,
-      "part": "lcmt:center/center00_in_big_screen_1"
+      "part": "lostcities:center/center00_in_computer_desks_1"
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "part": "lostcities:center/center00_in_big_screen_1"
     },
     {
       "top": false,
       "cellar": true,
-      "part": "lcmt:center/center00_in_storage_1"
+      "part": "lostcities:center/center00_in_storage_1"
     }
   ]
 }

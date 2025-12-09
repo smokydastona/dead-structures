@@ -13,7 +13,7 @@
     "palette": [
       {
         "char": "i",
-        "variant": "lcmt:stone_stairs_bottom_north"
+        "variant": "lostcities:stone_stairs_bottom_north"
       },
       {
         "char": "m",

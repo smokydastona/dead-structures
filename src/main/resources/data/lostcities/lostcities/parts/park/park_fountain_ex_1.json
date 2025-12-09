@@ -5,27 +5,27 @@
     "palette": [
       {
         "char": "q",
-        "variant": "lcmt:stone_brick_stairs_top_east",
+        "variant": "lostcities:stone_brick_stairs_top_east",
         "damaged": "minecraft:iron_bars"
       },
       {
         "char": "r",
-        "variant": "lcmt:stone_brick_stairs_top_west",
+        "variant": "lostcities:stone_brick_stairs_top_west",
         "damaged": "minecraft:iron_bars"
       },
       {
         "char": "s",
-        "variant": "lcmt:stone_brick_stairs_top_north",
+        "variant": "lostcities:stone_brick_stairs_top_north",
         "damaged": "minecraft:iron_bars"
       },
       {
         "char": "o",
-        "variant": "lcmt:stone_brick_stairs_top_south",
+        "variant": "lostcities:stone_brick_stairs_top_south",
         "damaged": "minecraft:iron_bars"
       },
       {
         "char": "x",
-        "variant": "lcmt:stonebrick",
+        "variant": "lostcities:stonebrick",
         "damaged": "minecraft:iron_bars"
       }
     ]

@@ -5,19 +5,19 @@
     "palette": [
       {
         "char": "r",
-        "variant": "lcmt:common_small_flowers"
+        "variant": "lostcities:common_small_flowers"
       },
       {
         "char": "o",
-        "variant": "lcmt:stone_brick_slab_bottom"
+        "variant": "lostcities:stone_brick_slab_bottom"
       },
       {
         "char": "D",
-        "variant": "lcmt:garden_soil"
+        "variant": "lostcities:garden_soil"
       },
       {
         "char": "x",
-        "variant": "lcmt:stonebrick",
+        "variant": "lostcities:stonebrick",
         "damaged": "minecraft:iron_bars"
       }
     ]

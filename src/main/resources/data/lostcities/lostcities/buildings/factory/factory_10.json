@@ -10,114 +10,114 @@
   "parts": [
     {
       "cellar": true,
-      "part": "lcmt:factory/factory_underground_10"
+      "part": "lostcities:factory/factory_underground_10"
     },
     {
       "cellar": true,
-      "part": "lcmt:factory/factory_underground_10_walled"
+      "part": "lostcities:factory/factory_underground_10_walled"
     },
     {
       "floor": 0,
-      "part": "lcmt:factory/factory_0_10"
+      "part": "lostcities:factory/factory_0_10"
     },
     {
       "top": false,
       "range": "1,100",
-      "part": "lcmt:factory/factory_1_10"
+      "part": "lostcities:factory/factory_1_10"
     },
     {
       "top": true,
-      "part": "lcmt:factory/factory_top_10"
+      "part": "lostcities:factory/factory_top_10"
     }
   ],
   "parts2": [
     {
       "cellar": true,
-      "part": "lcmt:factory/factory_in_empty"
+      "part": "lostcities:factory/factory_in_empty"
     },
     {
       "cellar": true,
-      "part": "lcmt:factory/factory_in_underground_chains"
+      "part": "lostcities:factory/factory_in_underground_chains"
     },
     {
       "cellar": true,
-      "part": "lcmt:factory/factory_in_underground_pillars"
+      "part": "lostcities:factory/factory_in_underground_pillars"
     },
     {
       "cellar": true,
-      "part": "lcmt:factory/factory_in_underground_pillars_fenced_ns"
+      "part": "lostcities:factory/factory_in_underground_pillars_fenced_ns"
     },
     {
       "cellar": true,
-      "part": "lcmt:factory/factory_in_underground_pillars_fenced_we"
+      "part": "lostcities:factory/factory_in_underground_pillars_fenced_we"
     },
     {
       "cellar": true,
-      "part": "lcmt:factory/factory_in_underground_pillars_fenced_all"
+      "part": "lostcities:factory/factory_in_underground_pillars_fenced_all"
     },
     {
       "cellar": true,
-      "part": "lcmt:factory/factory_in_underground_mini_storage_room_1"
+      "part": "lostcities:factory/factory_in_underground_mini_storage_room_1"
     },
     {
       "cellar": true,
-      "part": "lcmt:factory/factory_in_underground_mini_storage_room_2"
+      "part": "lostcities:factory/factory_in_underground_mini_storage_room_2"
     },
     {
       "cellar": true,
-      "part": "lcmt:factory/factory_in_underground_pipes_1"
+      "part": "lostcities:factory/factory_in_underground_pipes_1"
     },
     {
       "cellar": true,
-      "part": "lcmt:factory/factory_in_underground_pipes_2"
+      "part": "lostcities:factory/factory_in_underground_pipes_2"
     },
     {
       "cellar": true,
-      "part": "lcmt:factory/factory_in_underground_pipes_3"
+      "part": "lostcities:factory/factory_in_underground_pipes_3"
     },
     {
       "cellar": true,
-      "part": "lcmt:factory/factory_in_underground_pipes_4"
+      "part": "lostcities:factory/factory_in_underground_pipes_4"
     },
     {
       "cellar": true,
-      "part": "lcmt:factory/factory_in_underground_pipes_pump_1"
+      "part": "lostcities:factory/factory_in_underground_pipes_pump_1"
     },
     {
       "cellar": true,
-      "part": "lcmt:factory/factory_in_underground_pipes_pump_2"
+      "part": "lostcities:factory/factory_in_underground_pipes_pump_2"
     },
     {
       "floor": 0,
-      "part": "lcmt:factory/factory_in_empty"
+      "part": "lostcities:factory/factory_in_empty"
     },
     {
       "floor": 0,
-      "part": "lcmt:factory/factory_in_reception_north"
+      "part": "lostcities:factory/factory_in_reception_north"
     },
     {
       "floor": 0,
-      "part": "lcmt:factory/factory_in_checkpoint_north"
+      "part": "lostcities:factory/factory_in_checkpoint_north"
     },
     {
       "top": true,
-      "part": "lcmt:factory/factory_top_deco_empty"
+      "part": "lostcities:factory/factory_top_deco_empty"
     },
     {
       "top": true,
-      "part": "lcmt:factory/factory_top_deco_1"
+      "part": "lostcities:factory/factory_top_deco_1"
     },
     {
       "top": true,
-      "part": "lcmt:factory/factory_top_deco_2"
+      "part": "lostcities:factory/factory_top_deco_2"
     },
     {
       "top": true,
-      "part": "lcmt:factory/factory_top_deco_3"
+      "part": "lostcities:factory/factory_top_deco_3"
     },
     {
       "top": true,
-      "part": "lcmt:factory/factory_top_deco_4"
+      "part": "lostcities:factory/factory_top_deco_4"
     }
   ]
 }

@@ -36,7 +36,7 @@
     {
       "char": "?",
       "block": "minecraft:chest[facing=north,type=single,waterlogged=false]",
-      "loot": "lcmt:center_loot"
+      "loot": "lostcities:center_loot"
     },
     {
       "char": "F",

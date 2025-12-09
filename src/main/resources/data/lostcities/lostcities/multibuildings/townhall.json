@@ -3,12 +3,12 @@
   "dimz": 2,
   "buildings": [
     [
-      "lcmt:townhall/town00",
-      "lcmt:townhall/town01"
+      "lostcities:townhall/town00",
+      "lostcities:townhall/town01"
     ],
     [
-      "lcmt:townhall/town10",
-      "lcmt:townhall/town11"
+      "lostcities:townhall/town10",
+      "lostcities:townhall/town11"
     ]
   ]
 }

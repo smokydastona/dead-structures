@@ -14,7 +14,7 @@
     {
       "char": "C",
       "block": "minecraft:chest[facing=north,type=single]",
-      "loot": "lcmt:factory_loot"
+      "loot": "lostcities:factory_loot"
     },
     {
       "char": "j",
@@ -26,7 +26,7 @@
     {
       "char": "J",
       "block": "minecraft:barrel[facing=north,open=false]",
-      "loot": "lcmt:factory_loot"
+      "loot": "lostcities:factory_loot"
     },
     {
       "char": "k",

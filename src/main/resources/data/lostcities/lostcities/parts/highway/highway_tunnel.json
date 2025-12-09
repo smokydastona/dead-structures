@@ -7,7 +7,7 @@
   ],
   "xsize": 16,
   "zsize": 16,
-  "refpalette": "lcmt:highway",
+  "refpalette": "lostcities:highway",
   "slices": [
     [
       "vvvvvvvvvvvvvvvv",

@@ -62,17 +62,17 @@
     },
     {
       "char": "k",
-      "variant": "lcmt:stone_brick_stairs_bottom_east",
+      "variant": "lostcities:stone_brick_stairs_bottom_east",
       "damaged": "minecraft:cobblestone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "m",
-      "variant": "lcmt:stone_brick_stairs_bottom_south",
+      "variant": "lostcities:stone_brick_stairs_bottom_south",
       "damaged": "minecraft:cobblestone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "n",
-      "variant": "lcmt:stone_brick_stairs_bottom_north",
+      "variant": "lostcities:stone_brick_stairs_bottom_north",
       "damaged": "minecraft:cobblestone_slab[type=bottom,waterlogged=false]"
     },
     {

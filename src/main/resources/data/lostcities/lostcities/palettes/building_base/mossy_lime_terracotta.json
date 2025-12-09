@@ -12,12 +12,12 @@
     },
     {
       "char": "#",
-      "variant": "lcmt:mossy_lime_terracotta",
+      "variant": "lostcities:mossy_lime_terracotta",
       "damaged": "minecraft:iron_bars"
     },
     {
       "char": "}",
-      "variant": "lcmt:mossy_lime_terracotta",
+      "variant": "lostcities:mossy_lime_terracotta",
       "damaged": "minecraft:iron_bars"
     }
   ]

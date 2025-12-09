@@ -12,12 +12,12 @@
     },
     {
       "char": "#",
-      "variant": "lcmt:stonebrick",
+      "variant": "lostcities:stonebrick",
       "damaged": "minecraft:iron_bars"
     },
     {
       "char": "}",
-      "variant": "lcmt:stonebrick_rubble",
+      "variant": "lostcities:stonebrick_rubble",
       "damaged": "minecraft:iron_bars"
     }
   ]

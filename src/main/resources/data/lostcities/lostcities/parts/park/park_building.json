@@ -9,7 +9,7 @@
       },
       {
         "char": "x",
-        "variant": "lcmt:stonebrick",
+        "variant": "lostcities:stonebrick",
         "damaged": "minecraft:iron_bars"
       }
     ]

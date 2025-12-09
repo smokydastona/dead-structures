@@ -10,7 +10,7 @@
       {
         "char": "n",
         "block": "minecraft:dropper[facing=north,triggered=true]",
-        "loot": "lcmt:shopping_loot"
+        "loot": "lostcities:shopping_loot"
       },
       {
         "char": "m",

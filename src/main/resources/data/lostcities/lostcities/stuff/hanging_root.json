@@ -7,7 +7,7 @@
   "inbuilding": true,
   "upperblocks": {
     "if_any": [
-      "#lcmt:solid_building_ceiling_or_floor_blocks"
+      "#lostcities:solid_building_ceiling_or_floor_blocks"
     ]
   }
 }

@@ -103,5 +103,5 @@
       ]
     }
   ],
-  "random_sequence": "lcmt:chests/town_valuables"
+  "random_sequence": "lostcities:chests/town_valuables"
 }

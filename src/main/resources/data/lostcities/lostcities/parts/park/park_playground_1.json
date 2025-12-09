@@ -5,7 +5,7 @@
     "palette": [
       {
         "char": "k",
-        "variant": "lcmt:stone_brick_stairs_bottom_south"
+        "variant": "lostcities:stone_brick_stairs_bottom_south"
       },
       {
         "char": "i",
@@ -21,7 +21,7 @@
       },
       {
         "char": "x",
-        "variant": "lcmt:stonebrick",
+        "variant": "lostcities:stonebrick",
         "damaged": "minecraft:iron_bars"
       }
     ]

@@ -3,12 +3,12 @@
   "dimz": 2,
   "buildings": [
     [
-      "lcmt:center/center00",
-      "lcmt:center/center01"
+      "lostcities:center/center00",
+      "lostcities:center/center01"
     ],
     [
-      "lcmt:center/center10",
-      "lcmt:center/center11"
+      "lostcities:center/center10",
+      "lostcities:center/center11"
     ]
   ]
 }

@@ -11,7 +11,7 @@
       "required": false
     },
     "#minecraft:terracotta",
-    "#lcmt:hardened_concrete",
+    "#lostcities:hardened_concrete",
     "minecraft:smooth_stone",
     "minecraft:quartz_block",
     "minecraft:chiseled_quartz_block",

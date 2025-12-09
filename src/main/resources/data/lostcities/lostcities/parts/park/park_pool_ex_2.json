@@ -5,11 +5,11 @@
     "palette": [
       {
         "char": "f",
-        "variant": "lcmt:mossy_stone"
+        "variant": "lostcities:mossy_stone"
       },
       {
         "char": "i",
-        "variant": "lcmt:garden_soil"
+        "variant": "lostcities:garden_soil"
       },
       {
         "char": "j",

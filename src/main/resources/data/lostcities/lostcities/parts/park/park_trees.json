@@ -26,11 +26,11 @@
       },
       {
         "char": "i",
-        "variant": "lcmt:stone_brick_stairs_bottom_south"
+        "variant": "lostcities:stone_brick_stairs_bottom_south"
       },
       {
         "char": "k",
-        "variant": "lcmt:stone_brick_stairs_bottom_west"
+        "variant": "lostcities:stone_brick_stairs_bottom_west"
       },
       {
         "char": "n",
@@ -38,23 +38,23 @@
       },
       {
         "char": "f",
-        "variant": "lcmt:stone_brick_slab_bottom"
+        "variant": "lostcities:stone_brick_slab_bottom"
       },
       {
         "char": "j",
-        "variant": "lcmt:stone_brick_stairs_bottom_east"
+        "variant": "lostcities:stone_brick_stairs_bottom_east"
       },
       {
         "char": "m",
-        "variant": "lcmt:stone_brick_stairs_bottom_north"
+        "variant": "lostcities:stone_brick_stairs_bottom_north"
       },
       {
         "char": "D",
-        "variant": "lcmt:garden_soil"
+        "variant": "lostcities:garden_soil"
       },
       {
         "char": "x",
-        "variant": "lcmt:stonebrick",
+        "variant": "lostcities:stonebrick",
         "damaged": "minecraft:iron_bars"
       }
     ]

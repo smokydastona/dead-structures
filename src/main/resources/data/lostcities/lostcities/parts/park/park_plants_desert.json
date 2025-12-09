@@ -5,11 +5,11 @@
     "palette": [
       {
         "char": "k",
-        "variant": "lcmt:sandstone_stairs_bottom_east"
+        "variant": "lostcities:sandstone_stairs_bottom_east"
       },
       {
         "char": "i",
-        "variant": "lcmt:sandstone_stairs_bottom_west"
+        "variant": "lostcities:sandstone_stairs_bottom_west"
       },
       {
         "char": "w",

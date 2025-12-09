@@ -3,12 +3,12 @@
   "dimz": 2,
   "buildings": [
     [
-      "lcmt:library/library00",
-      "lcmt:library/library01"
+      "lostcities:library/library00",
+      "lostcities:library/library01"
     ],
     [
-      "lcmt:library/library10",
-      "lcmt:library/library11"
+      "lostcities:library/library10",
+      "lostcities:library/library11"
     ]
   ]
 }

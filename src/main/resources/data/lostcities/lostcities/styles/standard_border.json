@@ -3,231 +3,231 @@
     [
       {
         "factor": 1.0,
-        "palette": "lcmt:common"
+        "palette": "lostcities:common"
       }
     ],
     [
       {
         "factor": 1.0,
-        "palette": "lcmt:default"
+        "palette": "lostcities:default"
       }
     ],
     [
       {
         "factor": 1.0,
-        "palette": "lcmt:building_base/bricks_border"
+        "palette": "lostcities:building_base/bricks_border"
       },
       {
         "factor": 1.0,
-        "palette": "lcmt:building_base/quartzbricks_border"
+        "palette": "lostcities:building_base/quartzbricks_border"
       }
     ],
     [
       {
         "factor": 1.0,
-        "palette": "lcmt:glass/glass_full"
+        "palette": "lostcities:glass/glass_full"
       },
       {
         "factor": 1.0,
-        "palette": "lcmt:glass/glass_pane"
+        "palette": "lostcities:glass/glass_pane"
       },
       {
         "factor": 1.0,
-        "palette": "lcmt:glass/glass_full_white"
+        "palette": "lostcities:glass/glass_full_white"
       },
       {
         "factor": 1.0,
-        "palette": "lcmt:glass/glass_pane_white"
+        "palette": "lostcities:glass/glass_pane_white"
       },
       {
         "factor": 1.0,
-        "palette": "lcmt:glass/glass_full_blue"
+        "palette": "lostcities:glass/glass_full_blue"
       },
       {
         "factor": 1.0,
-        "palette": "lcmt:glass/glass_pane_blue"
+        "palette": "lostcities:glass/glass_pane_blue"
       },
       {
         "factor": 1.0,
-        "palette": "lcmt:glass/glass_full_light_blue"
+        "palette": "lostcities:glass/glass_full_light_blue"
       },
       {
         "factor": 1.0,
-        "palette": "lcmt:glass/glass_pane_light_blue"
+        "palette": "lostcities:glass/glass_pane_light_blue"
       },
       {
         "factor": 1.0,
-        "palette": "lcmt:glass/glass_full_gray"
+        "palette": "lostcities:glass/glass_full_gray"
       },
       {
         "factor": 1.0,
-        "palette": "lcmt:glass/glass_pane_gray"
+        "palette": "lostcities:glass/glass_pane_gray"
       }
     ],
     [
       {
         "factor": 1.0,
-        "palette": "lcmt:glass/glass_side_variant_glass"
+        "palette": "lostcities:glass/glass_side_variant_glass"
       },
       {
         "factor": 1.0,
-        "palette": "lcmt:glass/glass_side_variant_glass"
+        "palette": "lostcities:glass/glass_side_variant_glass"
       },
       {
         "factor": 1.0,
-        "palette": "lcmt:glass/glass_side_variant_bricks"
+        "palette": "lostcities:glass/glass_side_variant_bricks"
       },
       {
         "factor": 1.0,
-        "palette": "lcmt:glass/glass_side_variant_quartz"
+        "palette": "lostcities:glass/glass_side_variant_quartz"
       }
     ],
     [
       {
         "factor": 1.0,
-        "palette": "lcmt:lanterns"
+        "palette": "lostcities:lanterns"
       },
       {
         "factor": 0.01,
-        "palette": "lcmt:soul_lanterns"
+        "palette": "lostcities:soul_lanterns"
       }
     ],
     [
       {
         "factor": 1.0,
-        "palette": "lcmt:flower_pot/potted_flowers_common"
+        "palette": "lostcities:flower_pot/potted_flowers_common"
       },
       {
         "factor": 0.5,
-        "palette": "lcmt:flower_pot/potted_flowers_uncommon"
+        "palette": "lostcities:flower_pot/potted_flowers_uncommon"
       },
       {
         "factor": 1.0,
-        "palette": "lcmt:flower_pot/potted_flowers_tulips"
+        "palette": "lostcities:flower_pot/potted_flowers_tulips"
       },
       {
         "factor": 0.5,
-        "palette": "lcmt:flower_pot/potted_mushrooms"
+        "palette": "lostcities:flower_pot/potted_mushrooms"
       },
       {
         "factor": 0.5,
-        "palette": "lcmt:flower_pot/potted_saplings"
+        "palette": "lostcities:flower_pot/potted_saplings"
       },
       {
         "factor": 1.0,
-        "palette": "lcmt:flower_pot/potted_plants_other"
+        "palette": "lostcities:flower_pot/potted_plants_other"
       }
     ],
     [
       {
         "factor": 1.0,
-        "palette": "lcmt:furniture/wooden_furniture_acacia"
+        "palette": "lostcities:furniture/wooden_furniture_acacia"
       },
       {
         "factor": 1.0,
-        "palette": "lcmt:furniture/wooden_furniture_bamboo"
+        "palette": "lostcities:furniture/wooden_furniture_bamboo"
       },
       {
         "factor": 1.0,
-        "palette": "lcmt:furniture/wooden_furniture_birch"
+        "palette": "lostcities:furniture/wooden_furniture_birch"
       },
       {
         "factor": 0.5,
-        "palette": "lcmt:furniture/wooden_furniture_cherry"
+        "palette": "lostcities:furniture/wooden_furniture_cherry"
       },
       {
         "factor": 1.0,
-        "palette": "lcmt:furniture/wooden_furniture_dark_oak"
+        "palette": "lostcities:furniture/wooden_furniture_dark_oak"
       },
       {
         "factor": 1.0,
-        "palette": "lcmt:furniture/wooden_furniture_jungle"
+        "palette": "lostcities:furniture/wooden_furniture_jungle"
       },
       {
         "factor": 0.5,
-        "palette": "lcmt:furniture/wooden_furniture_mangrove"
+        "palette": "lostcities:furniture/wooden_furniture_mangrove"
       },
       {
         "factor": 1.0,
-        "palette": "lcmt:furniture/wooden_furniture_oak"
+        "palette": "lostcities:furniture/wooden_furniture_oak"
       },
       {
         "factor": 1.0,
-        "palette": "lcmt:furniture/wooden_furniture_spruce"
+        "palette": "lostcities:furniture/wooden_furniture_spruce"
       }
     ],
     [
       {
         "factor": 1.0,
-        "palette": "lcmt:workstation/workstations_default"
+        "palette": "lostcities:workstation/workstations_default"
       },
       {
         "factor": 0.5,
-        "palette": "lcmt:workstation/workstations_default_rubble"
+        "palette": "lostcities:workstation/workstations_default_rubble"
       },
       {
         "factor": 1.0,
-        "palette": "lcmt:workstation/workstations_blacksmith"
+        "palette": "lostcities:workstation/workstations_blacksmith"
       },
       {
         "factor": 1.0,
-        "palette": "lcmt:workstation/workstations_cook"
+        "palette": "lostcities:workstation/workstations_cook"
       },
       {
         "factor": 0.8,
-        "palette": "lcmt:workstation/workstations_librarian"
+        "palette": "lostcities:workstation/workstations_librarian"
       },
       {
         "factor": 0.5,
-        "palette": "lcmt:workstation/workstations_musician"
+        "palette": "lostcities:workstation/workstations_musician"
       },
       {
         "factor": 0.8,
-        "palette": "lcmt:workstation/workstations_architect"
+        "palette": "lostcities:workstation/workstations_architect"
       },
       {
         "factor": 0.8,
-        "palette": "lcmt:workstation/workstations_apothecary"
+        "palette": "lostcities:workstation/workstations_apothecary"
       }
     ],
     [
       {
         "factor": 1.0,
-        "palette": "lcmt:stuff/extra_stuff_standard"
+        "palette": "lostcities:stuff/extra_stuff_standard"
       }
     ],
     [
       {
         "factor": 1.0,
-        "palette": "lcmt:rubble/rubble_mossy_cobblestone"
+        "palette": "lostcities:rubble/rubble_mossy_cobblestone"
       }
     ],
     [
       {
         "factor": 1.0,
-        "palette": "lcmt:leaf/standard_leaves"
+        "palette": "lostcities:leaf/standard_leaves"
       }
     ],
     [
       {
         "factor": 1.0,
-        "palette": "lcmt:banner/wall_banners_blue_simple"
+        "palette": "lostcities:banner/wall_banners_blue_simple"
       },
       {
         "factor": 1.0,
-        "palette": "lcmt:banner/wall_banners_green_simple"
+        "palette": "lostcities:banner/wall_banners_green_simple"
       },
       {
         "factor": 1.0,
-        "palette": "lcmt:banner/wall_banners_pink_simple"
+        "palette": "lostcities:banner/wall_banners_pink_simple"
       },
       {
         "factor": 1.0,
-        "palette": "lcmt:banner/wall_banners_yellow_simple"
+        "palette": "lostcities:banner/wall_banners_yellow_simple"
       },
       {
         "factor": 1.0,
-        "palette": "lcmt:banner/wall_banners_white_simple"
+        "palette": "lostcities:banner/wall_banners_white_simple"
       }
     ]
   ]

@@ -3,12 +3,12 @@
   "dimz": 2,
   "buildings": [
     [
-      "lcmt:shopping/shopping00",
-      "lcmt:shopping/shopping01"
+      "lostcities:shopping/shopping00",
+      "lostcities:shopping/shopping01"
     ],
     [
-      "lcmt:shopping/shopping10",
-      "lcmt:shopping/shopping11"
+      "lostcities:shopping/shopping10",
+      "lostcities:shopping/shopping11"
     ]
   ]
 }

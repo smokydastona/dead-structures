@@ -5,11 +5,11 @@
     "palette": [
       {
         "char": "k",
-        "variant": "lcmt:stone_brick_stairs_bottom_east"
+        "variant": "lostcities:stone_brick_stairs_bottom_east"
       },
       {
         "char": "i",
-        "variant": "lcmt:stone_brick_stairs_bottom_west"
+        "variant": "lostcities:stone_brick_stairs_bottom_west"
       }
     ]
   },

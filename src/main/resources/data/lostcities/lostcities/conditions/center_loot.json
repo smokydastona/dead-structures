@@ -2,19 +2,19 @@
   "values": [
     {
       "factor": 1,
-      "value": "lcmt:chests/center_basic_components",
+      "value": "lostcities:chests/center_basic_components",
       "inpart": [
-        "lcmt:center/center10_in_computer_desks_2",
-        "lcmt:center/center00_in_storage_1"
+        "lostcities:center/center10_in_computer_desks_2",
+        "lostcities:center/center00_in_storage_1"
       ]
     },
     {
       "factor": 1,
-      "value": "lcmt:chests/center_advanced_components",
+      "value": "lostcities:chests/center_advanced_components",
       "inpart": [
-        "lcmt:center/center10_in_cleanroom_1",
-        "lcmt:center/center10_in_breaker_room",
-        "lcmt:center/center00_in_storage_1"
+        "lostcities:center/center10_in_cleanroom_1",
+        "lostcities:center/center10_in_breaker_room",
+        "lostcities:center/center00_in_storage_1"
       ]
     }
   ]

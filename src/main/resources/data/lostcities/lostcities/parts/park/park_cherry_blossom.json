@@ -30,7 +30,7 @@
       },
       {
         "char": "H",
-        "variant": "lcmt:stone_brick_stairs_bottom_south"
+        "variant": "lostcities:stone_brick_stairs_bottom_south"
       },
       {
         "char": "I",
@@ -42,7 +42,7 @@
       },
       {
         "char": "o",
-        "variant": "lcmt:stone_brick_stairs_bottom_west"
+        "variant": "lostcities:stone_brick_stairs_bottom_west"
       },
       {
         "char": "j",
@@ -113,11 +113,11 @@
       },
       {
         "char": "n",
-        "variant": "lcmt:stone_brick_stairs_bottom_north"
+        "variant": "lostcities:stone_brick_stairs_bottom_north"
       },
       {
         "char": "r",
-        "variant": "lcmt:stone_brick_stairs_bottom_east"
+        "variant": "lostcities:stone_brick_stairs_bottom_east"
       }
     ]
   },
