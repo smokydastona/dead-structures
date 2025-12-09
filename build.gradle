@@ -50,21 +50,22 @@ dependencies {
 cfdeps(['the-one-probe'], [], [])
 modrinth(['the-one-probe'], [], [])
 
-task apiJar(type: Jar) {
-    classifier = "api"
-    from(sourceSets.main.output) {
-        include "mcjty/lostcities/api/**"
-    }
-}
-
-artifacts {
-    archives apiJar
-}
+// API JAR disabled - only build main mod JAR
+//task apiJar(type: Jar) {
+//    classifier = "api"
+//    from(sourceSets.main.output) {
+//        include "mcjty/lostcities/api/**"
+//    }
+//}
+//
+//artifacts {
+//    archives apiJar
+//}
 
 publishing {
     publications.create('mavenJava', MavenPublication) {
         from components.java
-        artifact apiJar
+        //artifact apiJar
 
         artifactId = project.archivesBaseName
         pom {
