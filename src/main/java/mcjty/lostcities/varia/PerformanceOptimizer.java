@@ -68,6 +68,10 @@ public class PerformanceOptimizer {
         }
         
         public V get(K key) {
+            if (key == null) {
+                cacheMisses.incrementAndGet();
+                return null;
+            }
             CacheEntry<V> entry = cache.get(key);
             if (entry != null) {
                 V value = entry.get();

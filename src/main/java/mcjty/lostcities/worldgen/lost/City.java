@@ -47,6 +47,10 @@ public class City {
     }
 
     public static CityRarityMap getCityRarityMap(ResourceKey<Level> level, long seed, double scale, double offset, double innerScale) {
+        // Handle GUI context where dimension may be null
+        if (level == null) {
+            return new CityRarityMap(seed, scale, offset, innerScale);
+        }
         CityRarityMap existing = CITY_RARITY_MAP.get(level);
         if (existing != null) {
             return existing;
