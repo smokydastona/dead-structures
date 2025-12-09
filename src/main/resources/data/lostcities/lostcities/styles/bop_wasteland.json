@@ -1,6 +1,6 @@
 {
   "_comment": "Example style that uses BOP wasteland palette",
-  "randomPaletteChoices": [
+  "randompalettes": [
     [
       {
         "factor": 1.0,
