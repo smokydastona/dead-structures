@@ -215,13 +215,13 @@ public class ApocalypseZombieHandler {
         
         // Resistant blocks - harder to break (1 in 70 chance)
         if (isResistantBlock(block)) {
-            if (RANDOM.nextInt(70) == 0) {
+            if (zombie.getRandom().nextInt(70) == 0) {
                 level.destroyBlock(pos, true);
             }
         } 
         // Normal blocks - easier to break (1 in 30 chance)
         else {
-            if (RANDOM.nextInt(30) == 0) {
+            if (zombie.getRandom().nextInt(30) == 0) {
                 level.destroyBlock(pos, true);
             }
         }
@@ -246,11 +246,11 @@ public class ApocalypseZombieHandler {
                     .forEach(z -> z.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 20, 0, false, true)));
             
             // Particle effect
-            if (RANDOM.nextInt(10) == 0) {
+            if (level.getRandom().nextInt(10) == 0) {
                 level.addParticle(net.minecraft.core.particles.ParticleTypes.SNEEZE,
-                        player.getX() + (RANDOM.nextDouble() - 0.5) * 2,
-                        player.getY() + 1 + (RANDOM.nextDouble() - 0.5) * 2,
-                        player.getZ() + (RANDOM.nextDouble() - 0.5) * 2,
+                        player.getX() + (level.getRandom().nextDouble() - 0.5) * 2,
+                        player.getY() + 1 + (level.getRandom().nextDouble() - 0.5) * 2,
+                        player.getZ() + (level.getRandom().nextDouble() - 0.5) * 2,
                         0, 0.01, 0);
             }
         }
