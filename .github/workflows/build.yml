@@ -38,7 +38,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: dead-structures-${{ steps.version.outputs.VERSION }}
-        path: build/libs/*[!api].jar
+        path: build/libs/*.jar
         if-no-files-found: error
         
     - name: Create Release
@@ -65,7 +65,7 @@ jobs:
           3. Restart server
           
           Commit: ${{ github.sha }}
-        files: build/libs/lostcities-${{ steps.version.outputs.VERSION }}.jar
+        files: build/libs/*.jar
         draft: false
         prerelease: false
       env:
